@@ -1,5 +1,5 @@
-var urlGlobal = 'http://cstisrvides.csticorp.biz:8800/sap/bc/zsw_su01?sap-client=800';
-sessionStorage.urlGlobal = urlGlobal;
+/*var urlGlobal = 'http://cstisrvides.csticorp.biz:8800/sap/bc/zsw_su01?sap-client=800';
+sessionStorage.urlGlobal = urlGlobal;*/
 
 jQuery.sap.require("sap.m.MessageBox");
 jQuery.sap.require("sap.m.MessageToast");
