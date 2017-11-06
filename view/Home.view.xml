@@ -1,0 +1,49 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.Home"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+	xmlns="sap.m">
+    <Page
+		showHeader="true"
+		enableScrolling="false" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Easy Access" level="H2"/>
+				<ToolbarSpacer/>
+				<Button icon="sap-icon://log" press="onPress" ariaLabelledBy="editButtonLabel"/>
+			</Toolbar>
+		</customHeader>
+		<!--<TileContainer
+			id="container">
+			<StandardTile
+				icon="sap-icon://shipping-status"
+				title="LOGISTICA" 
+                press="onPressLogistica" />
+            <StandardTile
+				icon="sap-icon://employee"
+				title="RECURSOS HUMANOS" />
+            <StandardTile
+				icon="sap-icon://accounting-document-verification"
+				title="CONTABILIDAD" />
+		</TileContainer>-->
+        <u:SplitContainer
+			id="mySplitContainer"
+			showSecondaryContent="true">
+			<u:secondaryContent>                
+                <Tree
+                    id="Tree"
+                    items="{path: '/'}"
+                    includeItemInSelection="true">
+                    <StandardTreeItem title="{text}" icon="{ref}" press="handleButtonPress"/>
+                </Tree>
+			</u:secondaryContent>
+			<u:content>
+			</u:content>
+		</u:SplitContainer>
+	</Page>
+</mvc:View>

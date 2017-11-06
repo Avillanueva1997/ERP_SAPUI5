@@ -1,0 +1,30 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.HomeLogistica"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m"
+    xmlns:fa="sap.f">
+    
+   <Page title="MODULO DE LOGISTICA"
+         showNavButton = "true"
+         navButtonPress="onNavBack">
+       <content>
+           <TileContainer id="container">            
+               <StandardTile
+                             type="create"
+                             icon="sap-icon://add"
+                             title="Crear Material" 
+                             press="" />
+               <StandardTile
+                             icon="sap-icon://edit"
+                             title="Editar Material" />
+               <StandardTile
+                             icon="sap-icon://product"
+                             title="Visualizar Material" />
+           </TileContainer> 
+       </content>
+    </Page>
+</mvc:View>
