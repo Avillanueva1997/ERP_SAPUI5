@@ -10,7 +10,6 @@
         <content>
             <Button icon="sap-icon://sys-enter-2" type="Transparent"/>
             <Input width="150px" />            
-            <Button icon="sap-icon://close-command-field" type="Transparent"/>
             <Button icon="sap-icon://save" type="Transparent"/>
             <Button icon="sap-icon://sys-back-2" type="Transparent"/>
             <Button icon="sap-icon://system-exit-2" type="Transparent"/>
