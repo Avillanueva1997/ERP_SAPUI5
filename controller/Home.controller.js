@@ -1,11 +1,11 @@
 var urlGlobal = sessionStorage.urlGlobal;
 
 jQuery.sap.require("sap.m.MessageBox");
-jQuery.sap.require("sap.m.MessageToast");
 sap.ui.define([
    "sap/ui/su01/controller/BaseController",
-   "sap/ui/model/json/JSONModel"
-], function (BaseController, JSONModel) {
+   "sap/ui/model/json/JSONModel",
+   "sap/m/MessageToast"
+], function (BaseController, JSONModel,MessageToast) {
    "use strict";
    return BaseController.extend("sap.ui.su01.controller.Home", {
 

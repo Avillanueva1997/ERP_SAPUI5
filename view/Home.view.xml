@@ -39,8 +39,9 @@
                 <Tree
                     id="Tree"
                     items="{path: '/'}"
-                    includeItemInSelection="true">
-                    <StandardTreeItem title="{text}" icon="{ref}" press="handleButtonPress"/>
+                    includeItemInSelection="true" 
+                    itemPress="handleButtonPress">
+                    <StandardTreeItem title="{text}" icon="{ref}" type="Active"/>
                 </Tree>
 			</u:secondaryContent>
 			<u:content>
