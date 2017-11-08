@@ -41,6 +41,14 @@
 			{
 				"text": "Crear",
 				"ref": "sap-icon://course-book"
+			},
+            {
+				"text": "Editar",
+				"ref": "sap-icon://course-book"
+			},
+            {
+				"text": "Visualizar",
+				"ref": "sap-icon://course-book"
 			}
 		]
 	},

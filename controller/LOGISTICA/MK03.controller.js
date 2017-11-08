@@ -6,7 +6,7 @@ sap.ui.define([
    "sap/m/MessageToast"
 ], function (BaseController, MessageToast) {
    "use strict";
-   return BaseController.extend("sap.ui.su01.controller.LOGISTICA.MK01", {
+   return BaseController.extend("sap.ui.su01.controller.LOGISTICA.MK03", {
 
        onInit: function(oEvent) {
        },

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.MK01"
+	controllerName="sap.ui.su01.controller.LOGISTICA.MK02"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -14,7 +14,7 @@
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
-				<Title text="Acreedor Crear: Acceso" level="H2"/>			
+				<Title text="Acreedor Modificar: Acceso" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    
@@ -24,22 +24,29 @@
                 <f:content>
                     <Label text="Acreedor" />
                     <Input width="300px" showValueHelp="true"/>
-                    <Label text="Organización compras" />
-                    <Input width="300px" showValueHelp="true"/>
-                    <Label text="Grupo de cuentas" />
-                    <Input width="300px" showValueHelp="true"/>                                           
+                    <Label text="Organización de compras" />
+                    <Input width="300px" showValueHelp="true"/>                                         
                 </f:content>
             </f:SimpleForm>
             <f:SimpleForm
                 layout="ResponsiveGridLayout">
                 <f:title>
-                    <core:Title text="Modelo" />
+                    <core:Title text="Datos Generales" />
                 </f:title>
                 <f:content>
-                    <Label text="Acreedor" />
-                    <Input width="300px" showValueHelp="true"/>
-                    <Label text="Organización compras" />
-                    <Input width="300px" showValueHelp="true"/>                              
+                    <CheckBox text="Dirección" />
+                    <CheckBox text="Control" />
+                    <CheckBox text="Pagos" />
+                    <CheckBox text="Persona de contacto" />
+                </f:content>
+            </f:SimpleForm>
+            <f:SimpleForm
+                layout="ResponsiveGridLayout">
+                <f:title>
+                    <core:Title text="Datos organización de compras" />
+                </f:title>
+                <f:content>
+                    <CheckBox text="Datos de compra" />
                 </f:content>
             </f:SimpleForm>
         </content>
