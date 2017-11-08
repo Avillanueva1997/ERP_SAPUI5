@@ -64,6 +64,11 @@
 				"pattern": "LOGISTICA/homelogistica",
 				"name": "homelogistica",
 				"target": "homelogistica"
+                },
+                {
+				"pattern": "LOGISTICA/mk01",
+				"name": "mk01",
+				"target": "mk01"
                 }
             ],
 			"targets": {
@@ -83,6 +88,12 @@
                     "path": "sap.ui.su01.view",
 					"viewName": "LOGISTICA/HomeLogistica",
                     "viewId" : "viewHomeLogistica",
+                    "viewLevel" : 3
+				},
+                "mk01": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK01",
+                    "viewId" : "viewMK01",
                     "viewLevel" : 3
 				}
 			}

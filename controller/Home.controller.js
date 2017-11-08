@@ -24,6 +24,20 @@ sap.ui.define([
        
        	handleButtonPress: function(evt) {
 			MessageToast.show("Button pressed");
+            var oList = evt.getSource(),
+				oItem = evt.getParameter("listItem"),
+				sPath = oItem.getBindingContext().getPath();
+            
+            switch (sPath)
+            {
+               case "/0/nodes/1": 
+                   this.getRouter().navTo("mk01");
+                   break;
+
+               default: 
+                   break;
+            }
+            
 		},
        
    });

@@ -1,7 +1,7 @@
 [
 	{
-		"text": "Node1",
-		"ref": "sap-icon://attachment-audio",
+		"text": "Proveedor",
+		"ref": "sap-icon://open-folder",
 		"nodes":
 		[
 			{
@@ -39,8 +39,8 @@
 				]
 			},
 			{
-				"text": "Node1-2",
-				"ref": "sap-icon://create"
+				"text": "Crear",
+				"ref": "sap-icon://course-book"
 			}
 		]
 	},
