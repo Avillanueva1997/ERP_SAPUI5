@@ -1,0 +1,105 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.Su01v"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <Page title="Visualizar usuario">
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://edit" />
+			</Toolbar>
+		</subHeader>
+        <content>    
+            <ObjectHeader
+				title="lfarro"
+				backgroundDesign="Solid">
+				<attributes>
+					<ObjectAttribute title="Modificado por" text="ffarro el día 08.11.2017 a las 00:18:00" />
+				</attributes>
+				<statuses>
+					<ObjectStatus title="Estado" text="Desbloqueado" state="Success" />
+				</statuses>
+			</ObjectHeader>
+            <IconTabBar
+				expanded="{device>/isNoPhone}"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter
+						text="Datos">
+						<f:SimpleForm
+							minWidth="1024"
+							maxContainerCols="2"
+							layout="ResponsiveGridLayout" >
+							<Label text="Nombre"/>
+							<Input editable="false" width="200px"/>
+                            <Label text="Apellido"/>
+							<Input editable="false" width="200px"/>
+                            <Label text="Correo"/>
+							<Input editable="false" width="200px"/>
+                            <Label text="Celular"/>
+							<Input editable="false" width="200px"/>
+						</f:SimpleForm>
+					</IconTabFilter>
+					<IconTabFilter
+						text="Roles">
+						<Table 
+                            id="tbRoles"
+                            inset="false"
+                            items="{
+                                path: '/',
+                                sorter: {
+                                    path: 'Name'
+                                }
+                            }">
+                            <columns>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Estado" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Rol" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Descripción" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Fecha inicio" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Fecha fin" />
+                                </Column>                                
+                            </columns>
+                            <items>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text
+                                            text="" />
+                                        <Text
+                                            text="" />
+                                        <Text
+                                            text="" />
+                                        <DatePicker/>
+                                        <DatePicker/>
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+        </content>       
+    </Page>
+</mvc:View>
