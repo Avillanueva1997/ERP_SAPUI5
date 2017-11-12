@@ -16,7 +16,7 @@ sap.ui.define([
        },
        
        onPressEnter: function(oEvent) {
-           MessageToast.show("Button pressed");
+           this.getRouter().navTo("mk01c");
        },
    });
 });

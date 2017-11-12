@@ -1,0 +1,58 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.ME12"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="false" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Crear reg.info de compras: Acceso" level="H2"/>			
+                <ToolbarSpacer/>
+			</Toolbar>
+		</customHeader>    
+        <content>
+            <f:SimpleForm
+                layout="ResponsiveGridLayout">
+                <f:content>
+                    <Label text="Proveedor" />
+                    <Input id="iptProveedor" width="300px" showValueHelp="true"/>
+                    <Label text="Material" />
+                    <Input id="iptMaterial" width="300px" showValueHelp="true"/>
+                    <Label text="Org.compras" />                    
+                    <Input id="iptOrgcomp" width="300px" showValueHelp="true"/>                                           
+                    <Label text="Centro" />
+                    <Input id="iptCentro" width="300px" showValueHelp="true"/>                                           
+                    <Label text="Registro info" />
+                    <Input id="iptReginfo" width="300px" showValueHelp="true"/>                                                 
+                </f:content>
+            </f:SimpleForm>
+            <f:SimpleForm
+                layout="ResponsiveGridLayout">
+                <f:title>
+                    <core:Title text="Infotipo" />
+                </f:title>
+                <f:content>
+                    <FlexBox
+                             direction="Column"
+                             alignItems="Start"
+                             justifyContent="Center" >					
+                        <items>                        
+                            <CheckBox id="chkNormal" text="Normal" />
+                            <CheckBox id="chksubcont" text="Subcontratación" />
+                            <CheckBox id="chkPipe" text="Pipeline" />
+                            <CheckBox id="chkCons" text="Consignación" />
+                        </items>
+                    </FlexBox>                           
+                </f:content>
+            </f:SimpleForm>
+        </content>
+	</Page>
+</mvc:View>

@@ -6,7 +6,7 @@ sap.ui.define([
    "sap/m/MessageToast"
 ], function (BaseController, MessageToast) {
    "use strict";
-   return BaseController.extend("sap.ui.su01.controller.LOGISTICA.MK03", {
+   return BaseController.extend("sap.ui.su01.controller.LOGISTICA.ME12", {
 
        onInit: function(oEvent) {
        },
@@ -16,7 +16,7 @@ sap.ui.define([
        },
        
        onPressEnter: function(oEvent) {
-           this.getRouter().navTo("mk03v");
+           this.getRouter().navTo("me12m");
        },
    });
 });

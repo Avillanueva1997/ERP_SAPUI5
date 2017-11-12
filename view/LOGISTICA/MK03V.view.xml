@@ -1,0 +1,370 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.MK03V"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="true" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Acreedor Visualizar" level="H2"/>			
+                <ToolbarSpacer/>
+			</Toolbar>
+		</customHeader>    
+        <content>
+            <f:SimpleForm
+                layout="ResponsiveGridLayout">
+                <f:content>
+                    <Label text="Acreedor" />
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false"/>                                                           
+                </f:content>
+            </f:SimpleForm>
+            <IconTabBar>
+                <items>
+                    <IconTabFilter id="itfDireccion"
+                        text="Dirección">
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Nombre" />
+                            </f:title>
+                            <f:content>
+                                <Label text="Tratamiento" />
+                                <ComboBox id="cbbTratamiento" width="300px" >
+                                    <core:Item key="1" text="Empresa" />
+                                    <core:Item key="2" text="Señor" />
+                                    <core:Item key="3" text="Señora" />
+                                </ComboBox>
+                                <Label text="Nombre" />
+                                <Input id="iptNombre" width="300px" editable="false" />                              
+                            </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Conceptos de busquedas" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Concepto busq.1/2" />
+                                <Input id="iptConbus" width="300px" editable="false" />                              
+                            </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Direccion calle" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Calle 2" />
+                                <Input id="iptCalle2" width="300px" editable="false" />                              
+                                <Label text="Calle/Numero" />
+                                <Input id="iptCallenumero" width="300px" editable="false" />                              
+                                <Label text="Distrito" />
+                                <Input id="iptDistrito" width="300px" editable="false" />                              
+                                <Label text="Codigo postal/Pobl." />
+                                <Input id="iptCodpostal" width="300px" editable="false" />                              
+                                <Label text="Pais" />
+                                <Input id="iptPais" width="300px" editable="false" />                              
+                                <Label text="Region" />
+                                <Input id="iptRegion" width="300px" editable="false" />                              
+                            </f:content>
+                        </f:SimpleForm>
+                                                
+                    </IconTabFilter>
+                    
+                    <IconTabFilter id="itfControl"
+                        text="Control">
+                                                
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Control de cuentas" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Cliente" />
+                                <Input id="iptCliente" width="300px" editable="false" />                              
+                                <Label text="Soc.GL asociada" />
+                                <Input id="iptSocglasoc" width="300px" editable="false" />                              
+                            </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Información fiscal" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="N°ident.fis.1" />
+                                <Input id="iptNumidenfis1" width="300px" editable="false" />                              
+                                <Label text="N°ident.fis.2" />
+                                <Input id="iptNumidenfis2" width="300px" editable="false" /> 
+                                <Label text="Domicilio fisc." />
+                                <Input id="iptDomfis" width="300px" editable="false" />                              
+                                <Label text="Representante" />
+                                <Input id="iptRepre" width="300px" editable="false" /> 
+                                <Label text="Tipo NIF" />
+                                <Input id="iptNif" width="300px" editable="false" />                              
+                                <Label text="Clase impuesto" />
+                                <Input id="iptClaseimp" width="300px" editable="false" /> 
+                                <Label text="Tipo de operación" />
+                                <Input id="iptTipopera" width="300px" editable="false" />                              
+                                <Label text="Tipo de industria" />
+                                <Input id="iptTipind" width="300px" editable="false" /> 
+                            </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Datos de referencia" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Ramo" />
+                                <Input id="iptRamo" width="300px" editable="false" />                              
+                                <Label text="Zona transporte" />
+                                <Input id="iptZonatransp" width="300px" editable="false" />                              
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                    </IconTabFilter>
+                    
+                    <IconTabFilter id="itfPagos"
+                        text="Pagos"> 
+                        
+                        <Table id="tbDatosbanc"
+                            inset="false"
+                            mode="MultiSelect">
+                            <headerToolbar>
+                                <Toolbar>
+                                    <Title text="Datos bancarios" level="H2"/>
+                                </Toolbar>
+                            </headerToolbar>
+                            <columns>
+                                <Column
+                                    width="4em">
+                                    <Text text="Pais" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Clave banco" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Cuenta bancaria" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Titular Cta." />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="CC" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="IBAN" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Val.IBAN" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Tp..." />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Referencia" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="A..." />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Nombre de la institución" />
+                                </Column>                                
+                            </columns>
+                            <items>
+                                <ColumnListItem>
+                                    <cells>
+                                        <ObjectIdentifier
+                                            title="{Name}"
+                                            text="1007507"/>
+                                        <Text
+                                            text="0020" />
+                                        <Text
+                                            text="50" />
+                                        <Text
+                                            text="PNPJ" />
+                                        <Text
+                                            text="MATERIAL NO SE ENCUENTRA EN LA LÍNEA" />
+                                        <Text
+                                            text="PNP" />
+                                        <Text
+                                            text="PARO NO PLANIFICADO" />
+                                        <Text
+                                            text="J" />
+                                        <Text
+                                            text="MATERIAL NO SE ENCUENTRA EN LA LÍNEA" />
+                                        <Text
+                                            text="14:00:00" />
+                                        <Text
+                                            text="16:00:00" />                                                                       
+                                    </cells>
+                                </ColumnListItem>
+                            </items>                    
+                        </Table>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Pagos" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Receptor alter.pago" />
+                                <Input id="iptRecaltpago" width="300px" editable="false" />                                   
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Receptor alternativo del pago en el documento" />
+                            </f:title>
+                            <f:content>                               
+                                <FlexBox
+                                         direction="Column"
+                                         alignItems="Start"
+                                         justifyContent="Center" >					
+                                    <items>                        
+                                        <CheckBox id="chkEntrind" text="Entradas individ." />
+                                        <CheckBox id="chkEntradasref" text="Entradas por ref." />    
+                                    </items>
+                                </FlexBox>     
+                                <Button id="btnReceptpagoperm" text="Recept.pago permit." press="OnPressReceptpagoperm" />
+                            </f:content>
+                        </f:SimpleForm>
+                                                
+                    </IconTabFilter>
+                    
+                    <IconTabFilter id="itfDatoscompra"
+                        text="Datos de compra">                        
+                          
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Condiciones" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Moneda de pedido" />
+                                <Input id="iptMonped" width="300px" editable="false" />                              
+                                <Label text="Condición de pago" />
+                                <Input id="iptCondpago" width="300px" editable="false" /> 
+                                <Label text="Incoterms" />
+                                <Input id="iptIncoterms1" width="300px" editable="false" />                              
+                                <Input id="iptIncoterms2" width="300px" editable="false" />                              
+                                <Label text="Valor minimo pedido" />
+                                <Input id="iptValminped" width="300px" editable="false" /> 
+                                <Label text="GrEsquema proveedor" />
+                                <Input id="iptGresquema" width="300px" editable="false" />                              
+                                <Label text="Control fecha precio" />
+                                <Input id="iptCtrlfechaprecio" width="300px" editable="false" /> 
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Datos de venta" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Vendedor/a" />
+                                <Input id="iptVend" width="300px" editable="false" />                              
+                                <Label text="Telefono" />
+                                <Input id="iptTelf" width="300px" editable="false" />                                 
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Datos de control" />
+                            </f:title>
+                            <f:content>
+                                
+                                <FlexBox
+                                         direction="Column"
+                                         alignItems="Start"
+                                         justifyContent="Center" >					
+                                    <items>                        
+                                        <CheckBox id="chkVerif" text="Verific.fact.base EM" />
+                                        <CheckBox id="chkAfentrega" text="Auto facturac.entrega" />
+                                        <CheckBox id="chkAfdevol" text="Autofacturac.devol." />
+                                        <CheckBox id="chkIndobl" text="Ind.obl.confirm.ped." />
+                                        <CheckBox id="chkPedauto" text="Pedido automatico" />
+                                        <CheckBox id="chkLiquipos" text="Liquidacion posterior" />
+                                        <CheckBox id="chkIndliq" text="Ind.liq.post.activo" />
+                                        <CheckBox id="chkDevol" text="Devol.c/gestion exp." />       
+                                    </items>
+                                </FlexBox>
+                                
+                                <Label text="Modo transp. Frontera" />
+                                <Input id="iptModtranspfron" width="300px" editable="false" />                              
+                                <Label text="Aduana de entrada" />
+                                <Input id="iptAduaentra" width="300px" editable="false" /> 
+                                <Label text="Criterio Clasific." />
+                                <Input id="iptCritclasi" width="300px" editable="false" /> 
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Valores propuestos material" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Grupo de compras" />
+                                <Input id="iptGrpcomp" width="300px" editable="false" />                              
+                                <Label text="Plazo entrega prev." />
+                                <Input id="iptPlazoent" width="300px" editable="false" />     
+                                <Label text="Control confirmación" />
+                                <Input id="iptCtrlconfi" width="300px" editable="false" />                              
+                                <Label text="Perfil de redondeo" />
+                                <Input id="iptPerfilred" width="300px" editable="false" />     
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                        <f:SimpleForm
+                            layout="ResponsiveGridLayout">
+                            <f:title>
+                                <core:Title text="Datos de servicio" />
+                            </f:title>
+                            <f:content>                               
+                                <Label text="Nivel serv." />
+                                <Input id="iptNivelserv" width="300px" editable="false" />     
+                            </f:content>
+                        </f:SimpleForm>
+                        
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </content>
+	</Page>
+</mvc:View>
