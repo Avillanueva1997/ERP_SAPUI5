@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.ME12M"
+	controllerName="sap.ui.su01.controller.LOGISTICA.ME.ME12M"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -26,17 +26,17 @@
                 </f:title>
                 <f:content>
                     <Label text="Registro de info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true" editable="false"/>                                                 
+                    <Input id="iptReginfo" width="300px" showValueHelp="true" />                                                 
                     <Label text="Proveedor" />
-                    <Input id="iptProveedor" width="300px" showValueHelp="true" editable="false"/>                                               
+                    <Input id="iptProveedor" width="300px" showValueHelp="true" />                                               
                     <Label text="Material" />
-                    <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false"/>                                                 
+                    <Input id="iptMaterial" width="300px" showValueHelp="true" />                                                 
                     <Label text="Grupo articulos" />
-                    <Input id="iptGrparti" width="300px" showValueHelp="true" editable="false"/>                                                 
+                    <Input id="iptGrparti" width="300px" showValueHelp="true" />                                                 
                     <Label text="Org.compras" />
-                    <Input id="iptOrgcompras" width="300px" showValueHelp="true" editable="false"/> 
+                    <Input id="iptOrgcompras" width="300px" showValueHelp="true" /> 
                     <Label text="Normal" />
-                    <Input id="iptNormal" width="300px" showValueHelp="true" editable="false"/> 
+                    <Input id="iptNormal" width="300px" showValueHelp="true" /> 
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -51,39 +51,39 @@
                             </f:title>
                             <f:content>
                                 <Label text="Plaz.entr.prev." />
-                                <Input id="iptPlaentprev" width="300px" editable="false" />                              
+                                <Input id="iptPlaentprev" width="300px" />                              
                                 <Label text="Grupo-compras" />
-                                <Input id="iptGrpcomp" width="300px" editable="false" />                              
+                                <Input id="iptGrpcomp" width="300px" />                              
                                 <Label text="Ctd.estandar" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >
-                                    <Input id="iptCtdestandar1" width="260px" editable="false" />                              
-                                    <Input id="iptCtdestandar2" width="40px" editable="false" />                              
+                                    <Input id="iptCtdestandar1" width="260px" />                              
+                                    <Input id="iptCtdestandar2" width="40px" />                              
                                 </l:HorizontalLayout>
                                 <Label text="Ctd.minima" />
-                                <Input id="iptCtdminima1" width="300px" editable="false" /> 
-                                <Input id="iptCtdminima2" width="300px" editable="false" /> 
+                                <Input id="iptCtdminima1" width="300px" /> 
+                                <Input id="iptCtdminima2" width="300px" /> 
                                 <Label text="Tmpohastacaduc" />
-                                <Input id="iptTmpohastacaduc1" width="300px" editable="false" />
-                                <Input id="iptTmpohastacaduc2" width="300px" editable="false" /> 
+                                <Input id="iptTmpohastacaduc1" width="300px" />
+                                <Input id="iptTmpohastacaduc2" width="300px" /> 
                                 <Label text="Normas envio" />
-                                <Input id="iptNormasenvio" width="300px" editable="false" /> 
+                                <Input id="iptNormasenvio" width="300px" /> 
                                 <Label text="Cantidad maxima" />
-                                <Input id="iptCantidadmax1" width="300px" editable="false" />
-                                <Input id="iptCantidadmax2" width="300px" editable="false" /> 
+                                <Input id="iptCantidadmax1" width="300px" />
+                                <Input id="iptCantidadmax2" width="300px" /> 
                                 <Label text="TolSumIncompl" />
-                                <Input id="iptTolSumIncompl" width="300px" editable="false" />                              
+                                <Input id="iptTolSumIncompl" width="300px" />                              
                                 <Label text="TolExcSum" />
-                                <Input id="iptTolExcSum" width="300px" editable="false" />                              
+                                <Input id="iptTolExcSum" width="300px" />                              
                                 <Label text="CtrlConf" />
-                                <Input id="iptCtrlConf" width="300px" editable="false" />                              
+                                <Input id="iptCtrlConf" width="300px" />                              
                                 <Label text="IndImp" />
-                                <Input id="iptIndImp" width="300px" editable="false" />                              
+                                <Input id="iptIndImp" width="300px" />                              
                                 <Label text="Procedimiento" />
-                                <Input id="iptProced" width="300px" editable="false" />                              
+                                <Input id="iptProced" width="300px" />                              
                                 <Label text="PerfRed" />
-                                <Input id="iptPerfRed" width="300px" editable="false" />                              
+                                <Input id="iptPerfRed" width="300px" />                              
                                 <Label text="Grupo UM" />
-                                <Input id="iptGrpum" width="300px" editable="false" />                              
+                                <Input id="iptGrpum" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -94,33 +94,33 @@
                             <f:content>
                                 <Label text="Precio neto" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >                                    
-                                    <Input id="iptPrecioneto1" width="300px" editable="false" />
+                                    <Input id="iptPrecioneto1" width="300px" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto2" width="50px" editable="false" />
+                                    <Input id="iptPrecioneto2" width="50px" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto3" width="50px" editable="false" />
+                                    <Input id="iptPrecioneto3" width="50px" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto4" width="50px" editable="false" />
+                                    <Input id="iptPrecioneto4" width="50px" />
                                 </l:HorizontalLayout>
                                 <Label text="Precio efectivo" />
-                                <Input id="iptPrecioefec1" width="300px" editable="false" />
-                                <Input id="iptPrecioefec2" width="300px" editable="false" />
-                                <Input id="iptPrecioefec3" width="300px" editable="false" />
-                                <Input id="iptPrecioefec4" width="300px" editable="false" />
+                                <Input id="iptPrecioefec1" width="300px" />
+                                <Input id="iptPrecioefec2" width="300px" />
+                                <Input id="iptPrecioefec3" width="300px" />
+                                <Input id="iptPrecioefec4" width="300px" />
                                 <Label text="Conv.ctd." />
-                                <Input id="iptConvctd1" width="300px" editable="false" />
-                                <Input id="iptConvctd2" width="300px" editable="false" />
-                                <Input id="iptConvctd3" width="300px" editable="false" />
-                                <Input id="iptConvctd4" width="300px" editable="false" />
+                                <Input id="iptConvctd1" width="300px" />
+                                <Input id="iptConvctd2" width="300px" />
+                                <Input id="iptConvctd3" width="300px" />
+                                <Input id="iptConvctd4" width="300px" />
                                 <Label text="TipFechaPrecio" />
-                                <Input id="iptTipfechaprecio" width="300px" editable="false" />
+                                <Input id="iptTipfechaprecio" width="300px" />
                                 <Label text="Incoterms" />
-                                <Input id="iptIncoterms1" width="300px" editable="false" />
-                                <Input id="iptIncoterms2" width="300px" editable="false" />
+                                <Input id="iptIncoterms1" width="300px" />
+                                <Input id="iptIncoterms2" width="300px" />
                                 <Label text="Validez a" />
-                                <Input id="iptValideza" width="300px" editable="false" />
+                                <Input id="iptValideza" width="300px" />
                                 <Label text="Gr.cond" />
-                                <Input id="iptGrcond" width="300px" editable="false" />
+                                <Input id="iptGrcond" width="300px" />
                             </f:content>
                         </f:SimpleForm>                                                
                     </IconTabFilter>
@@ -135,31 +135,31 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="1°reclamacion" />
-                                <Input id="iptReclamacion1" width="300px" editable="false" />                              
+                                <Input id="iptReclamacion1" width="300px"  />                              
                                 <Label text="2°reclamacion" />
-                                <Input id="iptReclamacion2" width="300px" editable="false" />
+                                <Input id="iptReclamacion2" width="300px"  />
                                 <Label text="3°reclamacion" />
-                                <Input id="iptReclamacion3" width="300px" editable="false" />                              
+                                <Input id="iptReclamacion3" width="300px"  />                              
                                 <Label text="Mat.proveedor" />
-                                <Input id="iptMatpro" width="300px" editable="false" />
+                                <Input id="iptMatpro" width="300px" />
                                 <Label text="Surtido parcial" />
-                                <Input id="iptSurparcial" width="300px" editable="false" />                              
+                                <Input id="iptSurparcial" width="300px" />                              
                                 <Label text="N°clasSurParcPr" />
-                                <Input id="iptclasSurParcPr" width="300px" editable="false" />
+                                <Input id="iptclasSurParcPr" width="300px" />
                                 <Label text="Gr.mcia.prov." />
-                                <Input id="iptGrmciaprov" width="300px" editable="false" />                              
+                                <Input id="iptGrmciaprov" width="300px"  />                              
                                 <Label text="Puntos" />
-                                <Input id="iptPuntos1" width="300px" editable="false" />
-                                <Input id="iptPuntos2" width="300px" editable="false" />
-                                <Input id="iptPuntos3" width="300px" editable="false" />
+                                <Input id="iptPuntos1" width="300px"  />
+                                <Input id="iptPuntos2" width="300px"  />
+                                <Input id="iptPuntos3" width="300px"  />
                                 <Label text="Vendedor" />
-                                <Input id="iptVendedor" width="300px" editable="false" />                              
+                                <Input id="iptVendedor" width="300px" />                              
                                 <Label text="Telefono" />
-                                <Input id="iptTelefono" width="300px" editable="false" />
+                                <Input id="iptTelefono" width="300px" />
                                 <Label text="Acuerdo adm.dev" />
-                                <Input id="iptAcueroadm" width="300px" editable="false" />                              
+                                <Input id="iptAcueroadm" width="300px" />                              
                                 <Label text="Pre-proveedor" />
-                                <Input id="iptPreprov" width="300px" editable="false" />
+                                <Input id="iptPreprov" width="300px" />
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -169,14 +169,14 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="UM de pedido" />
-                                <Input id="iptUmpedido" width="300px" editable="false" />                              
+                                <Input id="iptUmpedido" width="300px" />                              
                                 <Label text="Conversion" />
-                                <Input id="iptConversion1" width="300px" editable="false" /> 
-                                <Input id="iptConversion2" width="300px" editable="false" /> 
-                                <Input id="iptConversion3" width="300px" editable="false" /> 
-                                <Input id="iptConversion4" width="300px" editable="false" /> 
+                                <Input id="iptConversion1" width="300px"  /> 
+                                <Input id="iptConversion2" width="300px"  /> 
+                                <Input id="iptConversion3" width="300px"  /> 
+                                <Input id="iptConversion4" width="300px"  /> 
                                 <Label text="UMP variable" />
-                                <Input id="iptUmpvar" width="300px" editable="false" />   
+                                <Input id="iptUmpvar" width="300px" />   
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -186,19 +186,19 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Tpo.certif." />
-                                <Input id="iptTpocertif" width="300px" editable="false" />                              
+                                <Input id="iptTpocertif" width="300px" />                              
                                 <Label text="No.-certificado" />
-                                <Input id="iptNocertif" width="300px" editable="false" />                              
+                                <Input id="iptNocertif" width="300px"  />                              
                                 <Label text="validez a" />
-                                <Input id="iptVala" width="300px" editable="false" />                              
+                                <Input id="iptVala" width="300px"  />                              
                                 <Label text="Pais de origen" />
-                                <Input id="iptPaisorig" width="300px" editable="false" />                              
+                                <Input id="iptPaisorig" width="300px"  />                              
                                 <Label text="Region" />
-                                <Input id="iptRegion" width="300px" editable="false" />                              
+                                <Input id="iptRegion" width="300px"  />                              
                                 <Label text="Numero" />
-                                <Input id="iptNumero" width="300px" editable="false" />                              
+                                <Input id="iptNumero" width="300px"  />                              
                                 <Label text="Fabricante" />
-                                <Input id="iptFabricante" width="300px" editable="false" />                               
+                                <Input id="iptFabricante" width="300px" />                               
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -208,9 +208,9 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Suministr.desde" />
-                                <Input id="iptRamo" width="300px" editable="false" />                              
+                                <Input id="iptRamo" width="300px" />                              
                                 <Label text="Suministr.hasta" />
-                                <Input id="iptSuministrhasta" width="300px" editable="false" />                              
+                                <Input id="iptSuministrhasta" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                     </IconTabFilter>              

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.ME13"
+	controllerName="sap.ui.su01.controller.LOGISTICA.ME.ME13"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -18,6 +18,11 @@
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://display" press="onDisplay"/>
+			</Toolbar>
+		</subHeader>
         <content>
             <f:SimpleForm
                 layout="ResponsiveGridLayout">

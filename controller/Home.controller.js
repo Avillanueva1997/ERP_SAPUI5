@@ -18,12 +18,7 @@ sap.ui.define([
            this.getRouter().navTo("login");
        },
        
-       onPressLogistica: function(oEvent){
-           this.getRouter().navTo("homelogistica");
-       },
-       
        	handleButtonPress: function(evt) {
-			MessageToast.show("Button pressed");
             var oList = evt.getSource(),
 				oItem = evt.getParameter("listItem"),
 				sPath = oItem.getBindingContext().getPath();

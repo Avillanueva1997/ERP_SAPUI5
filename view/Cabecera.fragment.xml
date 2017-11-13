@@ -9,10 +9,10 @@
     
     
     <tnt:ToolHeader>
-        <Button icon="sap-icon://sys-enter-2" type="Transparent"/>
+        <Button icon="sap-icon://sys-enter-2" press="onPressEnter" type="Transparent" />
         <Input width="150px" />            
         <Button icon="sap-icon://save" type="Transparent"/>
-        <Button icon="sap-icon://sys-back-2" type="Transparent"/>
+        <Button icon="sap-icon://sys-back-2" type="Transparent" press="onBack" />
         <Button icon="sap-icon://system-exit-2" type="Transparent"/>
         <Button icon="sap-icon://sys-cancel-2" type="Transparent"/>
         <ToolbarSpacer/>

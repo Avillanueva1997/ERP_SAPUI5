@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.MK03"
+	controllerName="sap.ui.su01.controller.LOGISTICA.MK.MK03"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -17,7 +17,12 @@
 				<Title text="Acreedor Visualizar: Acceso" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
-		</customHeader>    
+		</customHeader> 
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://display" press="onDisplay"/>
+			</Toolbar>
+		</subHeader>
         <content>
             <f:SimpleForm
                 layout="ResponsiveGridLayout">

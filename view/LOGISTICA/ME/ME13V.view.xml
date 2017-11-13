@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.ME13V"
+	controllerName="sap.ui.su01.controller.LOGISTICA.ME.ME13V"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"

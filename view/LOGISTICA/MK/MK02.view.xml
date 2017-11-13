@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.MK02"
+	controllerName="sap.ui.su01.controller.LOGISTICA.MK.MK02"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -17,7 +17,13 @@
 				<Title text="Acreedor Modificar: Acceso" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
-		</customHeader>    
+		</customHeader>  
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://delete" press="onDelete"/>
+			</Toolbar>
+		</subHeader>
         <content>
             <f:SimpleForm
                 layout="ResponsiveGridLayout">

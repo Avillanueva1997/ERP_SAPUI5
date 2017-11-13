@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.LOGISTICA.MK01C"
+	controllerName="sap.ui.su01.controller.LOGISTICA.MK.MK01C"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
     xmlns:f="sap.ui.layout.form"
@@ -23,7 +23,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Acreedor" />
-                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false"/>                                                           
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" />                                                           
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -44,7 +44,7 @@
                                     <core:Item key="3" text="Señora" />
                                 </ComboBox>
                                 <Label text="Nombre" />
-                                <Input id="iptNombre" width="300px" editable="false" />                              
+                                <Input id="iptNombre" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -54,7 +54,7 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Concepto busq.1/2" />
-                                <Input id="iptConbus" width="300px" editable="false" />                              
+                                <Input id="iptConbus" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -64,17 +64,17 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Calle 2" />
-                                <Input id="iptCalle2" width="300px" editable="false" />                              
+                                <Input id="iptCalle2" width="300px" />                              
                                 <Label text="Calle/Numero" />
-                                <Input id="iptCallenumero" width="300px" editable="false" />                              
+                                <Input id="iptCallenumero" width="300px" />                              
                                 <Label text="Distrito" />
-                                <Input id="iptDistrito" width="300px" editable="false" />                              
+                                <Input id="iptDistrito" width="300px" />                              
                                 <Label text="Codigo postal/Pobl." />
-                                <Input id="iptCodpostal" width="300px" editable="false" />                              
+                                <Input id="iptCodpostal" width="300px" />                              
                                 <Label text="Pais" />
-                                <Input id="iptPais" width="300px" editable="false" />                              
+                                <Input id="iptPais" width="300px" />                              
                                 <Label text="Region" />
-                                <Input id="iptRegion" width="300px" editable="false" />                              
+                                <Input id="iptRegion" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                                                 
@@ -90,9 +90,9 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Cliente" />
-                                <Input id="iptCliente" width="300px" editable="false" />                              
+                                <Input id="iptCliente" width="300px" />                              
                                 <Label text="Soc.GL asociada" />
-                                <Input id="iptSocglasoc" width="300px" editable="false" />                              
+                                <Input id="iptSocglasoc" width="300px" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -102,21 +102,21 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="N°ident.fis.1" />
-                                <Input id="iptNumidenfis1" width="300px" editable="false" />                              
+                                <Input id="iptNumidenfis1" width="300px" />                              
                                 <Label text="N°ident.fis.2" />
-                                <Input id="iptNumidenfis2" width="300px" editable="false" /> 
+                                <Input id="iptNumidenfis2" width="300px" /> 
                                 <Label text="Domicilio fisc." />
-                                <Input id="iptDomfis" width="300px" editable="false" />                              
+                                <Input id="iptDomfis" width="300px" />                              
                                 <Label text="Representante" />
-                                <Input id="iptRepre" width="300px" editable="false" /> 
+                                <Input id="iptRepre" width="300px" /> 
                                 <Label text="Tipo NIF" />
-                                <Input id="iptNif" width="300px" editable="false" />                              
+                                <Input id="iptNif" width="300px"  />                              
                                 <Label text="Clase impuesto" />
-                                <Input id="iptClaseimp" width="300px" editable="false" /> 
+                                <Input id="iptClaseimp" width="300px"  /> 
                                 <Label text="Tipo de operación" />
-                                <Input id="iptTipopera" width="300px" editable="false" />                              
+                                <Input id="iptTipopera" width="300px"  />                              
                                 <Label text="Tipo de industria" />
-                                <Input id="iptTipind" width="300px" editable="false" /> 
+                                <Input id="iptTipind" width="300px"  /> 
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -126,9 +126,9 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Ramo" />
-                                <Input id="iptRamo" width="300px" editable="false" />                              
+                                <Input id="iptRamo" width="300px"  />                              
                                 <Label text="Zona transporte" />
-                                <Input id="iptZonatransp" width="300px" editable="false" />                              
+                                <Input id="iptZonatransp" width="300px"  />                              
                             </f:content>
                         </f:SimpleForm>
                         
@@ -239,7 +239,7 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Receptor alter.pago" />
-                                <Input id="iptRecaltpago" width="300px" editable="false" />                                   
+                                <Input id="iptRecaltpago" width="300px" />                                   
                             </f:content>
                         </f:SimpleForm>
                         
@@ -274,18 +274,18 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Moneda de pedido" />
-                                <Input id="iptMonped" width="300px" editable="false" />                              
+                                <Input id="iptMonped" width="300px"  />                              
                                 <Label text="Condición de pago" />
-                                <Input id="iptCondpago" width="300px" editable="false" /> 
+                                <Input id="iptCondpago" width="300px"  /> 
                                 <Label text="Incoterms" />
-                                <Input id="iptIncoterms1" width="300px" editable="false" />                              
-                                <Input id="iptIncoterms2" width="300px" editable="false" />                              
+                                <Input id="iptIncoterms1" width="300px"  />                              
+                                <Input id="iptIncoterms2" width="300px"  />                              
                                 <Label text="Valor minimo pedido" />
-                                <Input id="iptValminped" width="300px" editable="false" /> 
+                                <Input id="iptValminped" width="300px"  /> 
                                 <Label text="GrEsquema proveedor" />
-                                <Input id="iptGresquema" width="300px" editable="false" />                              
+                                <Input id="iptGresquema" width="300px"  />                              
                                 <Label text="Control fecha precio" />
-                                <Input id="iptCtrlfechaprecio" width="300px" editable="false" /> 
+                                <Input id="iptCtrlfechaprecio" width="300px"  /> 
                             </f:content>
                         </f:SimpleForm>
                         
@@ -296,9 +296,9 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Vendedor/a" />
-                                <Input id="iptVend" width="300px" editable="false" />                              
+                                <Input id="iptVend" width="300px" />                              
                                 <Label text="Telefono" />
-                                <Input id="iptTelf" width="300px" editable="false" />                                 
+                                <Input id="iptTelf" width="300px"  />                                 
                             </f:content>
                         </f:SimpleForm>
                         
@@ -326,11 +326,11 @@
                                 </FlexBox>
                                 
                                 <Label text="Modo transp. Frontera" />
-                                <Input id="iptModtranspfron" width="300px" editable="false" />                              
+                                <Input id="iptModtranspfron" width="300px"  />                              
                                 <Label text="Aduana de entrada" />
-                                <Input id="iptAduaentra" width="300px" editable="false" /> 
+                                <Input id="iptAduaentra" width="300px"  /> 
                                 <Label text="Criterio Clasific." />
-                                <Input id="iptCritclasi" width="300px" editable="false" /> 
+                                <Input id="iptCritclasi" width="300px"  /> 
                             </f:content>
                         </f:SimpleForm>
                         
@@ -341,13 +341,13 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Grupo de compras" />
-                                <Input id="iptGrpcomp" width="300px" editable="false" />                              
+                                <Input id="iptGrpcomp" width="300px"  />                              
                                 <Label text="Plazo entrega prev." />
-                                <Input id="iptPlazoent" width="300px" editable="false" />     
+                                <Input id="iptPlazoent" width="300px"  />     
                                 <Label text="Control confirmación" />
-                                <Input id="iptCtrlconfi" width="300px" editable="false" />                              
+                                <Input id="iptCtrlconfi" width="300px"  />                              
                                 <Label text="Perfil de redondeo" />
-                                <Input id="iptPerfilred" width="300px" editable="false" />     
+                                <Input id="iptPerfilred" width="300px"  />     
                             </f:content>
                         </f:SimpleForm>
                         
@@ -358,7 +358,7 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Nivel serv." />
-                                <Input id="iptNivelserv" width="300px" editable="false" />     
+                                <Input id="iptNivelserv" width="300px"  />     
                             </f:content>
                         </f:SimpleForm>
                         
