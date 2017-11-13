@@ -1,0 +1,43 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.GESTIONUSUARIO.Pfcg.PfcgC"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Crear Rol">
+        <ObjectHeader
+            title="lfarro"
+            backgroundDesign="Solid">
+        </ObjectHeader>
+        <content>   
+            <Table id="idProductsTable">
+                <columns>
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true">
+                        <Text text="Transacción" />
+                    </Column>
+                    <Column
+                        minScreenWidth="Tablet"
+                        demandPopin="true">
+                        <Text text="Descripción" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <Text
+                                text="{}" />
+                            <Text
+                                text="{}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>       
+    </Page>
+</mvc:View>

@@ -1,0 +1,25 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.GESTIONUSUARIO.Pfcg.Pfcg02"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Gestión de roles">
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://delete" press="onDelete"/>
+			</Toolbar>
+		</subHeader>
+        <content>    
+            <l:VerticalLayout class="sapUiSmallMargin" >
+                <Label text="Rol" />
+                <Input width="200px"/>  
+            </l:VerticalLayout>     
+        </content>       
+    </Page>
+</mvc:View>

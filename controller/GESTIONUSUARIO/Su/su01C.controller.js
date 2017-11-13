@@ -4,10 +4,14 @@ sap.ui.define([
    "sap/m/MessageToast"
 ], function (BaseController, JSONModel,MessageToast) {
    "use strict";
-   return BaseController.extend("sap.ui.su01.controller.Su01v", {
+   return BaseController.extend("sap.ui.su01.controller.GESTIONUSUARIO.Su.Su01C", {
 
        onInit: function(oEvent) {
        },
+       
+       onBack: function(oEvent){
+           this.getRouter().navTo("su01");
+       }
        
    });
 });

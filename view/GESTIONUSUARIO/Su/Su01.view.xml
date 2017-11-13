@@ -1,0 +1,47 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.GESTIONUSUARIO.Su.Su01"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Gestión de usuario">
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://document" press="onNew"/>
+				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://display" press="onDisplay"/>
+				<Button icon="sap-icon://delete" press="onDelete"/>
+				<Button icon="sap-icon://copy" press="onCopy"/>
+				<Button icon="sap-icon://locked" press="onLock"/>
+				<Button icon="sap-icon://unlocked" press="onUnLock"/>
+				<Button icon="sap-icon://key" press="onEditPass"/>
+			</Toolbar>
+		</subHeader>
+        <content>    
+            <f:SimpleForm
+                layout="ResponsiveGridLayout"
+                labelSpanXL="1"
+                labelSpanL="1"
+                labelSpanM="1"
+                labelSpanS="12"
+                adjustLabelSpan="false"
+                emptySpanXL="10"
+                emptySpanL="9"
+                emptySpanM="8"
+                emptySpanS="0"
+                columnsXL="1"
+                columnsL="1"
+                columnsM="1"
+                singleContainerFullSize="false">
+                <f:content>
+                    <Label text="Usuario" />
+                    <Input/>
+                </f:content>
+            </f:SimpleForm>                  
+        </content>       
+    </Page>
+</mvc:View>

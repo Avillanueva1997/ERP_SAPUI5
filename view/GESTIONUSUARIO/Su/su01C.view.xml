@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.su01.controller.Su01v"
+	controllerName="sap.ui.su01.controller.GESTIONUSUARIO.Su.Su01C"
     xmlns:f="sap.ui.layout.form"
 	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -7,22 +7,12 @@
     xmlns:core="sap.ui.core"
     xmlns:tnt="sap.tnt"
 	xmlns="sap.m">
-    <Page title="Visualizar usuario">
-        <subHeader>
-			<Toolbar>
-				<Button icon="sap-icon://edit" />
-			</Toolbar>
-		</subHeader>
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Crear Usuario">
         <content>    
             <ObjectHeader
 				title="lfarro"
 				backgroundDesign="Solid">
-				<attributes>
-					<ObjectAttribute title="Modificado por" text="ffarro el día 08.11.2017 a las 00:18:00" />
-				</attributes>
-				<statuses>
-					<ObjectStatus title="Estado" text="Desbloqueado" state="Success" />
-				</statuses>
 			</ObjectHeader>
             <IconTabBar
 				expanded="{device>/isNoPhone}"
@@ -31,17 +21,32 @@
 					<IconTabFilter
 						text="Datos">
 						<f:SimpleForm
-							minWidth="1024"
-							maxContainerCols="2"
-							layout="ResponsiveGridLayout" >
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="2"
+                            labelSpanL="2"
+                            labelSpanM="2"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="9"
+                            emptySpanL="8"
+                            emptySpanM="7"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
 							<Label text="Nombre"/>
-							<Input editable="false" width="200px"/>
+							<Input/>
                             <Label text="Apellido"/>
-							<Input editable="false" width="200px"/>
+							<Input/>
                             <Label text="Correo"/>
-							<Input editable="false" width="200px"/>
+							<Input/>
                             <Label text="Celular"/>
-							<Input editable="false" width="200px"/>
+							<Input/>
+                            <Label text="Contraseña"/>
+							<Input/>
+                            <Label text="Repitir contraseña"/>
+							<Input/>
 						</f:SimpleForm>
 					</IconTabFilter>
 					<IconTabFilter

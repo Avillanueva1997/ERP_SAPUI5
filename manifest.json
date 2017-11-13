@@ -61,14 +61,144 @@
 				"target": "home"
                 },
                 {
-				"pattern": "LOGISTICA/homelogistica",
-				"name": "homelogistica",
-				"target": "homelogistica"
-                },
-                {
-				"pattern": "LOGISTICA/mk01",
+				"pattern": "mk01",
 				"name": "mk01",
 				"target": "mk01"
+                },                
+                {
+				"pattern": "mk02",
+				"name": "mk02",
+				"target": "mk02"
+                },                
+                {
+				"pattern": "mk03",
+				"name": "mk03",
+				"target": "mk03"
+                },
+                {
+				"pattern": "mk01c",
+				"name": "mk01c",
+				"target": "mk01c"
+                },                
+                {
+				"pattern": "mk02m",
+				"name": "mk02m",
+				"target": "mk02m"
+                },                
+                {
+				"pattern": "mk03v",
+				"name": "mk03v",
+				"target": "mk03v"
+                },
+                {
+				"pattern": "me11",
+				"name": "me11",
+				"target": "me11"
+                },
+                {
+				"pattern": "me12",
+				"name": "me12",
+				"target": "me12"
+                },
+                {
+				"pattern": "me13",
+				"name": "me13",
+				"target": "me13"
+                }, 
+                {
+				"pattern": "me11c",
+				"name": "me11c",
+				"target": "me11c"
+                },
+                {
+				"pattern": "me12m",
+				"name": "me12m",
+				"target": "me12m"
+                },
+                {
+				"pattern": "me13v",
+				"name": "me13v",
+				"target": "me13v"
+                },                 
+                {
+				"pattern": "su01",
+				"name": "su01",
+				"target": "su01"
+                },
+                {
+                "pattern": "su01V",
+				"name": "su01V",
+				"target": "su01V"
+                },
+                {
+                "pattern": "su01M",
+				"name": "su01M",
+				"target": "su01M"
+                },
+                {
+                "pattern": "su01C",
+				"name": "su01C",
+				"target": "su01C"
+                },
+                {
+                "pattern": "pfcg01",
+				"name": "pfcg01",
+				"target": "pfcg01"
+                },
+                {
+                "pattern": "pfcg02",
+				"name": "pfcg02",
+				"target": "pfcg02"
+                },
+                {
+                "pattern": "pfcg03",
+				"name": "pfcg03",
+				"target": "pfcg03"
+                },
+                {
+                "pattern": "pfcgV",
+				"name": "pfcgV",
+				"target": "pfcgV"
+                },
+                {
+                "pattern": "pfcgM",
+				"name": "pfcgM",
+				"target": "pfcgM"
+                },
+                {
+                "pattern": "pfcgC",
+				"name": "pfcgC",
+				"target": "pfcgC"
+                },
+                {
+                "pattern": "mm01",
+				"name": "mm01",
+				"target": "mm01"
+                },
+                {
+                "pattern": "mm02",
+				"name": "mm02",
+				"target": "mm02"
+                },
+                {
+                "pattern": "mm03",
+				"name": "mm03",
+				"target": "mm03"
+                },
+                {
+                "pattern": "mmC",
+				"name": "mmC",
+				"target": "mmC"
+                },
+                {
+                "pattern": "mmM",
+				"name": "mmM",
+				"target": "mmM"
+                },
+                {
+                "pattern": "mmV",
+				"name": "mmV",
+				"target": "mmV"
                 }
             ],
 			"targets": {
@@ -84,18 +214,174 @@
                     "viewId" : "viewHome",
                     "viewLevel" : 2
 				},
-                "homelogistica": {
-                    "path": "sap.ui.su01.view",
-					"viewName": "LOGISTICA/HomeLogistica",
-                    "viewId" : "viewHomeLogistica",
-                    "viewLevel" : 3
-				},
                 "mk01": {
                     "path": "sap.ui.su01.view",
-					"viewName": "LOGISTICA/MK01",
+					"viewName": "LOGISTICA/MK/MK01",
                     "viewId" : "viewMK01",
                     "viewLevel" : 3
-				}
+				},
+                "mk01c": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK/MK01C",
+                    "viewId" : "viewMK01C",
+                    "viewLevel" : 3
+				},                                
+                "mk02": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK/MK02",
+                    "viewId" : "viewMK02",
+                    "viewLevel" : 3
+				},
+                "mk02m": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK/MK02M",
+                    "viewId" : "viewMK02M",
+                    "viewLevel" : 3
+				},                
+                "mk03": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK/MK03",
+                    "viewId" : "viewMK03",
+                    "viewLevel" : 3
+				},                
+                "mk03v": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/MK/MK03V",
+                    "viewId" : "viewMK03V",
+                    "viewLevel" : 3
+				},                
+                "me11": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME11",
+                    "viewId" : "viewME11",
+                    "viewLevel" : 3
+				},                
+                "me11c": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME11C",
+                    "viewId" : "viewME11C",
+                    "viewLevel" : 3
+				},      
+                "me12": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME12",
+                    "viewId" : "viewME12",
+                    "viewLevel" : 3
+				},   
+                "me12m": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME12M",
+                    "viewId" : "viewME12M",
+                    "viewLevel" : 3
+				},                
+                "me13": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME13",
+                    "viewId" : "viewME13",
+                    "viewLevel" : 3
+				},   
+                "me13v": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/ME/ME13V",
+                    "viewId" : "viewME13V",
+                    "viewLevel" : 3
+				},
+                "su01": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Su/Su01",
+                    "viewId" : "ViewSu01",
+                    "viewLevel" : 3
+                },
+                "su01V": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Su/Su01V",
+                    "viewId" : "ViewSu01v",
+                    "viewLevel" : 3
+                },
+                "su01M": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Su/Su01M",
+                    "viewId" : "ViewSu01m",
+                    "viewLevel" : 3
+                },
+                "su01C": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Su/Su01C",
+                    "viewId" : "ViewSu01c",
+                    "viewLevel" : 3
+                },
+                "pfcg01": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/Pfcg01",
+                    "viewId" : "ViewPfcg01",
+                    "viewLevel" : 3
+                },
+                "pfcg02": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/Pfcg02",
+                    "viewId" : "ViewPfcg02",
+                    "viewLevel" : 3
+                },
+                "pfcg03": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/Pfcg03",
+                    "viewId" : "ViewPfcg03",
+                    "viewLevel" : 3
+                },
+                "pfcgM": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/PfcgM",
+                    "viewId" : "ViewPfcgM",
+                    "viewLevel" : 3
+                },
+                "pfcgC": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/PfcgC",
+                    "viewId" : "ViewPfcgC",
+                    "viewLevel" : 3
+                },
+                "pfcgV": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "GESTIONUSUARIO/Pfcg/PfcgV",
+                    "viewId" : "ViewPfcgV",
+                    "viewLevel" : 3
+                },
+                "mm01": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/Mm01",
+                    "viewId" : "ViewMm01",
+                    "viewLevel" : 3
+                },
+                "mm02": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/Mm02",
+                    "viewId" : "ViewMm02",
+                    "viewLevel" : 3
+                },
+                "mm03": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/Mm03",
+                    "viewId" : "ViewMm03",
+                    "viewLevel" : 3
+                },
+                "mmC": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/MmC",
+                    "viewId" : "ViewMmC",
+                    "viewLevel" : 3
+                },
+                "mmM": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/MmM",
+                    "viewId" : "ViewMmM",
+                    "viewLevel" : 3
+                },
+                "mmV": {
+                    "path": "sap.ui.su01.view",
+					"viewName": "LOGISTICA/Mm/MmV",
+                    "viewId" : "ViewMmV",
+                    "viewLevel" : 3
+                }
 			}
 		}
   }

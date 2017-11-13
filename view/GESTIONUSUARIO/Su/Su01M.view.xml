@@ -1,0 +1,121 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.GESTIONUSUARIO.Su.Su01M"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Modificar usuario">
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://display" press="onView"/>
+			</Toolbar>
+		</subHeader>
+        <content>    
+            <ObjectHeader
+				title="lfarro"
+				backgroundDesign="Solid">
+				<attributes>
+					<ObjectAttribute title="Modificado por" text="ffarro el día 08.11.2017 a las 00:18:00" />
+				</attributes>
+				<statuses>
+					<ObjectStatus title="Estado" text="Desbloqueado" state="Success" />
+				</statuses>
+			</ObjectHeader>
+            <IconTabBar
+				expanded="{device>/isNoPhone}"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter
+						text="Datos">
+						<f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="2"
+                            labelSpanL="2"
+                            labelSpanM="2"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="9"
+                            emptySpanL="8"
+                            emptySpanM="7"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
+							<Label text="Nombre"/>
+							<Input/>
+                            <Label text="Apellido"/>
+							<Input/>
+                            <Label text="Correo"/>
+							<Input/>
+                            <Label text="Celular"/>
+							<Input/>
+                            <Label text="Contraseña"/>
+							<Input/>
+                            <Label text="Repitir contraseña"/>
+							<Input/>
+						</f:SimpleForm>
+					</IconTabFilter>
+					<IconTabFilter
+						text="Roles">
+						<Table 
+                            id="tbRoles"
+                            inset="false"
+                            items="{
+                                path: '/',
+                                sorter: {
+                                    path: 'Name'
+                                }
+                            }">
+                            <columns>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Estado" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Rol" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Descripción" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Fecha inicio" />
+                                </Column>
+                                <Column
+                                    minScreenWidth="Tablet"
+                                    demandPopin="true">
+                                    <Text text="Fecha fin" />
+                                </Column>                                
+                            </columns>
+                            <items>
+                                <ColumnListItem>
+                                    <cells>
+                                        <Text
+                                            text="" />
+                                        <Text
+                                            text="" />
+                                        <Text
+                                            text="" />
+                                        <DatePicker/>
+                                        <DatePicker/>
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+        </content>       
+    </Page>
+</mvc:View>

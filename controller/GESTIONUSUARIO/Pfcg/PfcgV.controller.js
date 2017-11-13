@@ -4,13 +4,17 @@ sap.ui.define([
    "sap/m/MessageToast"
 ], function (BaseController, JSONModel,MessageToast) {
    "use strict";
-   return BaseController.extend("sap.ui.su01.controller.Su01", {
+   return BaseController.extend("sap.ui.su01.controller.GESTIONUSUARIO.Pfcg.PfcgV", {
 
        onInit: function(oEvent) {
        },
        
-       onDisplay: function(oEvent){
-           this.getRouter().navTo("su01v");
+       onBack: function(oEvent){
+           this.getRouter().navTo("pfcg03");
+       },
+       
+       onEdit: function(oEvent){
+           this.getRouter().navTo("pfcgM");
        }
        
    });

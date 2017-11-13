@@ -1,0 +1,201 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.Mm.MmM"
+    xmlns:f="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:forms="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+	xmlns="sap.m">
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page title="Modificar material">  
+        <content>    
+            <ObjectHeader
+				title="Martillo"
+				backgroundDesign="Solid">
+			</ObjectHeader>
+            <IconTabBar
+				expanded="{device>/isNoPhone}"
+				class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter
+						text="Datos basicos">
+						<f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="4"
+                            labelSpanL="4"
+                            labelSpanM="4"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="3"
+                            emptySpanL="3"
+                            emptySpanM="3"
+                            emptySpanS="3"
+                            columnsXL="2"
+                            columnsL="2"
+                            columnsM="2"
+                            singleContainerFullSize="false">
+                            <core:Title text="Datos generales" />
+							<Label text="Unidad medida base"/>
+							<Input/>
+                            <Label text="N° material antiguo"/>
+							<Input/>
+                            <Label text="Status mat. Todos ce"/>
+                            <Input/>
+                            <core:Title/>
+                            <Label text="Grupo de articulos"/>
+							<Input/>                            
+                            <Label text="Valido de"/>
+                            <Input/>
+                            <core:Title text="Dimensiones/EAN" />
+                            <Label text="Peso bruto"/>
+							<Input/>
+                            <Label text="Peso neto"/>
+							<Input/>
+                            <Label text="Volumen"/>
+							<Input/>
+                            <Label text="Tamaño/Dimensión"/>
+							<Input/>
+                            <Label text="Codigo EAN/UPC"/>
+							<Input/>
+                            <core:Title/>
+                            <Label text="Unidad de peso"/>
+							<Input/>
+                            <Label text="Unidad de volumen"/>
+							<Input/>
+                            <Label text="Tipo EAN"/>
+							<Input/>
+                            <core:Title text="Datos material de embalaje" />
+                            <Label text="Gr.materiales ME"/>
+							<Input/>
+						</f:SimpleForm>
+					</IconTabFilter>
+                    <IconTabFilter
+						text="Compras">
+                        <f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="2"
+                            labelSpanL="2"
+                            labelSpanM="2"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="9"
+                            emptySpanL="8"
+                            emptySpanM="7"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
+							<Label text="Centro"/>
+							<Input/>
+						</f:SimpleForm>
+                        <f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="4"
+                            labelSpanL="4"
+                            labelSpanM="4"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="3"
+                            emptySpanL="3"
+                            emptySpanM="3"
+                            emptySpanS="3"
+                            columnsXL="2"
+                            columnsL="2"
+                            columnsM="2"
+                            singleContainerFullSize="false">
+                            <core:Title text="Datos generales" />
+                            <Label text="Unidad medida base"/>
+							<Input/>
+                            <Label text="Grupo de compras"/>
+							<Input/>
+                            <Label text="Stat. mat. especif. ce."/>
+							<Input/>
+                            <Label text="Ident. impuesto ma."/>
+							<Input/>
+                            <Label text="Sujeto-Lote"/>
+                            <CheckBox/>
+                            <core:Title/>
+                            <Label text="Unidad medida pedido"/>
+							<CheckBox/>
+                            <Label text="Grupo de articulos"/>
+							<Input/>
+                            <Label text="Valido de"/>
+							<Input/>
+                            <Label text="UMP var."/>
+							<Input/>
+						</f:SimpleForm>
+                    </IconTabFilter>
+                    <IconTabFilter
+						text="Almacenamiento">
+                        <f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="2"
+                            labelSpanL="2"
+                            labelSpanM="2"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="9"
+                            emptySpanL="8"
+                            emptySpanM="7"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
+							<Label text="Centro"/>
+							<Input/>
+                            <Label text="Almacen"/>
+							<Input/>
+						</f:SimpleForm>
+                        <f:SimpleForm
+							layout="ResponsiveGridLayout"
+                            labelSpanXL="4"
+                            labelSpanL="4"
+                            labelSpanM="4"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="3"
+                            emptySpanL="3"
+                            emptySpanM="3"
+                            emptySpanS="3"
+                            columnsXL="2"
+                            columnsL="2"
+                            columnsM="2"
+                            singleContainerFullSize="false">
+                            <core:Title text="Datos generales" />
+                            <Label text="Unidad medida base"/>
+							<Input/>
+                            <Label text="Condic. temperatura"/>
+							<Input/>
+                            <Label text="sujeto-lote"/>
+							<CheckBox/>
+                            <core:Title/>
+                            <Label text="Unidad med. Salida"/>
+							<Input/>
+                            <Label text="Cond. almacenaje"/>
+							<Input/>
+                            <core:Title text="Datos de conservación" />
+                            <Label text="Tmp-almacenaje max."/>
+							<Input/>
+                            <Label text="Tmp-min. durac. reset."/>
+							<Input/>
+                            <Label text="Ind. per. fe. caducidad"/>
+							<Input/>
+                            <Label text="%tempo. caduc. almacen"/>
+							<Input/>
+                            <core:Title/>
+                            <Label text="Unidad de tiempo"/>
+							<Input/>
+                            <Label text="Dur. total conserv."/>
+							<Input/>
+                            <Label text="Regla redondeo FPC"/>
+							<Input/>
+						</f:SimpleForm>
+                    </IconTabFilter>
+				</items>
+			</IconTabBar>
+        </content>  
+    </Page>
+</mvc:View>

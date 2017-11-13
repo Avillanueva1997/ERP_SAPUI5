@@ -1,0 +1,46 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.Mm.Mm02"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="false" 
+        title="Modificar material">
+        <subHeader>
+			<Toolbar>
+				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://delete" press="onDelete"/>
+			</Toolbar>
+		</subHeader>
+        <content>
+            <f:SimpleForm
+                layout="ResponsiveGridLayout"
+                labelSpanXL="2"
+                labelSpanL="2"
+                labelSpanM="2"
+                labelSpanS="12"
+                adjustLabelSpan="false"
+                emptySpanXL="9"
+                emptySpanL="8"
+                emptySpanM="7"
+                emptySpanS="0"
+                columnsXL="1"
+                columnsL="1"
+                columnsM="1"
+                singleContainerFullSize="false">
+                <f:content>
+                    <Label text="Material" />
+                    <Input/>
+                    <Label text="Tipo de material" />
+                    <Input/>
+                </f:content>
+            </f:SimpleForm>
+        </content>
+	</Page>
+</mvc:View>

@@ -11,7 +11,7 @@ sap.ui.define([
        onInit: function(oEvent) {
        },
        
-       onNavBack: function(oEvent) {
+       onBack: function(oEvent) {
            this.getRouter().navTo("home");
        },
        
