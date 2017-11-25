@@ -11,7 +11,7 @@
     <Page title="Crear Usuario">
         <content>    
             <ObjectHeader
-				title="lfarro"
+				title="ffarro"
 				backgroundDesign="Solid">
 			</ObjectHeader>
             <IconTabBar
@@ -35,18 +35,18 @@
                             columnsL="1"
                             columnsM="1"
                             singleContainerFullSize="false">
-							<Label text="Nombre"/>
-							<Input/>
+							<Label text="Nombre" />
+							<Input id="inpNombre" />
                             <Label text="Apellido"/>
-							<Input/>
+							<Input id="inpApellido"/>
                             <Label text="Correo"/>
-							<Input/>
+							<Input id="inpCorreo"/>
                             <Label text="Celular"/>
-							<Input/>
+							<Input id="inpCelular"/>
                             <Label text="Contraseña"/>
-							<Input/>
+							<Input id="inpContrasena"/>
                             <Label text="Repitir contraseña"/>
-							<Input/>
+							<Input id="inpRepContra"/>
 						</f:SimpleForm>
 					</IconTabFilter>
 					<IconTabFilter

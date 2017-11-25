@@ -13,17 +13,20 @@
             id="oVerticalContent"
             width="100%">
             </l:VerticalLayout>
-            <forms:SimpleForm layout="ResponsiveGridLayout">
+            <forms:SimpleForm id="sfLogin" layout="ResponsiveGridLayout">
                 <forms:title>
                     <core:Title text="Login" />
                 </forms:title>
                 <forms:content> 
                     <Label text="Empresa" />
-                    <Input width="300px" id="txtEmpresa" required="true" />                    
+                    <ComboBox id="cmbEmpresas" selectedKey="{/empresa}"
+                    items="{/}">
+                        <core:Item key="{empresa}" text="{descripcion}" />
+                    </ComboBox>                    
                     <Label text="Usuario" />
-                    <Input width="300px" id="txtUsuario" required="true" />
+                    <Input width="300px" id="txtUsuario" required="true" value="{/usuario}" />
                     <Label text="Contraseña" />
-                    <Input width="300px" type="Password" id="txtPassword" required="true" />                   
+                    <Input width="300px" type="Password" id="txtPassword" required="true" value="{/contrasenia}" />                   
                 </forms:content>
             </forms:SimpleForm>                 
         </content>        

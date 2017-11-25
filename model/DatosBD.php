@@ -1,16 +1,41 @@
 <?php
 
-$con = mysqli_connect('127.0.0.1','root','','prueba');
-if (!$con){
-    die('Could not connect: ' . mysqli_error($con));
+function open_conection($ip,$usuariobd,$clavebd,$bd){
+    $con = mysqli_connect($ip,$usuariobd,$clavebd,$bd);
+    mysqli_select_db($con,"erp_main");
+    return $con;
 }
 
-mysqli_select_db($con,"prueba");
-$sql = "select * from usuario where user = 'FFARRO'";
-$result = mysqli_query($con,$sql);
-    
-while($row = mysqli_fetch_array($result)) {
-    echo $row['User'];
+function close_conection($con1){
+    if(isset($con1) && $con1!=null ){
+        mysqli_close($con1);    
+    }
 }
-mysqli_close($con);
+
+function encriptar($data){
+    $algorithm = MCRYPT_BLOWFISH;
+    $key = 'ERPSAP';
+    $mode = MCRYPT_MODE_CBC;
+
+    $iv = mcrypt_create_iv(mcrypt_get_iv_size($algorithm, $mode),
+                           MCRYPT_DEV_URANDOM);
+
+    $encrypted_data = mcrypt_encrypt($algorithm, $key, $data, $mode, $iv);
+    $plain_text = base64_encode($encrypted_data);
+    return $plain_text;
+}
+
+function desencriptar($data){
+    $algorithm = MCRYPT_BLOWFISH;
+    $key = 'ERPSAP';
+    $mode = MCRYPT_MODE_CBC;
+
+    $iv = mcrypt_create_iv(mcrypt_get_iv_size($algorithm, $mode),
+                           MCRYPT_DEV_URANDOM);
+    
+    $encrypted_data = base64_decode($data);
+    $decoded = mcrypt_decrypt($algorithm, $key, $encrypted_data, $mode, $iv);
+    return $decoded;
+}
+
 ?>

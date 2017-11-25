@@ -9,7 +9,35 @@ sap.ui.define([
    "use strict";
    return BaseController.extend("sap.ui.su01.controller.Login", {
 
-       onInit: function(oEvent) {           
+       onInit: function(oEvent) {       
+
+              var thes = this;
+
+              $.getJSON("/erp/model/inicio.json", function(data){
+                var oModel = new sap.ui.model.json.JSONModel(data); 
+                thes.byId("sfLogin").setModel(oModel);                 
+              });
+              
+              $.ajax({
+                      //data:  parametros,
+                      url:   '/erp/model/ListarEmpresas.php', 
+                      type:  'post',
+                      beforeSend: function () {
+                          //$("#Ord1").html("Procesando, espere por favor...");
+                      },
+                      success:  function (response) {
+                          //$("#Ord1").html(response);                                                    
+                          //thes.byId('Ord1').setValue(hola);
+                          response = JSON.parse(response);
+                          var oModel = new sap.ui.model.json.JSONModel(response);                          
+                          //oModel.setData({"empresas":response}); 
+                          thes.byId("cmbEmpresas").setModel(oModel);                          
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });   
                      
        },               
               
