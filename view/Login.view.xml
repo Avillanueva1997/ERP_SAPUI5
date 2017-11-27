@@ -20,13 +20,13 @@
                 <forms:content> 
                     <Label text="Empresa" />
                     <ComboBox id="cmbEmpresas" selectedKey="{/empresa}"
-                    items="{/}">
-                        <core:Item key="{empresa}" text="{descripcion}" />
+                    items="{cbEmpresas>/}" width="300px" >
+                        <core:Item key="{cbEmpresas>empresa}" text="{cbEmpresas>descripcion}" />
                     </ComboBox>                    
                     <Label text="Usuario" />
-                    <Input width="300px" id="txtUsuario" required="true" value="{/usuario}" />
+                    <Input width="300px" id="txtUsuario" value="{/usuario}" />
                     <Label text="Contraseña" />
-                    <Input width="300px" type="Password" id="txtPassword" required="true" value="{/contrasenia}" />                   
+                    <Input width="300px" type="Password" id="txtPassword" value="{/contrasenia}" />                   
                 </forms:content>
             </forms:SimpleForm>                 
         </content>        

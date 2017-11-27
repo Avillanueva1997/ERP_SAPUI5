@@ -7,7 +7,7 @@
     xmlns:tnt="sap.tnt"
     xmlns:u="sap.ui.unified"
 	xmlns="sap.m">    
-    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' id='prueba' />
     <Page
 		showHeader="true"
 		enableScrolling="false" >

@@ -1,4 +1,4 @@
-var urlGlobal = sessionStorage.urlGlobal;
+var ConexionGlobal = sessionStorage.ConexionGlobal;
 
 jQuery.sap.require("sap.m.MessageBox");
 sap.ui.define([
@@ -10,77 +10,88 @@ sap.ui.define([
    return BaseController.extend("sap.ui.su01.controller.Home", {
 
        onInit: function(oEvent) {
-           var oModel = new JSONModel("model/Tree.json");
-           this.getView().setModel(oModel);
+
+           var thes = this;
+
+           var cnx = JSON.parse(ConexionGlobal);
+
+           var parametros = {
+              "_Ip" : cnx[0].ip,
+              "_Usuario_servidor" : cnx[0].usuario_servidor,
+              "_Pass_servidor" : cnx[0].pass_servidor,
+              "_Base_datos" : cnx[0].base_datos            
+           };
+
+           $.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/GetArbolTx.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {   
+                          response = JSON.parse(response);                        
+                          var oModel = new sap.ui.model.json.JSONModel(response);  
+                          thes.getView().setModel(oModel);
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });
+
        },
        
        onPress: function(oEvent) {
            this.getRouter().navTo("login");
        },
+
+       onPressEnter: function(evt){
+
+           var thes = this;
+
+           var cnx = JSON.parse(ConexionGlobal);
+           var _Trans = sap.ui.getCore().byId("__component0---viewHome--inpTx").getValue();
+           var parametros = {
+              "_Ip" : cnx[0].ip,
+              "_Usuario_servidor" : cnx[0].usuario_servidor,
+              "_Pass_servidor" : cnx[0].pass_servidor,
+              "_Base_datos" : cnx[0].base_datos,
+              "_Trans" : _Trans            
+           };
+
+        $.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/GoTx.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {  
+                          
+                          if (response != "") {
+                            thes.getRouter().navTo(response);
+                          }else{
+                            sap.m.MessageToast.show("Ingrese una transacción válida");
+                          }
+                          
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });
+
+       },
        
-       	handleButtonPress: function(evt) {
+       handleButtonPress: function(evt) {
             var oList = evt.getSource(),
-				oItem = evt.getParameter("listItem"),
-				sPath = oItem.getBindingContext().getPath();
-            
-            switch (sPath)
-            {
-               case "/0/nodes/0/nodes/0/nodes/0": 
-                   this.getRouter().navTo("mk01");
-                   break;
-                    
-               case "/0/nodes/0/nodes/0/nodes/1": 
-                   this.getRouter().navTo("mk02");
-                   break;
-                    
-               case "/0/nodes/0/nodes/0/nodes/2": 
-                   this.getRouter().navTo("mk03");
-                   break;
-                    
-               case "/0/nodes/0/nodes/2/nodes/0": 
-                   this.getRouter().navTo("me11");
-                   break;
-                    
-               case "/0/nodes/0/nodes/2/nodes/1": 
-                   this.getRouter().navTo("me12");
-                   break;
-                    
-               case "/0/nodes/0/nodes/2/nodes/2": 
-                   this.getRouter().navTo("me13");
-                   break;
+				    oItem = evt.getParameter("listItem");
+            var sPath = oItem.getBindingContext().getObject().vista;
 
-               case "/0/nodes/0/nodes/1/nodes/0": 
-                   this.getRouter().navTo("mm01");
-                   break;
-                    
-               case "/0/nodes/0/nodes/1/nodes/1": 
-                   this.getRouter().navTo("mm02");
-                   break;
-                    
-               case "/0/nodes/0/nodes/1/nodes/2": 
-                   this.getRouter().navTo("mm03");
-                   break;
-
-               case "/0/nodes/1/nodes/0/nodes/0": 
-                   this.getRouter().navTo("pfcg01");
-                   break;
-                    
-               case "/0/nodes/1/nodes/0/nodes/1": 
-                   this.getRouter().navTo("pfcg02");
-                   break;
-                    
-               case "/0/nodes/1/nodes/0/nodes/2": 
-                   this.getRouter().navTo("pfcg03");
-                   break;
-                    
-               case "/0/nodes/1/nodes/1/nodes/0": 
-                   this.getRouter().navTo("su01");
-                   break;
-
-               default: 
-                   break;
-            }
-            
+            if (sPath != null && sPath != '') {
+              this.getRouter().navTo(sPath);
+            }            				    
 		},
        
    });

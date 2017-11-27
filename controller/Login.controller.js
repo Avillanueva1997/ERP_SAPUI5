@@ -11,76 +11,116 @@ sap.ui.define([
 
        onInit: function(oEvent) {       
 
-              var thes = this;
+              var thes = this; 
 
-              $.getJSON("/erp/model/inicio.json", function(data){
-                var oModel = new sap.ui.model.json.JSONModel(data); 
-                thes.byId("sfLogin").setModel(oModel);                 
-              });
-              
               $.ajax({
                       //data:  parametros,
-                      url:   '/erp/model/ListarEmpresas.php', 
+                      url:   '/erp/model/entidades/login.json', 
                       type:  'post',
-                      beforeSend: function () {
-                          //$("#Ord1").html("Procesando, espere por favor...");
-                      },
+                      async: false,
                       success:  function (response) {
-                          //$("#Ord1").html(response);                                                    
-                          //thes.byId('Ord1').setValue(hola);
-                          response = JSON.parse(response);
-                          var oModel = new sap.ui.model.json.JSONModel(response);                          
-                          //oModel.setData({"empresas":response}); 
-                          thes.byId("cmbEmpresas").setModel(oModel);                          
+                          var oModel = new sap.ui.model.json.JSONModel(response); 
+                          thes.byId("sfLogin").setModel(oModel);                               
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
                           alert(thrownError);
                       }
-                  });   
-                     
+                  });             
+              
+              $.ajax({
+                      //data:  parametros,
+                      url:   '/erp/model/ListarEmpresas.php', 
+                      type:  'post',
+                      async: false,
+                      success:  function (response) {
+                          response = JSON.parse(response);
+                          var oModel = new sap.ui.model.json.JSONModel(response);   
+                          thes.byId("cmbEmpresas").setModel(oModel,"cbEmpresas");
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });                     
        },               
               
        onPressAcceder: function(oEvent){       
-           /*var lv_empresa = this.getView().byId("txtEmpresa");
-           var lv_usuario = this.getView().byId("txtUsuario");
-           var lv_password = this.getView().byId("txtPassword");
+
+           var data = this.byId("sfLogin").getModel().getData();
+           var flg = 0;
+
+           var parametros = {
+               "_Empresa" : data.empresa,
+               "_Usuario" : data.usuario,
+               "_Password" : data.contrasenia
+           };
+
+           $.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/Login.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {
+                        flg = response;
+                        //alert(response);
+                          /*response = JSON.parse(response);
+                          var oModel = new sap.ui.model.json.JSONModel(response);   
+                          thes.byId("cmbEmpresas").setModel(oModel);*/
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });
+
+           if (flg == 0) {            
+            sap.m.MessageToast.show("Login incorrecto");
+           }else{
+
+            var parametros = {
+               "_Empresa" : data.empresa            
+            };
+
+            $.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/GetCadenaConexion.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {                          
+                          sessionStorage.ConexionGlobal = response;
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });
+
+            data.empresa = "";
+            data.usuario = "";
+            data.contrasenia = "";
+
+            this.byId("sfLogin").getModel().refresh();
+            this.getRouter().navTo("home");
+           }                        
            
-           if(lv_password.getValue() === ""){
-               sap.m.MessageToast.show("Ingresar Password");
-               lv_password.setValueState(sap.ui.core.ValueState.Error);
-               return false;
-           }else{
-               lv_password.setValueState(sap.ui.core.ValueState.None);
-           }
-           if(lv_usuario.getValue() === ""){
-               sap.m.MessageToast.show("Ingresar Usuario");
-               lv_usuario.setValueState(sap.ui.core.ValueState.Error);
-               return false;
-           }else{
-               lv_usuario.setValueState(sap.ui.core.ValueState.None);
-           }
-           if(lv_empresa.getValue() === ""){
-               sap.m.MessageToast.show("Ingresar Empresa");
-               lv_empresa.setValueState(sap.ui.core.ValueState.Error);
-               return false;
-           }else{
-               lv_empresa.setValueState(sap.ui.core.ValueState.None);
-           }*/           
-           this.getRouter().navTo("home");
        },
        
        onPressLimpiar: function(oEvent) {
-           
-           var lv_empresa = this.getView().byId("txtEmpresa");
-           var lv_usuario = this.getView().byId("txtUsuario");
-           var lv_password = this.getView().byId("txtPassword");
-           
-           lv_empresa.setValue("");
-           lv_usuario.setValue("");
-           lv_password.setValue("");
-           
-           sap.m.MessageToast.show("Se limpió");
+
+          var data = this.byId("sfLogin").getModel().getData();
+                     
+          data.empresa = "";
+          data.usuario = "";
+          data.contrasenia = "";
+
+          this.byId("sfLogin").getModel().refresh();
+
+          sap.m.MessageToast.show("Se limpió");
            
        },      
 

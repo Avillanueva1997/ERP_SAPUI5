@@ -1,8 +1,8 @@
 <?php
 
 function open_conection($ip,$usuariobd,$clavebd,$bd){
-    $con = mysqli_connect($ip,$usuariobd,$clavebd,$bd);
-    mysqli_select_db($con,"erp_main");
+    $con = mysqli_connect($ip,$usuariobd,'',$bd);
+    mysqli_select_db($con,$bd);
     return $con;
 }
 

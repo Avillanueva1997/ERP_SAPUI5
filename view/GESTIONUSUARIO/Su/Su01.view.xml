@@ -39,7 +39,7 @@
                 singleContainerFullSize="false">
                 <f:content>
                     <Label text="Usuario" />
-                    <Input/>
+                    <Input id="inpUsuario" />
                 </f:content>
             </f:SimpleForm>                  
         </content>       

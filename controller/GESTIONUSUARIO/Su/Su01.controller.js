@@ -1,3 +1,5 @@
+var ConexionGlobal = sessionStorage.ConexionGlobal;
+
 sap.ui.define([
    "sap/ui/su01/controller/BaseController",
    "sap/ui/model/json/JSONModel",
@@ -27,7 +29,46 @@ sap.ui.define([
        },
        
        onNew: function(oEvent){
-           this.getRouter().navTo("su01C");
+       	   var Usuario = this.byId("inpUsuario").getValue();
+
+       	   if (Usuario != "") {
+
+       	   	var thes = this;
+            var cnx = JSON.parse(ConexionGlobal);
+
+            var parametros = {
+              "_Ip" : cnx[0].ip,
+              "_Usuario_servidor" : cnx[0].usuario_servidor,
+              "_Pass_servidor" : cnx[0].pass_servidor,
+              "_Base_datos" : cnx[0].base_datos,
+              "_Usuario" : Usuario            
+            };
+
+       	   	$.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/ValidarUsuario.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {   
+                      	alert(response);
+                      	if (response=="") {
+                      		thes.getRouter().navTo("su01C");
+                      	}else{
+                      		sap.m.MessageToast.show("Ya existe el usuario");
+                      	}
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                          alert(xhr.status);
+                          alert(thrownError);
+                      }
+                  });
+       	   	
+       	   }else{
+       	   	sap.m.MessageToast.show("Ingrese el nombre de usuario que desea crear");
+       	   }
+           
        },
        
        onDelete: function(oEvent){

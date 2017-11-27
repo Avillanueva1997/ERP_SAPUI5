@@ -37,37 +37,37 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
 							<Label text="Unidad medida base"/>
-							<Input/>
+                            <Input value="{/meins}"/>
                             <Label text="N° material antiguo"/>
-							<Input/>
+                            <Input value="{/bismt}"/>
                             <Label text="Status mat. Todos ce"/>
-                            <Input/>
+                            <Input value="{/kosch}"/>
                             <core:Title/>
                             <Label text="Grupo de articulos"/>
-							<Input/>                            
+                            <Input value="{/matkl}" />
                             <Label text="Valido de"/>
-                            <Input/>
+                            <Input value="{/mstde}" />
                             <core:Title text="Dimensiones/EAN" />
                             <Label text="Peso bruto"/>
-							<Input/>
+                            <Input value="{/brgew}" />
                             <Label text="Peso neto"/>
-							<Input/>
+                            <Input value="{/ntgew}"/>
                             <Label text="Volumen"/>
-							<Input/>
+                            <Input value="{/volum}"/>
                             <Label text="Tamaño/Dimensión"/>
-							<Input/>
+                            <Input value="{/groes}"/>
                             <Label text="Codigo EAN/UPC"/>
-							<Input/>
+                            <Input value="{/ean11}"/>
                             <core:Title/>
                             <Label text="Unidad de peso"/>
-							<Input/>
+                            <Input value="{/gewei}"/>
                             <Label text="Unidad de volumen"/>
-							<Input/>
+                            <Input value="{/voleh}"/>
                             <Label text="Tipo EAN"/>
-							<Input/>
+                            <Input value="{/numtp}"/>
                             <core:Title text="Datos material de embalaje" />
                             <Label text="Gr.materiales ME"/>
-							<Input/>
+                            <Input value="{/magrv}"/>
 						</f:SimpleForm>
 					</IconTabFilter>
                     <IconTabFilter
@@ -88,10 +88,10 @@
                             columnsM="1"
                             singleContainerFullSize="false">
 							<Label text="Centro"/>
-							<Input/>
-						</f:SimpleForm>
+                            <Input value="{/werks}"/>
+                        </f:SimpleForm>
                         <f:SimpleForm
-							layout="ResponsiveGridLayout"
+                            layout="ResponsiveGridLayout"
                             labelSpanXL="4"
                             labelSpanL="4"
                             labelSpanM="4"
@@ -107,24 +107,24 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
                             <Label text="Unidad medida base"/>
-							<Input/>
+                            <Input value="{/meins}"/>
                             <Label text="Grupo de compras"/>
-							<Input/>
+                            <Input value="{/ekgrp}"/>
                             <Label text="Stat. mat. especif. ce."/>
-							<Input/>
+                            <Input value="{/mmsta}"/>
                             <Label text="Ident. impuesto ma."/>
-							<Input/>
+                            <Input value="{/taxim}"/>
                             <Label text="Sujeto-Lote"/>
                             <CheckBox/>
                             <core:Title/>
                             <Label text="Unidad medida pedido"/>
-							<CheckBox/>
+                            <CheckBox/>
                             <Label text="Grupo de articulos"/>
-							<Input/>
+                            <Input value="{/matkl}"/>
                             <Label text="Valido de"/>
-							<Input/>
+                            <Input value="{/mmstd}"/>
                             <Label text="UMP var."/>
-							<Input/>
+                            <Input value="{/vabme}"/>
 						</f:SimpleForm>
                     </IconTabFilter>
                     <IconTabFilter
@@ -145,9 +145,9 @@
                             columnsM="1"
                             singleContainerFullSize="false">
 							<Label text="Centro"/>
-							<Input/>
+                            <Input value="{/werks}"/>
                             <Label text="Almacen"/>
-							<Input/>
+                            <Input value="{/}"/>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -166,32 +166,32 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
                             <Label text="Unidad medida base"/>
-							<Input/>
+                            <Input value="{/meins}"/>
                             <Label text="Condic. temperatura"/>
-							<Input/>
+                            <Input value="{/tempb}"/>
                             <Label text="sujeto-lote"/>
-							<CheckBox/>
+                            <CheckBox/>
                             <core:Title/>
                             <Label text="Unidad med. Salida"/>
-							<Input/>
+                            <Input value="{/ausme}"/>
                             <Label text="Cond. almacenaje"/>
-							<Input/>
+                            <Input value="{/raube}"/>
                             <core:Title text="Datos de conservación" />
                             <Label text="Tmp-almacenaje max."/>
-							<Input/>
+                            <Input value="{/maxlz}"/>
                             <Label text="Tmp-min. durac. reset."/>
-							<Input/>
+                            <Input value="{/mhdrz}"/>
                             <Label text="Ind. per. fe. caducidad"/>
-							<Input/>
+                            <Input value="{/iprkz}"/>
                             <Label text="%tempo. caduc. almacen"/>
-							<Input/>
+                            <Input value="{/mhdlp}"/>
                             <core:Title/>
                             <Label text="Unidad de tiempo"/>
-							<Input/>
+                            <Input value="{/lzeih}"/>
                             <Label text="Dur. total conserv."/>
-							<Input/>
+                            <Input value="{/mhdhb}"/>
                             <Label text="Regla redondeo FPC"/>
-							<Input/>
+                            <Input value="{/rdmhd}"/>
 						</f:SimpleForm>
                     </IconTabFilter>
 				</items>

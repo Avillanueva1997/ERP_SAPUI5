@@ -44,9 +44,9 @@
                             <Label text="Celular"/>
 							<Input id="inpCelular"/>
                             <Label text="Contraseña"/>
-							<Input id="inpContrasena"/>
+							<Input id="inpContrasena" type="Password"/>
                             <Label text="Repitir contraseña"/>
-							<Input id="inpRepContra"/>
+							<Input id="inpRepContra" type="Password"/>
 						</f:SimpleForm>
 					</IconTabFilter>
 					<IconTabFilter
