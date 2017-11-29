@@ -11,7 +11,7 @@ $result = mysqli_query($con,$sql);
 $empresas = array();
 
 while($row = mysqli_fetch_array($result)) 
-{ 
+{ 	
     $empresa=$row['empresa'];
     $descripcion=$row['descripcion'];    
 

@@ -33,7 +33,7 @@ sap.ui.define([
                       url:   '/erp/model/ListarEmpresas.php', 
                       type:  'post',
                       async: false,
-                      success:  function (response) {
+                      success:  function (response) {                        
                           response = JSON.parse(response);
                           var oModel = new sap.ui.model.json.JSONModel(response);   
                           thes.byId("cmbEmpresas").setModel(oModel,"cbEmpresas");
