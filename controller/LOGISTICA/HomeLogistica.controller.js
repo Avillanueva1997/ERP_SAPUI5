@@ -1,4 +1,4 @@
-var urlGlobal = sessionStorage.urlGlobal;
+var ConexionGlobal = sessionStorage.ConexionGlobal;
 
 jQuery.sap.require("sap.m.MessageBox");
 sap.ui.define([

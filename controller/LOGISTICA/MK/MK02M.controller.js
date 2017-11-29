@@ -1,4 +1,4 @@
-var urlGlobal = sessionStorage.urlGlobal;
+var ConexionGlobal = sessionStorage.ConexionGlobal;
 
 jQuery.sap.require("sap.m.MessageBox");
 sap.ui.define([
@@ -10,7 +10,7 @@ sap.ui.define([
 
        onInit: function(oEvent) {
 
-        var thes = this;
+           var thes = this;
 
            var cnx = JSON.parse(ConexionGlobal);
 
@@ -30,10 +30,7 @@ sap.ui.define([
                       async: false,
                       beforeSend: function () {
                       },
-                      success:  function (response) {        
-                          /*response = JSON.parse(response);                        
-                          var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                      success:  function (response) {     
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -49,9 +46,9 @@ sap.ui.define([
                       beforeSend: function () {
                       },
                       success:  function (response) {
-                          /*response = JSON.parse(response);                        
+                          response = JSON.parse(response);   
                           var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                          thes.byId("mk02m").setModel(oModel,"tbBancarios");
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -67,9 +64,10 @@ sap.ui.define([
                       beforeSend: function () {
                       },
                       success:  function (response) {
-                          /*response = JSON.parse(response);                        
+                          response = JSON.parse(response);   
+                          response = response[0];
                           var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                          thes.byId("mk02m").setModel(oModel);
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -82,6 +80,10 @@ sap.ui.define([
        
        onBack: function(oEvent) {
            this.getRouter().navTo("home");
+       },
+
+       onAdd: function(oEvent){
+        
        },
        
        onPressEnter: function(oEvent) {
