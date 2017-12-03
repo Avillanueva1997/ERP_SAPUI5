@@ -36,8 +36,8 @@
                 <f:content>
                     <Label text="Material" />
                     <Input/>
-                    <Label text="Tipo de material" />
-                    <Input/>
+                    <!--<Label text="Tipo de material" />
+                    <Input/>-->
                 </f:content>
             </f:SimpleForm>
         </content>

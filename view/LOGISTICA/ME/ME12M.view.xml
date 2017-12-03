@@ -10,11 +10,12 @@
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page
 		showHeader="true"
-		enableScrolling="true" >
+		enableScrolling="true"
+        id="me12m" >
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
-				<Title text="Visualizar reg.info de compras" level="H2"/>			
+				<Title text="Modificar reg.info de compras" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    

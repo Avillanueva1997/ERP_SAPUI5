@@ -10,7 +10,17 @@ sap.ui.define([
 
        onInit: function(oEvent) {
 
-           var thes = this;
+        var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+        oRouter.getRoute("mk03v").attachPatternMatched(this._onObjectMatched, this);
+           
+       },
+
+       _onObjectMatched: function (oEvent) {
+
+        var thes = this;
+
+           var lifnr = sessionStorage.Lifnr;
+           var ekorg = sessionStorage.Ekorg;
 
            var cnx = JSON.parse(ConexionGlobal);
 
@@ -19,21 +29,22 @@ sap.ui.define([
               "_Usuario_servidor" : cnx[0].usuario_servidor,
               "_Pass_servidor" : cnx[0].pass_servidor,
               "_Base_datos" : cnx[0].base_datos,
-              "_lifnr" : "1000000001",
-              "_ekorg" : "aaaa"            
+              "_lifnr" : lifnr,
+              "_ekorg" : ekorg            
            };
 
            $.ajax({
                       data:  parametros,
-                      url:   '/erp/model/ListarLfa1.php', 
+                      url:   '/erp/model/ListarProveedor.php', 
                       type:  'post',
                       async: false,
                       beforeSend: function () {
                       },
                       success:  function (response) {        
-                          /*response = JSON.parse(response);                        
+                          response = JSON.parse(response);   
+                          response = response[0];
                           var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                          thes.byId("mk03v").setModel(oModel);
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -49,9 +60,9 @@ sap.ui.define([
                       beforeSend: function () {
                       },
                       success:  function (response) {
-                          /*response = JSON.parse(response);                        
-                          var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                         response = JSON.parse(response);   
+                         var oModel = new sap.ui.model.json.JSONModel(response);  
+                         thes.byId("mk03v").setModel(oModel,"tbBancarios");
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -59,28 +70,12 @@ sap.ui.define([
                       }
                   });
 
-               $.ajax({
-                      data:  parametros,
-                      url:   '/erp/model/ListarLfm1.php', 
-                      type:  'post',
-                      async: false,
-                      beforeSend: function () {
-                      },
-                      success:  function (response) {
-                          /*response = JSON.parse(response);                        
-                          var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                          alert(xhr.status);
-                          alert(thrownError);
-                      }
-                  }); 
-
        },
        
        onBack: function(oEvent) {
-           this.getRouter().navTo("home");
+           sessionStorage.removeItem('Lifnr');
+           sessionStorage.removeItem('Ekorg');
+           this.getRouter().navTo("mk03");
        },
        
        onPressEnter: function(oEvent) {

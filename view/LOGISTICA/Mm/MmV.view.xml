@@ -8,7 +8,8 @@
     xmlns:tnt="sap.tnt"
 	xmlns="sap.m">
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
-    <Page title="Visualizar material">
+    <Page title="Visualizar material"
+        id="mmv">
         <content>    
             <ObjectHeader
 				title="Martillo"
@@ -37,37 +38,37 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
 							<Label text="Unidad medida base"/>
-							<Input enabled="false" value="{/meins}"/>
+							<Input editable="false" value="{/meins}"/>
                             <Label text="N° material antiguo"/>
-							<Input enabled="false" value="{/bismt}"/>
+							<Input editable="false" value="{/bismt}"/>
                             <Label text="Status mat. Todos ce"/>
-                            <Input enabled="false" value="{/kosch}"/>
+                            <Input editable="false" value="{/kosch}"/>
                             <core:Title/>
                             <Label text="Grupo de articulos"/>
-							<Input enabled="false" value="{/matkl}"/>                            
+							<Input editable="false" value="{/matkl}"/>                            
                             <Label text="Valido de" />
-                            <Input enabled="false" value="{/mstde}"/>
+                            <Input editable="false" value="{/mstde}"/>
                             <core:Title text="Dimensiones/EAN" />
                             <Label text="Peso bruto"/>
-							<Input enabled="false" value="{/brgew}"/>
+							<Input editable="false" value="{/brgew}"/>
                             <Label text="Peso neto"/>
-							<Input enabled="false" value="{/ntgew}"/>
+							<Input editable="false" value="{/ntgew}"/>
                             <Label text="Volumen"/>
-							<Input enabled="false" value="{/volum}"/>
+							<Input editable="false" value="{/volum}"/>
                             <Label text="Tamaño/Dimensión"/>
-							<Input enabled="false" value="{/groes}"/>
+							<Input editable="false" value="{/groes}"/>
                             <Label text="Codigo EAN/UPC"/>
-							<Input enabled="false" value="{/ean11}"/>
+							<Input editable="false" value="{/ean11}"/>
                             <core:Title/>
                             <Label text="Unidad de peso"/>
-							<Input enabled="false" value="{/gewei}"/>
+							<Input editable="false" value="{/gewei}"/>
                             <Label text="Unidad de volumen"/>
-							<Input enabled="false" value="{/voleh}"/>
+							<Input editable="false" value="{/voleh}"/>
                             <Label text="Tipo EAN"/>
-							<Input enabled="false" value="{/numtp}"/>
+							<Input editable="false" value="{/numtp}"/>
                             <core:Title text="Datos material de embalaje" />
                             <Label text="Gr.materiales ME"/>
-							<Input enabled="false" value="{/magrv}"/>
+							<Input editable="false" value="{/magrv}"/>
 						</f:SimpleForm>
 					</IconTabFilter>
                     <IconTabFilter
@@ -88,7 +89,7 @@
                             columnsM="1"
                             singleContainerFullSize="false">
 							<Label text="Centro"/>
-							<Input enabled="false" value="{/werks}"/>
+							<Input editable="false" value="{/werks}"/>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -107,24 +108,24 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
                             <Label text="Unidad medida base"/>
-							<Input enabled="false" value="{/meins}"/>
+							<Input editable="false" value="{/meins}"/>
                             <Label text="Grupo de compras"/>
-							<Input enabled="false" value="{/ekgrp}"/>
+							<Input editable="false" value="{/ekgrp}"/>
                             <Label text="Stat. mat. especif. ce."/>
-							<Input enabled="false" value="{/mmsta}"/>
+							<Input editable="false" value="{/mmsta}"/>
                             <Label text="Ident. impuesto ma."/>
-							<Input enabled="false" value="{/taxim}"/>
+							<Input editable="false" value="{/taxim}"/>
                             <Label text="Sujeto-Lote"/>
-                            <CheckBox  enabled="false"/>
+                            <CheckBox  editable="false"/>
                             <core:Title/>
                             <Label text="Unidad medida pedido"/>
-							<CheckBox  enabled="false"/>
+							<CheckBox  editable="false"/>
                             <Label text="Grupo de articulos"/>
-							<Input enabled="false" value="{/matkl}"/>
+							<Input editable="false" value="{/matkl}"/>
                             <Label text="Valido de"/>
-							<Input enabled="false" value="{/mmstd}"/>
+							<Input editable="false" value="{/mmstd}"/>
                             <Label text="UMP var."/>
-							<Input enabled="false" value="{/vabme}"/>
+							<Input editable="false" value="{/vabme}"/>
 						</f:SimpleForm>
                     </IconTabFilter>
                     <IconTabFilter
@@ -145,9 +146,9 @@
                             columnsM="1"
                             singleContainerFullSize="false">
 							<Label text="Centro"/>
-							<Input enabled="false" value="{/werks}"/>
+							<Input editable="false" value="{/werks}"/>
                             <Label text="Almacen"/>
-							<Input enabled="false" value="{/}"/>
+							<Input editable="false" value="{/}"/>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -166,32 +167,32 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
                             <Label text="Unidad medida base"/>
-							<Input enabled="false" value="{/meins}"/>
+							<Input editable="false" value="{/meins}"/>
                             <Label text="Condic. temperatura"/>
-							<Input enabled="false" value="{/tempb}"/>
+							<Input editable="false" value="{/tempb}"/>
                             <Label text="sujeto-lote"/>
-							<CheckBox  enabled="false"/>
+							<CheckBox  editable="false"/>
                             <core:Title/>
                             <Label text="Unidad med. Salida"/>
-							<Input enabled="false" value="{/ausme}"/>
+							<Input editable="false" value="{/ausme}"/>
                             <Label text="Cond. almacenaje"/>
-							<Input enabled="false" value="{/raube}"/>
+							<Input editable="false" value="{/raube}"/>
                             <core:Title text="Datos de conservación" />
                             <Label text="Tmp-almacenaje max."/>
-							<Input enabled="false" value="{/maxlz}"/>
+							<Input editable="false" value="{/maxlz}"/>
                             <Label text="Tmp-min. durac. reset."/>
-							<Input enabled="false" value="{/mhdrz}"/>
+							<Input editable="false" value="{/mhdrz}"/>
                             <Label text="Ind. per. fe. caducidad"/>
-							<Input enabled="false" value="{/iprkz}"/>
+							<Input editable="false" value="{/iprkz}"/> 
                             <Label text="%tempo. caduc. almacen"/>
-							<Input enabled="false" value="{/mhdlp}"/>
+							<Input editable="false" value="{/mhdlp}"/>
                             <core:Title/>
                             <Label text="Unidad de tiempo"/>
-							<Input enabled="false" value="{/lzeih}"/>
+							<Input editable="false" value="{/lzeih}"/>
                             <Label text="Dur. total conserv."/>
-							<Input enabled="false" value="{/mhdhb}"/>
+							<Input editable="false" value="{/mhdhb}"/>
                             <Label text="Regla redondeo FPC"/>
-							<Input enabled="false" value="{/rdmhd}"/>
+							<Input editable="false" value="{/rdmhd}"/>
 						</f:SimpleForm>
                     </IconTabFilter>
 				</items>

@@ -20,41 +20,23 @@ sap.ui.define([
               "_Pass_servidor" : cnx[0].pass_servidor,
               "_Base_datos" : cnx[0].base_datos,
               "_infnr" : "1000000001",
-              "_lifnr" : "aaaa",
-              "_matnr" : "1000000001",
-              "_ekorg" : "aaa",
-              "_werks" : "bbb"
+              "_ekorg" : "100",
+              "_esokz" : "1",
+              "_werks" : "100"
            };
 
            $.ajax({
                       data:  parametros,
-                      url:   '/erp/model/ListarEina.php', 
+                      url:   '/erp/model/ListarRegistroinfo.php', 
                       type:  'post',
                       async: false,
                       beforeSend: function () {
                       },
                       success:  function (response) {        
-                          /*response = JSON.parse(response);                        
+                          response = JSON.parse(response);   
+                          response = response[0];
                           var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                          alert(xhr.status);
-                          alert(thrownError);
-                      }
-                  });
-
-             $.ajax({
-                      data:  parametros,
-                      url:   '/erp/model/ListarEine.php', 
-                      type:  'post',
-                      async: false,
-                      beforeSend: function () {
-                      },
-                      success:  function (response) {
-                          /*response = JSON.parse(response);                        
-                          var oModel = new sap.ui.model.json.JSONModel(response);  
-                          thes.getView().setModel(oModel);*/
+                          thes.byId("me13v").setModel(oModel);
                       },
                       error: function (xhr, ajaxOptions, thrownError) {
                           alert(xhr.status);
@@ -64,7 +46,7 @@ sap.ui.define([
 
        },
        
-       oBack: function(oEvent) {
+       onBack: function(oEvent) {
            this.getRouter().navTo("me13");
        },
        

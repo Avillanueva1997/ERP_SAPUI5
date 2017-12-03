@@ -126,12 +126,12 @@
 				"target": "su01"
                 },
                 {
-                "pattern": "su01V",
+                "pattern": "su01V/{usuario}",
 				"name": "su01V",
 				"target": "su01V"
                 },
                 {
-                "pattern": "su01M",
+                "pattern": "su01M/{usuario}",
 				"name": "su01M",
 				"target": "su01M"
                 },

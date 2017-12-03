@@ -9,6 +9,7 @@
 	xmlns="sap.m">    
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page
+        id="mk03v"
 		showHeader="true"
 		enableScrolling="true" >
         <customHeader>            
@@ -23,7 +24,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Acreedor" />
-                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false"/>                                                           
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false" value="{/lifnr}"/>                                                           
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -139,10 +140,16 @@
                         
                         <Table id="tbDatosbanc"
                             inset="false"
-                            mode="MultiSelect">
+                            mode="MultiSelect"
+                            items="{
+                                path: 'tbBancarios>/'
+                            }">
                             <headerToolbar>
                                 <Toolbar>
                                     <Title text="Datos bancarios" level="H2"/>
+                                    <ToolbarSpacer/>
+                                    <Button press="onAdd" icon="sap-icon://add"/>
+                                    <Button press="onDelete" icon="sap-icon://delete"/>
                                 </Toolbar>
                             </headerToolbar>
                             <columns>
@@ -204,29 +211,28 @@
                             <items>
                                 <ColumnListItem>
                                     <cells>
-                                        <ObjectIdentifier
-                                            title="{Name}"
-                                            text="1007507"/>
                                         <Text
-                                            text="0020" />
+                                            text="{tbBancarios>banks}" />
                                         <Text
-                                            text="50" />
+                                            text="{tbBancarios>bankl}" />
                                         <Text
-                                            text="PNPJ" />
+                                            text="{tbBancarios>bankn}" />
                                         <Text
-                                            text="MATERIAL NO SE ENCUENTRA EN LA LÍNEA" />
+                                            text="{tbBancarios>koinh}" />
                                         <Text
-                                            text="PNP" />
+                                            text="{tbBancarios>bkont}" />
                                         <Text
-                                            text="PARO NO PLANIFICADO" />
+                                            text="{}" />
                                         <Text
-                                            text="J" />
+                                            text="{}" />
                                         <Text
-                                            text="MATERIAL NO SE ENCUENTRA EN LA LÍNEA" />
+                                            text="{tbBancarios>bvtyp}" />
                                         <Text
-                                            text="14:00:00" />
+                                            text="{tbBancarios>bkref}" />
                                         <Text
-                                            text="16:00:00" />                                                                       
+                                            text="{tbBancarios>kovon}" />
+                                        <Text
+                                            text="{tbBancarios>kobis}" />
                                     </cells>
                                 </ColumnListItem>
                             </items>                    

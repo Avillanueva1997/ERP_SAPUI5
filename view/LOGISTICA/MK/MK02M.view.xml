@@ -15,7 +15,7 @@
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
-				<Title text="Acreedor Visualizar" level="H2"/>			
+				<Title text="Acreedor Modificar" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    
@@ -24,7 +24,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Acreedor" />
-                    <Input id="iptAcreedor" width="300px" showValueHelp="true" />                                                           
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false" value="{/lifnr}" />                                                           
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -232,7 +232,7 @@
                                         <Text
                                             text="{tbBancarios>kovon}" />
                                         <Text
-                                            text="{tbBancarios>kobis}" />                                                                       
+                                            text="{tbBancarios>kobis}" />   
                                     </cells>
                                 </ColumnListItem>
                             </items>                    

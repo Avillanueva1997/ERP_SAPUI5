@@ -8,7 +8,8 @@
     xmlns:tnt="sap.tnt"
 	xmlns="sap.m">
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
-    <Page title="Modificar usuario">
+    <Page title="Modificar usuario"
+        id="su01m">
         <subHeader>
 			<Toolbar>
 				<Button icon="sap-icon://display" press="onView"/>
@@ -16,10 +17,11 @@
 		</subHeader>
         <content>    
             <ObjectHeader
-				title="lfarro"
-				backgroundDesign="Solid">
+				title="{/usuario}"
+				backgroundDesign="Solid"
+                id="objHusuario">
 				<attributes>
-					<ObjectAttribute title="Modificado por" text="ffarro el día 08.11.2017 a las 00:18:00" />
+					<!--<ObjectAttribute title="Modificado por" text="ffarro el día 08.11.2017 a las 00:18:00" />-->
 				</attributes>
 				<statuses>
 					<ObjectStatus title="Estado" text="Desbloqueado" state="Success" />
@@ -47,17 +49,13 @@
                             columnsM="1"
                             singleContainerFullSize="false">
 							<Label text="Nombre"/>
-							<Input/>
+							<Input value="{/nombre}" />
                             <Label text="Apellido"/>
-							<Input/>
+							<Input value="{/apellido}"/>
                             <Label text="Correo"/>
-							<Input/>
+							<Input value="{/correo}"/>
                             <Label text="Celular"/>
-							<Input/>
-                            <Label text="Contraseña"/>
-							<Input/>
-                            <Label text="Repitir contraseña"/>
-							<Input/>
+							<Input value="{/celular}"/>
 						</f:SimpleForm>
 					</IconTabFilter>
 					<IconTabFilter

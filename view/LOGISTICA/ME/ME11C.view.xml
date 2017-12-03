@@ -14,7 +14,7 @@
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
-				<Title text="Visualizar reg.info de compras" level="H2"/>			
+				<Title text="Crear reg.info de compras" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    

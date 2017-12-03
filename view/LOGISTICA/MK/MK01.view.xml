@@ -21,7 +21,7 @@
         <subHeader>
 			<Toolbar>
 				<Button icon="sap-icon://document" press="onNew"/>
-				<Button icon="sap-icon://copy" press="onCopy"/>
+				<!--<Button icon="sap-icon://copy" press="onCopy"/>-->
 			</Toolbar>
 		</subHeader>
         <content>
@@ -32,11 +32,11 @@
                     <Input width="300px" showValueHelp="true"/>
                     <Label text="Organización compras" />
                     <Input width="300px" showValueHelp="true"/>
-                    <Label text="Grupo de cuentas" />
-                    <Input width="300px" showValueHelp="true"/>                                           
+                    <!--<Label text="Grupo de cuentas" />
+                    <Input width="300px" showValueHelp="true"/>-->                                           
                 </f:content>
             </f:SimpleForm>
-            <f:SimpleForm
+            <!--<f:SimpleForm
                 layout="ResponsiveGridLayout">
                 <f:title>
                     <core:Title text="Modelo" />
@@ -47,7 +47,7 @@
                     <Label text="Organización compras" />
                     <Input width="300px" showValueHelp="true"/>                              
                 </f:content>
-            </f:SimpleForm>
+            </f:SimpleForm>-->
         </content>
 	</Page>
 </mvc:View>

@@ -19,14 +19,23 @@ sap.ui.define([
        },
        
        onEdit: function(oEvent){
-           this.getRouter().navTo("mmM");
+
+        var Matnr = this.byId("inpMatnr").getValue();
+
+        if (Matnr != "") {
+          sessionStorage.Matnr = Matnr;
+          this.getRouter().navTo("mmm");
+        }else{
+          sap.m.MessageToast.show("Ingrese el nombre de usuario que desea modificar");
+        }
+
        },
        
        onDelete: function(oEvent){
-            var dialog = new Dialog({
+        var dialog = new Dialog({
 				title: 'Confirmación',
 				type: 'Message',
-				content: new Text({ text: 'Desea eliminar el material?' }),
+				content: new Text({ text: '¿Desea eliminar el material?' }),
 				beginButton: new Button({
 					text: 'Confirmar',
 					press: function () {

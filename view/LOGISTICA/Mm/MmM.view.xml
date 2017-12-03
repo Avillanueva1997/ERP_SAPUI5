@@ -8,7 +8,8 @@
     xmlns:tnt="sap.tnt"
 	xmlns="sap.m">
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
-    <Page title="Modificar material">  
+    <Page title="Modificar material"
+        id="mmm">  
         <content>    
             <ObjectHeader
 				title="Martillo"

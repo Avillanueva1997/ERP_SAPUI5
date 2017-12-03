@@ -15,7 +15,7 @@
         <subHeader>
 			<Toolbar>
 				<Button icon="sap-icon://document" press="onNew"/>
-				<Button icon="sap-icon://copy" press="onCopy"/>
+				<!--<Button icon="sap-icon://copy" press="onCopy"/>-->
 			</Toolbar>
 		</subHeader>
         <content>
@@ -37,8 +37,8 @@
                 <f:content>
                     <Label text="Material" />
                     <Input/>
-                    <Label text="Tipo de material" />
-                    <Input/>
+                    <!--<Label text="Tipo de material" />
+                    <Input/>-->
                 </f:content>
             </f:SimpleForm>
         </content>
