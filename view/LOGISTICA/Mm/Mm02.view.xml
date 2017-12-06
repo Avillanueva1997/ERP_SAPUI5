@@ -35,10 +35,10 @@
                 columnsM="1"
                 singleContainerFullSize="false">
                 <f:content>
-                    <Label id="inpMatnr" text="Material" />
-                    <Input/>
-                    <!--<Label text="Tipo de material" />
-                    <Input/>-->
+                    <Label text="Material" />
+                    <Input id="inpMatnr" />
+                    <Label text="Centro" />
+                    <Input id="inpWerks"/>
                 </f:content>
             </f:SimpleForm>
         </content>

@@ -11,10 +11,10 @@
     <Page title="Modificar material"
         id="mmm">  
         <content>    
-            <ObjectHeader
+            <!--<ObjectHeader
 				title="Martillo"
 				backgroundDesign="Solid">
-			</ObjectHeader>
+			</ObjectHeader>-->
             <IconTabBar
 				expanded="{device>/isNoPhone}"
 				class="sapUiResponsiveContentPadding">

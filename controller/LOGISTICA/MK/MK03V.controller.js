@@ -17,7 +17,7 @@ sap.ui.define([
 
        _onObjectMatched: function (oEvent) {
 
-        var thes = this;
+           var thes = this;
 
            var lifnr = sessionStorage.Lifnr;
            var ekorg = sessionStorage.Ekorg;

@@ -35,9 +35,9 @@
                 singleContainerFullSize="false">
                 <f:content>
                     <Label text="Material" />
-                    <Input/>
-                    <!--<Label text="Tipo de material" />
-                    <Input/>-->
+                    <Input id="inpMatnr"/>
+                    <Label text="Centro" />
+                    <Input id="inpWerks"/>
                 </f:content>
             </f:SimpleForm>
         </content>

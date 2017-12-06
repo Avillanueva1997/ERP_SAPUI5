@@ -1,11 +1,14 @@
 sap.ui.define([
-   "sap/ui/su01/controller/BaseController"
-], function (BaseController) {
-   "use strict";
-   return BaseController.extend("sap.ui.su01.controller.LOGISTICA.Mm.MmV", {
+	"sap/ui/su01/controller/BaseController"
+	], function (BaseController) {
+		"use strict";
+		return BaseController.extend("sap.ui.su01.controller.LOGISTICA.Mm.MmV", {
 
-       onInit: function(oEvent) {
-       	var thes = this;
+			onInit: function(oEvent) {
+				var thes = this;
+
+				var matnr = sessionStorage.Matnr;
+       			var werks = sessionStorage.Werks;	
 
 				var cnx = JSON.parse(ConexionGlobal);
 
@@ -14,9 +17,8 @@ sap.ui.define([
 					"_Usuario_servidor" : cnx[0].usuario_servidor,
 					"_Pass_servidor" : cnx[0].pass_servidor,
 					"_Base_datos" : cnx[0].base_datos,
-					"_matnr" : "1000000001",
-					"_werks" : "100",            
-					"_aland" : "100",
+					"_matnr" : matnr,
+					"_werks" : werks
 				};
 
 				$.ajax({
@@ -37,11 +39,11 @@ sap.ui.define([
 						alert(thrownError);
 					}
 				});
-       },
-       
-       onBack: function(oEvent){
-           this.getRouter().navTo("mm03");
-       }
-       
-   });
-});
+			},
+
+			onBack: function(oEvent){
+				this.getRouter().navTo("mm03");
+			}
+
+		});
+	});

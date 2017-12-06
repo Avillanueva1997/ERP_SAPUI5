@@ -9,16 +9,13 @@ $_Base_datos = $_POST['_Base_datos'];
 
 $_matnr = $_POST['_matnr'];
 $_werks = $_POST['_werks'];
-$_aland = $_POST['_aland'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
 $sql = "select * from mara
 			inner join marc on mara.matnr = marc.matnr
-			inner join mlan on mara.matnr = mlan.matnr
 			where mara.matnr = '".$_matnr."' and
-			      marc.werks = '".$_werks."' and
-			      mlan.aland = '".$_aland."'";
+			      marc.werks = '".$_werks."'";
 
 $result = mysqli_query($con,$sql);
 
@@ -60,7 +57,7 @@ while($row = mysqli_fetch_array($result))
 	$maxlz=$row['maxlz'];
 	$lzeih=$row['lzeih'];
 
-	$aland=$row['aland'];
+	/*$aland=$row['aland'];
 	$taxm1=$row['taxm1'];
 	$taxm2=$row['taxm2'];
 	$taxm3=$row['taxm3'];
@@ -70,7 +67,7 @@ while($row = mysqli_fetch_array($result))
 	$taxm7=$row['taxm7'];
 	$taxm8=$row['taxm8'];
 	$taxm9=$row['taxm9'];
-	$taxim=$row['taxim'];
+	$taxim=$row['taxim'];*/
 
     $material[] = array(
     						'matnr'=>$matnr,
@@ -105,9 +102,9 @@ while($row = mysqli_fetch_array($result))
 							'ekgrp'=>$ekgrp,
 							'ausme'=>$ausme,
 							'maxlz'=>$maxlz,
-							'lzeih'=>$lzeih,
+							'lzeih'=>$lzeih
 
-							'aland'=>$aland,
+							/*'aland'=>$aland,
 							'taxm1'=>$taxm1,
 							'taxm2'=>$taxm2,
 							'taxm3'=>$taxm3,
@@ -117,7 +114,7 @@ while($row = mysqli_fetch_array($result))
 							'taxm7'=>$taxm7,
 							'taxm8'=>$taxm8,
 							'taxm9'=>$taxm9,
-							'taxim'=>$taxim
+							'taxim'=>$taxim*/
     					 );
 }
 
