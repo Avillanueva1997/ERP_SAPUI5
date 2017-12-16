@@ -11,6 +11,8 @@ sap.ui.define([
 
        onInit: function(oEvent) {
 
+           sap.ui.getCore().byId("__component0---viewHome--prueba--inpTx").onsapenter = this.onPressEnter();
+
            var thes = this;
 
            var cnx = JSON.parse(ConexionGlobal);
@@ -46,12 +48,16 @@ sap.ui.define([
            this.getRouter().navTo("login");
        },
 
+       onEnter: function(oEvent){
+        this.onPressEnter();
+       },
+
        onPressEnter: function(evt){
 
            var thes = this;
 
            var cnx = JSON.parse(ConexionGlobal);
-           var _Trans = sap.ui.getCore().byId("__component0---viewHome--inpTx").getValue();
+           var _Trans = sap.ui.getCore().byId("__component0---viewHome--prueba--inpTx").getValue();
            var parametros = {
               "_Ip" : cnx[0].ip,
               "_Usuario_servidor" : cnx[0].usuario_servidor,

@@ -9,7 +9,7 @@
     
     <tnt:ToolHeader>
         <Button icon="sap-icon://sys-enter-2" press="onPressEnter" type="Transparent" />
-        <Input id="inpTx" width="150px" />            
+        <Input id="inpTx" width="150px" onsapenter="onEnter" />            
         <Button icon="sap-icon://save" type="Transparent" press="onSave"/>
         <Button icon="sap-icon://sys-back-2" type="Transparent" press="onBack" />
         <Button icon="sap-icon://system-exit-2" type="Transparent"/>
