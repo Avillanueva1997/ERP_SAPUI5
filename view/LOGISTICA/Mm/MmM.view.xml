@@ -157,7 +157,7 @@
 							<Label text="Centro"/>
                             <Input value="{/werks}"/>
                             <Label text="Almacen"/>
-                            <Input value="{/}"/>
+                            <Input value="{}"/>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"

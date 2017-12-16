@@ -21,17 +21,22 @@
 		</customHeader>    
         <content>
             <f:SimpleForm
+                editable="true"
+                columnsXL="2"                                      
+                singleContainerFullSize="false"
                 layout="ResponsiveGridLayout">
                 <f:title>
                     <core:Title text="Datos generales" />
                 </f:title>
                 <f:content>
+                    <core:Title />
                     <Label text="Registro de info" />
                     <Input id="iptReginfo" width="300px" showValueHelp="true" editable="false" value="{/infnr}" />                                                 
                     <Label text="Proveedor" />
                     <Input id="iptProveedor" width="300px" showValueHelp="true" editable="false" value="{/lifnr}" />                                               
                     <Label text="Material" />
-                    <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false" value="{/matnr}" />                                                 
+                    <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false" value="{/matnr}" />     
+                    <core:Title />
                     <Label text="Grupo articulos" />
                     <Input id="iptGrparti" width="300px" showValueHelp="true" editable="false" value="{/matkl}" />                                                 
                     <Label text="Org.compras" />
@@ -46,11 +51,15 @@
                         text="Datos organiz.compras1">
                         
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Control" />
                             </f:title>
                             <f:content>
+                                <core:Title />
                                 <Label text="Plaz.entr.prev." />
                                 <Input id="iptPlaentprev" width="300px" editable="false" value="{/aplfz}" />                              
                                 <Label text="Grupo-compras" />
@@ -71,6 +80,7 @@
                                 <Label text="Cantidad maxima" />
                                 <Input id="iptCantidadmax1" width="300px" editable="false" value="{/bstma}" />
                                 <Input id="iptCantidadmax2" width="300px" editable="false" /> 
+                                <core:Title />
                                 <Label text="TolSumIncompl" />
                                 <Input id="iptTolSumIncompl" width="300px" editable="false" value="{/untto}" />                              
                                 <Label text="TolExcSum" />
@@ -88,11 +98,15 @@
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Condiciones" />
                             </f:title>
                             <f:content>
+                                <core:Title />
                                 <Label text="Precio neto" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >                                    
                                     <Input id="iptPrecioneto1" width="300px" editable="false" />
@@ -113,6 +127,7 @@
                                 <Input id="iptConvctd2" width="300px" editable="false" value="{/bpumz}" />
                                 <Input id="iptConvctd3" width="300px" editable="false" />
                                 <Input id="iptConvctd4" width="300px" editable="false" />
+                                <core:Title />
                                 <Label text="TipFechaPrecio" />
                                 <Input id="iptTipfechaprecio" width="300px" editable="false" value="{/meprf}" />
                                 <Label text="Incoterms" />
@@ -130,11 +145,15 @@
                         text="Datos generales">
                                                 
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Datos de proveedor" />
                             </f:title>
-                            <f:content>                               
+                            <f:content>            
+                                <core:Title />
                                 <Label text="1°reclamacion" />
                                 <Input id="iptReclamacion1" width="300px" editable="false" value="{/mahn1}" />                              
                                 <Label text="2°reclamacion" />
@@ -147,6 +166,7 @@
                                 <Input id="iptSurparcial" width="300px" editable="false" value="{/ltsnr}" />                              
                                 <Label text="N°clasSurParcPr" />
                                 <Input id="iptclasSurParcPr" width="300px" editable="false" value="{/ltssf}" />
+                                <core:Title />
                                 <Label text="Gr.mcia.prov." />
                                 <Input id="iptGrmciaprov" width="300px" editable="false" value="{/wglif}" />                              
                                 <Label text="Puntos" />
@@ -164,11 +184,15 @@
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Unidad de medida de pedido" />
                             </f:title>
-                            <f:content>                               
+                            <f:content>      
+                                <core:Title />
                                 <Label text="UM de pedido" />
                                 <Input id="iptUmpedido" width="300px" editable="false" value="{/meins}" />                              
                                 <Label text="Conversion" />
@@ -176,16 +200,21 @@
                                 <Input id="iptConversion2" width="300px" editable="false" value="{/umrez}" /> 
                                 <Input id="iptConversion3" width="300px" editable="false" value="{/lmein}" /> 
                                 <Input id="iptConversion4" width="300px" editable="false" /> 
+                                <core:Title />
                                 <Label text="UMP variable" />
                                 <Input id="iptUmpvar" width="300px" editable="false" value="{/vabme}" />   
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Datos originarios" />
                             </f:title>
-                            <f:content>                               
+                            <f:content>             
+                                <core:Title />
                                 <Label text="Tpo.certif." />
                                 <Input id="iptTpocertif" width="300px" editable="false" value="{/urztp}" />                              
                                 <Label text="No.-certificado" />
@@ -193,7 +222,8 @@
                                 <Label text="validez a" />
                                 <Input id="iptVala" width="300px" editable="false" value="{/urzdt}" />                              
                                 <Label text="Pais de origen" />
-                                <Input id="iptPaisorig" width="300px" editable="false" value="{/urzla}" />                              
+                                <Input id="iptPaisorig" width="300px" editable="false" value="{/urzla}" />   
+                                <core:Title />
                                 <Label text="Region" />
                                 <Input id="iptRegion" width="300px" editable="false" value="{/regio}" />                              
                                 <Label text="Numero" />
@@ -203,13 +233,18 @@
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
                             layout="ResponsiveGridLayout">
                             <f:title>
                                 <core:Title text="Opción de suministro" />
                             </f:title>
-                            <f:content>                               
+                            <f:content>               
+                                <core:Title />
                                 <Label text="Suministr.desde" />
-                                <Input id="iptRamo" width="300px" editable="false" value="{/lifab}" />                              
+                                <Input id="iptRamo" width="300px" editable="false" value="{/lifab}" />        
+                                <core:Title />
                                 <Label text="Suministr.hasta" />
                                 <Input id="iptSuministrhasta" width="300px" editable="false" value="{/lifbi}" />          
                             </f:content>

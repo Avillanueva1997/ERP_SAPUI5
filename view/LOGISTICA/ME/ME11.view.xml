@@ -43,14 +43,14 @@
                 </f:title>
                 <f:content>
                     <FlexBox
-                             direction="Column"
-                             alignItems="Start"
-                             justifyContent="Center" >					
-                        <items>                        
-                            <CheckBox id="chkNormal" text="Normal" />
-                            <CheckBox id="chksubcont" text="Subcontratación" />
-                            <CheckBox id="chkPipe" text="Pipeline" />
-                            <CheckBox id="chkCons" text="Consignación" />
+                         direction="Column"
+                         alignItems="Start"
+                         justifyContent="Center" >					
+                        <items>   
+                            <RadioButton id="chkNormal" groupName="GroupA" text="Normal" selected="true" />
+                            <RadioButton id="chksubcont" groupName="GroupA" text="Subcontratación" />
+                            <RadioButton id="chkPipe" groupName="GroupA" text="Pipeline" />
+                            <RadioButton id="chkCons" groupName="GroupA" text="Consignación" />
                         </items>
                     </FlexBox>                           
                 </f:content>
