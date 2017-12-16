@@ -1,3 +1,4 @@
+
 <?php
 
 require 'DatosBD.php';
@@ -21,6 +22,16 @@ $_stcdt=$_POST['stcdt'];
 $_j_1kfrepre=$_POST['j_1kfrepre'];
 $_ftbus=$_POST['ftbus'];
 $_ftind=$_POST['ftind'];
+
+$_title_medi=$_POST['title_medi'];
+$_name1=$_POST['name1'];		
+$_sort1=$_POST['sort1']; 		
+$_str_suppl1=$_POST['str_suppl1']; 
+$_street=$_POST['street'];		
+$_city2=$_POST['city2'];		
+$_post_code1=$_POST['post_code1'];
+$_country=$_POST['country'];		
+$_region=$_POST['region'];
 
 $_ekorg=$_POST['ekorg'];
 $_waers=$_POST['waers'];
@@ -56,7 +67,18 @@ $sql = "update lfa1
 			stcdt='".$_stcdt."',
 			j_1kfrepre='".$_j_1kfrepre."',
 			ftbus='".$_ftbus."',
-			ftind='".$_ftind."'			
+			ftind='".$_ftind."',
+
+			title_medi='".$_title_medi."',
+			name1='".$_name1."',		
+			sort1='".$_sort1."', 		
+			str_suppl1='".$_str_suppl1."', 
+			street='".$_street."',		
+			city2='".$_city2."',		
+			post_code1='".$_post_code1."',
+			country='".$_country."',		
+			region='".$_region."'	 	
+
 		where lifnr='".$_lifnr."'";
 
 $result = mysqli_query($con,$sql);

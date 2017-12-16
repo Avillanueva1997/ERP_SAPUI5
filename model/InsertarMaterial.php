@@ -1,6 +1,7 @@
 <?php
 
 require 'DatosBD.php';
+require 'Correlativo.php';
 
 $_Ip = $_POST['_Ip'];
 $_Usuario_servidor = $_POST['_Usuario_servidor'];
@@ -8,6 +9,7 @@ $_Pass_servidor = $_POST['_Pass_servidor'];
 $_Base_datos = $_POST['_Base_datos'];
 
 $_matnr=$_POST['matnr'];
+$_maktg=$_POST['maktg'];
 $_mtart=$_POST['mtart'];
 $_matkl=$_POST['matkl'];
 $_bismt=$_POST['bismt'];
@@ -55,6 +57,8 @@ $_taxim=$_POST['taxim'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
+$_matnr = nro_material($con);
+
 $sql = "INSERT INTO mara VALUES (
 								 	'".$_matnr."',
 									'".$_mtart."',
@@ -80,7 +84,8 @@ $sql = "INSERT INTO mara VALUES (
 									'".$_mhdlp."',
 									'".$_kosch."',
 									'".$_iprkz."',
-									'".$_rdmhd."'
+									'".$_rdmhd."',
+									'".$_maktg."'
 								)";
 
 $result = mysqli_query($con,$sql);
@@ -117,6 +122,23 @@ $result = mysqli_query($con,$sql);
 
 close_conection($con);
 
-echo $result;
+echo $_matnr;
+
+function nro_material($con){
+    $sql = "select max(matnr) as matnr from mara";
+    $result = mysqli_query($con,$sql);
+
+    while($row = mysqli_fetch_array($result)) 
+	{ 	    
+    	$matnr=$row['matnr'];
+	}
+
+	if ($matnr == " ") {
+		return '1000000000';
+	}else{		
+		return siguiente_correlativo($matnr);
+	}
+}
+
 
 ?>

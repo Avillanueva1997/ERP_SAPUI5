@@ -36,8 +36,8 @@
                 <f:content>
                     <Label text="Material" />
                     <Input id="inpMatnr"/>
-                    <Label text="Centro" />
-                    <Input id="inpWerks"/>
+                    <!--<Label text="Centro" />
+                    <Input id="inpWerks"/>-->
                 </f:content>
             </f:SimpleForm>
         </content>

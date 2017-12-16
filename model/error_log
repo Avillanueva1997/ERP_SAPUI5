@@ -1,0 +1,580 @@
+[11-Dec-2017 16:32:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:32:16 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:32:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 16:32:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 16:32:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:32:53 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:32:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 16:32:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 16:32:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:32:57 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:32:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:32:57 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:12 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:20 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:20 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:25 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:25 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:31 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:31 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:52 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:52 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:33:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:33:56 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:33:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 16:33:56 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 16:35:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 16:35:48 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 16:35:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 16:35:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:04:46 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:04:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:04:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:04:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:05:30 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (2) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:05:30 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:05:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:05:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:05:52 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:05:52 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:05:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:05:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:10:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '160.153.77.130:3306' (2) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:10:31 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:10:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:10:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:11:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '160.153.77.130:3306' (2) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:11:16 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:11:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:11:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:18:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:18:31 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:18:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:18:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:18:42 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:18:42 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:18:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 17:18:42 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 17:19:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:19:43 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:19:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:19:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:19:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:19:50 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:19:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 17:19:50 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 17:21:55 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:21:55 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:21:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:21:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 17:23:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 17:23:52 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 17:23:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 17:23:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 18:40:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:40:31 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:40:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 18:40:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:44:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:44:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:44:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:44:06 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:44:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:44:06 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:45:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:45:50 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:45:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 18:45:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 18:46:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:46:09 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:46:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 9
+[11-Dec-2017 18:46:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/ListarEmpresas.php on line 13
+[11-Dec-2017 18:56:34 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:56:34 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:56:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:56:34 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:58:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:58:38 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:58:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:58:38 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:58:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:58:40 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:58:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:58:40 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 18:59:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 18:59:54 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 18:59:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 18:59:54 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 19:00:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:00:38 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:00:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 11
+[11-Dec-2017 19:00:38 UTC] PHP Notice:  Trying to get property of non-object in /home/ove4mbdp52lb/public_html/erp/model/Login.php on line 15
+[11-Dec-2017 19:05:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:05:54 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:05:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 9
+[11-Dec-2017 19:05:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 12
+[11-Dec-2017 19:06:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:06:07 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:06:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 9
+[11-Dec-2017 19:06:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 12
+[11-Dec-2017 19:07:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:07:26 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:07:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 9
+[11-Dec-2017 19:07:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetCadenaConexion.php on line 12
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:28:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:28:15 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:28:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:28:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:28:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:32:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:32:15 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:32:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:32:15 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:32:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:33:48 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:33:48 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:33:48 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:33:48 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:33:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:52:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:52:51 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:52:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:52:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:52:51 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:53:17 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:53:17 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:53:17 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:53:17 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:53:17 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined index: _Ip in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 5
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined index: _Usuario_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 6
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined index: _Pass_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 7
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined index: _Base_datos in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 8
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ove4mbdp52lb'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:54:12 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:54:12 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:54:12 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 19:56:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:56:39 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 19:56:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 19:56:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 19:56:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:00:31 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:31 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:31 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:00:31 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:00:31 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:00:58 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:58 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:00:58 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:00:58 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:00:58 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined index: _Ip in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 5
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined index: _Usuario_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 6
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined index: _Pass_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 7
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined index: _Base_datos in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 8
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ove4mbdp52lb'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:30 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:03:30 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:03:30 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined index: _Ip in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 5
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined index: _Usuario_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 6
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined index: _Pass_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 7
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined index: _Base_datos in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 8
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ove4mbdp52lb'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:35 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:03:35 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:03:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined index: _Ip in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 5
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined index: _Usuario_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 6
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined index: _Pass_servidor in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 7
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined index: _Base_datos in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 8
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'ove4mbdp52lb'@'localhost' (using password: NO) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:39 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:03:39 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:03:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:34:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:34:33 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:34:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:34:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:34:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:36:10 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:36:10 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:36:10 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:36:10 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:36:10 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[11-Dec-2017 20:38:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:38:33 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[11-Dec-2017 20:38:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[11-Dec-2017 20:38:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[11-Dec-2017 20:38:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 00:01:21 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:01:21 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:01:21 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 00:01:21 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 00:01:21 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 00:02:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:02:36 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:02:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 00:02:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 00:02:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 00:14:08 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:14:08 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:14:08 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 00:14:08 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 00:14:08 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL)
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 00:29:04 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:04 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:04 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 00:29:04 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 00:29:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 00:29:57 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:57 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 00:29:57 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 00:29:57 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 00:29:57 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 06:22:24 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 06:22:24 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 06:22:24 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 06:22:24 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 06:22:24 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 07:42:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:42:33 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:42:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 07:42:33 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 07:42:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 07:44:03 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:44:03 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:44:03 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 07:44:03 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 07:44:03 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 07:57:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:57:36 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 07:57:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 07:57:36 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 07:57:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to buildTree() must be of the type array, null given, called in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36 and defined in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php(36): buildTree(NULL, 'NODO0')
+#1 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 08:07:53 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:07:53 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:07:53 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 08:07:53 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 08:09:06 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:09:06 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:09:06 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 08:09:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 08:15:22 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:15:22 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:15:22 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 08:15:22 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 08:15:22 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 38
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'FFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 08:16:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:16:51 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:16:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 08:16:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 08:16:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 38
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'LFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 14
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 18
+[12-Dec-2017 08:26:32 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:26:32 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 30
+[12-Dec-2017 08:26:32 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 32
+[12-Dec-2017 08:26:32 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 36
+[12-Dec-2017 08:26:32 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 38
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'LFARRO'@'localhost' (using password: YES) in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 4
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/DatosBD.php on line 5
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 19
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 23
+[12-Dec-2017 08:32:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 35
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 35
+[12-Dec-2017 08:32:51 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 35
+[12-Dec-2017 08:32:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 37
+[12-Dec-2017 08:32:51 UTC] PHP Notice:  Undefined variable: arbol_tx in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 41
+[12-Dec-2017 08:32:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 08:34:00 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43
+[12-Dec-2017 08:35:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/ove4mbdp52lb/public_html/erp/model/GetArbolTx.php on line 43

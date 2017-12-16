@@ -24,6 +24,7 @@ $material = array();
 while($row = mysqli_fetch_array($result)) 
 { 	    
     $matnr=$row['matnr'];
+    $maktg=$row['maktg'];
 	$mtart=$row['mtart'];
 	$matkl=$row['matkl'];
 	$bismt=$row['bismt'];
@@ -71,6 +72,7 @@ while($row = mysqli_fetch_array($result))
 
     $material[] = array(
     						'matnr'=>$matnr,
+    						'maktg'=>$maktg,
 							'mtart'=>$mtart,
 							'matkl'=>$matkl,
 							'bismt'=>$bismt,

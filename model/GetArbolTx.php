@@ -33,14 +33,14 @@ $padre = $arbol_tx[$clave];
 
 //$json = "[{\"text\":\"" . $padre['objeto'] . "\",\"nodes\":[" . sin_hijo($arbol_tx) . "]}]";
  
-$fr = buildTree($arbol_tx);
+$fr = buildTree($arbol_tx,"NODO0");
 
 $json_string = json_encode($fr);
 
 //echo count($arbol_tx);
 echo $json_string;
 
-function buildTree(array $elements, $parentId = "NODO0") {
+function buildTree(array $elements, $parentId) {
     $branch = array();
 
     foreach ($elements as $element) {

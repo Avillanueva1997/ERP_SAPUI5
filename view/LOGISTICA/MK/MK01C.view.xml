@@ -10,7 +10,8 @@
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page
 		showHeader="true"
-		enableScrolling="true" >
+		enableScrolling="true"
+        id="mk01c" >
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
@@ -23,7 +24,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Acreedor" />
-                    <Input id="iptAcreedor" width="300px" showValueHelp="true" />                                                           
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false" value="{/lifnr}" />                                                           
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -38,13 +39,13 @@
                             </f:title>
                             <f:content>
                                 <Label text="Tratamiento" />
-                                <ComboBox id="cbbTratamiento" width="300px" >
-                                    <core:Item key="1" text="Empresa" />
-                                    <core:Item key="2" text="Señor" />
-                                    <core:Item key="3" text="Señora" />
+                                <ComboBox id="cbbTratamiento" width="300px" selectedKey="{/title_medi}" >
+                                    <core:Item key="Empresa" text="Empresa" />
+                                    <core:Item key="Señor" text="Señor" />
+                                    <core:Item key="Señora" text="Señora" />
                                 </ComboBox>
                                 <Label text="Nombre" />
-                                <Input id="iptNombre" width="300px" />                              
+                                <Input id="iptNombre" width="300px" value="{/name1}" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -54,7 +55,7 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Concepto busq.1/2" />
-                                <Input id="iptConbus" width="300px" />                              
+                                <Input id="iptConbus" width="300px" value="{/sort1}" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -64,17 +65,17 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Calle 2" />
-                                <Input id="iptCalle2" width="300px" />                              
+                                <Input id="iptCalle2" width="300px" value="{/str_suppl1}" />                              
                                 <Label text="Calle/Numero" />
-                                <Input id="iptCallenumero" width="300px" />                              
+                                <Input id="iptCallenumero" width="300px" value="{/street}" />                              
                                 <Label text="Distrito" />
-                                <Input id="iptDistrito" width="300px" />                              
+                                <Input id="iptDistrito" width="300px" value="{/city2}" />                              
                                 <Label text="Codigo postal/Pobl." />
-                                <Input id="iptCodpostal" width="300px" />                              
+                                <Input id="iptCodpostal" width="300px" value="{/post_code1}" />                              
                                 <Label text="Pais" />
-                                <Input id="iptPais" width="300px" />                              
+                                <Input id="iptPais" width="300px" value="{/country}" />                              
                                 <Label text="Region" />
-                                <Input id="iptRegion" width="300px" />                              
+                                <Input id="iptRegion" width="300px" value="{/region}" />                              
                             </f:content>
                         </f:SimpleForm>
                                                 

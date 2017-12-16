@@ -10,7 +10,8 @@
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page
 		showHeader="true"
-		enableScrolling="true" >
+		enableScrolling="true"
+        id="me11c" >
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
@@ -26,7 +27,7 @@
                 </f:title>
                 <f:content>
                     <Label text="Registro de info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true" value="{/infnr}" />                                                 
+                    <Input id="iptReginfo" width="300px" showValueHelp="true" value="{/infnr}" editable="false" />                                                 
                     <Label text="Proveedor" />
                     <Input id="iptProveedor" width="300px" showValueHelp="true" value="{/lifnr}" />                                               
                     <Label text="Material" />

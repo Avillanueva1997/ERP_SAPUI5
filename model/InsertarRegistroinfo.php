@@ -1,6 +1,7 @@
 <?php
 
 require 'DatosBD.php';
+require 'Correlativo.php';
 
 $_Ip = $_POST['_Ip'];
 $_Usuario_servidor = $_POST['_Usuario_servidor'];
@@ -71,6 +72,8 @@ $_megru=$_POST['megru'];
 
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
+
+$_infnr = nro_registroinfo($con);
 
 $sql = "INSERT INTO eina VALUES (
 								 	'".$_infnr."',
@@ -145,6 +148,22 @@ $result = mysqli_query($con,$sql);
 
 close_conection($con);
 
-echo $result;
+echo $_infnr;
+
+function nro_registroinfo($con){
+    $sql = "select max(infnr) as infnr from eina";
+    $result = mysqli_query($con,$sql);
+
+    while($row = mysqli_fetch_array($result)) 
+	{ 	    
+    	$infnr=$row['infnr'];
+	}
+
+	if ($infnr == " ") {
+		return '1000000000';
+	}else{		
+		return siguiente_correlativo($infnr);
+	}
+}
 
 ?>

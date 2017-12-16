@@ -1,6 +1,7 @@
 <?php
 
 require 'DatosBD.php';
+require 'Correlativo.php';
 
 $_Ip = $_POST['_Ip'];
 $_Usuario_servidor = $_POST['_Usuario_servidor'];
@@ -21,6 +22,16 @@ $_stcdt=$_POST['stcdt'];
 $_j_1kfrepre=$_POST['j_1kfrepre'];
 $_ftbus=$_POST['ftbus'];
 $_ftind=$_POST['ftind'];
+
+$_title_medi=$_POST['title_medi'];
+$_name1=$_POST['name1'];		
+$_sort1=$_POST['sort1']; 		
+$_str_suppl1=$_POST['str_suppl1']; 
+$_street=$_POST['street'];		
+$_city2=$_POST['city2'];		
+$_post_code1=$_POST['post_code1'];
+$_country=$_POST['country'];		
+$_region=$_POST['region'];
 
 $_ekorg=$_POST['ekorg'];
 $_waers=$_POST['waers'];
@@ -43,6 +54,8 @@ $_vensl=$_POST['vensl'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
+$_lifnr = nro_proveedor($con);
+
 $sql = "INSERT INTO lfa1 VALUES (
 								 	'".$_lifnr."',
 									'".$_brsch."',
@@ -57,7 +70,18 @@ $sql = "INSERT INTO lfa1 VALUES (
 									'".$_stcdt."',
 									'".$_j_1kfrepre."',
 									'".$_ftbus."',
-									'".$_ftind."'
+									'".$_ftind."',
+
+									'".$_title_medi."',
+									'".$_name1."',
+									'".$_sort1."',
+									'".$_str_suppl1."',
+									'".$_street."',
+									'".$_city2."',
+									'".$_post_code1."',
+									'".$_country."',
+									'".$_region."'
+
 								)";
 
 $result = mysqli_query($con,$sql);
@@ -88,6 +112,22 @@ $result = mysqli_query($con,$sql);
 
 close_conection($con);
 
-echo $result;
+echo $_lifnr;
+
+function nro_proveedor($con){
+    $sql = "select max(lifnr) as lifnr from lfa1";
+    $result = mysqli_query($con,$sql);
+
+    while($row = mysqli_fetch_array($result)) 
+	{ 	    
+    	$lifnr=$row['lifnr'];
+	}
+
+	if ($lifnr == " ") {
+		return '1000000000';
+	}else{		
+		return siguiente_correlativo($lifnr);
+	}
+}
 
 ?>

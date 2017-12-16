@@ -15,6 +15,15 @@
 				title="Martillo"
 				backgroundDesign="Solid">
 			</ObjectHeader>-->
+            <f:SimpleForm
+                layout="ResponsiveGridLayout">
+                <f:content>
+                    <Label text="Material" />
+                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false" value="{/matnr}" />
+                    <Label text="Descripcion" />
+                    <Input id="iptDescripcion" width="300px" showValueHelp="true" editable="false" value="{/maktg}" />                                                           
+                </f:content>
+            </f:SimpleForm>
             <IconTabBar
 				expanded="{device>/isNoPhone}"
 				class="sapUiResponsiveContentPadding">
@@ -148,7 +157,7 @@
 							<Label text="Centro"/>
 							<Input editable="false" value="{/werks}"/>
                             <Label text="Almacen"/>
-							<Input editable="false" value="{/}"/>
+							<Input editable="false" />
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"

@@ -38,6 +38,16 @@ while($row = mysqli_fetch_array($result))
 	$ftbus=$row['ftbus'];
 	$ftind=$row['ftind'];
 
+	$title_medi=$row['title_medi'];
+	$name1=$row['name1'];		
+	$sort1=$row['sort1']; 		
+	$str_suppl1=$row['str_suppl1']; 
+	$street=$row['street'];		
+	$city2=$row['city2'];		
+	$post_code1=$row['post_code1'];
+	$country=$row['country'];		
+	$region=$row['region'];
+
 	$ekorg=$row['ekorg'];
 	$waers=$row['waers'];
 	$verkf=$row['verkf'];
@@ -72,6 +82,16 @@ while($row = mysqli_fetch_array($result))
 							'j_1kfrepre'=>$j_1kfrepre,
 							'ftbus'=>$ftbus,
 							'ftind'=>$ftind,
+
+							'title_medi'=>$title_medi,
+							'name1'=>$name1,		
+							'sort1'=>$sort1, 		
+							'str_suppl1'=>$str_suppl1,
+							'street'=>$street,		
+							'city2'=>$city2,		
+							'post_code1'=>$post_code1,
+							'country'=>$country,		
+							'region'=>$region,
 
 							'ekorg'=>$ekorg,
 							'waers'=>$waers,

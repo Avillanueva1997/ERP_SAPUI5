@@ -24,9 +24,10 @@ sap.ui.define([
      onEdit: function(oEvent){
 
       var Lifnr = this.byId("inpLifnr").getValue();
-      var Ekorg = this.byId("inpEkorg").getValue();
+      //var Ekorg = this.byId("inpEkorg").getValue();
+      var Ekorg = "";
 
-      if (Lifnr != "" && Ekorg != "") {
+      if (Lifnr != "") {
 
         var thes = this;
         var cnx = JSON.parse(ConexionGlobal);
@@ -69,9 +70,10 @@ sap.ui.define([
     onDelete: function(oEvent){
 
       var Lifnr = this.byId("inpLifnr").getValue();
-      var Ekorg = this.byId("inpEkorg").getValue();
+      //var Ekorg = this.byId("inpEkorg").getValue();
+      var Ekorg = "";
 
-      if (Lifnr != "" && Ekorg != "") {
+      if (Lifnr != "") {
 
         var thes = this;
         var cnx = JSON.parse(ConexionGlobal);

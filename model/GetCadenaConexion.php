@@ -5,7 +5,7 @@ require 'DatosBD.php';
 $_Empresa = $_POST['_Empresa'];
 
 $sql = "select * from empresa where empresa = '" . $_Empresa . "'";
-$con = open_conection('127.0.0.1','root','','erp_main');
+$con = open_conection('localhost','FFARRO','Freluive1608@','ERP_MAIN');
 $result = mysqli_query($con,$sql);
 $cadena = array();
 

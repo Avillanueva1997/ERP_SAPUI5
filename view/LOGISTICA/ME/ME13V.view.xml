@@ -37,7 +37,7 @@
                     <Label text="Org.compras" />
                     <Input id="iptOrgcompras" width="300px" showValueHelp="true" editable="false" value="{/ekorg}" /> 
                     <Label text="Normal" />
-                    <Input id="iptNormal" width="300px" showValueHelp="true" editable="false" value="{/}" /> 
+                    <Input id="iptNormal" width="300px" showValueHelp="true" editable="false" /> 
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -58,19 +58,19 @@
                                 <Label text="Ctd.estandar" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >
                                     <Input id="iptCtdestandar1" width="260px" editable="false" value="{/norbm}" />                              
-                                    <Input id="iptCtdestandar2" width="40px" editable="false" value="{/}" />                              
+                                    <Input id="iptCtdestandar2" width="40px" editable="false" />                              
                                 </l:HorizontalLayout>
                                 <Label text="Ctd.minima" />
                                 <Input id="iptCtdminima1" width="300px" editable="false" value="{/minbm}" /> 
-                                <Input id="iptCtdminima2" width="300px" editable="false" value="{/}" /> 
+                                <Input id="iptCtdminima2" width="300px" editable="false"  /> 
                                 <Label text="Tmpohastacaduc" />
                                 <Input id="iptTmpohastacaduc1" width="300px" editable="false" value="{/mhdrz}" />
-                                <Input id="iptTmpohastacaduc2" width="300px" editable="false" value="{/}" /> 
+                                <Input id="iptTmpohastacaduc2" width="300px" editable="false" /> 
                                 <Label text="Normas envio" />
                                 <Input id="iptNormasenvio" width="300px" editable="false" value="{/evers}" /> 
                                 <Label text="Cantidad maxima" />
                                 <Input id="iptCantidadmax1" width="300px" editable="false" value="{/bstma}" />
-                                <Input id="iptCantidadmax2" width="300px" editable="false" value="{/}" /> 
+                                <Input id="iptCantidadmax2" width="300px" editable="false" /> 
                                 <Label text="TolSumIncompl" />
                                 <Input id="iptTolSumIncompl" width="300px" editable="false" value="{/untto}" />                              
                                 <Label text="TolExcSum" />
@@ -95,13 +95,13 @@
                             <f:content>
                                 <Label text="Precio neto" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >                                    
-                                    <Input id="iptPrecioneto1" width="300px" editable="false" value="{/}" />
+                                    <Input id="iptPrecioneto1" width="300px" editable="false" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto2" width="50px" editable="false" value="{/}" />
+                                    <Input id="iptPrecioneto2" width="50px" editable="false" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto3" width="50px" editable="false" value="{/}" />
+                                    <Input id="iptPrecioneto3" width="50px" editable="false" />
                                     <Label text="_" level="H2" />
-                                    <Input id="iptPrecioneto4" width="50px" editable="false" value="{/}" />
+                                    <Input id="iptPrecioneto4" width="50px" editable="false" />
                                 </l:HorizontalLayout>
                                 <Label text="Precio efectivo" />
                                 <Input id="iptPrecioefec1" width="300px" editable="false" value="{/netpr}" />
@@ -111,8 +111,8 @@
                                 <Label text="Conv.ctd." />
                                 <Input id="iptConvctd1" width="300px" editable="false" value="{/bpumn}" />
                                 <Input id="iptConvctd2" width="300px" editable="false" value="{/bpumz}" />
-                                <Input id="iptConvctd3" width="300px" editable="false" value="{/}" />
-                                <Input id="iptConvctd4" width="300px" editable="false" value="{/}" />
+                                <Input id="iptConvctd3" width="300px" editable="false" />
+                                <Input id="iptConvctd4" width="300px" editable="false" />
                                 <Label text="TipFechaPrecio" />
                                 <Input id="iptTipfechaprecio" width="300px" editable="false" value="{/meprf}" />
                                 <Label text="Incoterms" />
@@ -151,8 +151,8 @@
                                 <Input id="iptGrmciaprov" width="300px" editable="false" value="{/wglif}" />                              
                                 <Label text="Puntos" />
                                 <Input id="iptPuntos1" width="300px" editable="false" value="{/anzpu}" />
-                                <Input id="iptPuntos2" width="300px" editable="false" value="{/}" />
-                                <Input id="iptPuntos3" width="300px" editable="false" value="{/}" />
+                                <Input id="iptPuntos2" width="300px" editable="false" />
+                                <Input id="iptPuntos3" width="300px" editable="false" />
                                 <Label text="Vendedor" />
                                 <Input id="iptVendedor" width="300px" editable="false" value="{/verkf}" />                              
                                 <Label text="Telefono" />
@@ -175,7 +175,7 @@
                                 <Input id="iptConversion1" width="300px" editable="false" value="{/umren}" /> 
                                 <Input id="iptConversion2" width="300px" editable="false" value="{/umrez}" /> 
                                 <Input id="iptConversion3" width="300px" editable="false" value="{/lmein}" /> 
-                                <Input id="iptConversion4" width="300px" editable="false" value="{/}" /> 
+                                <Input id="iptConversion4" width="300px" editable="false" /> 
                                 <Label text="UMP variable" />
                                 <Input id="iptUmpvar" width="300px" editable="false" value="{/vabme}" />   
                             </f:content>

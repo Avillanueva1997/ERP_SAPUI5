@@ -7,7 +7,7 @@ $_Usuario = $_POST['_Usuario'];
 $_Password = $_POST['_Password'];
 
 $sql = "select * from login where empresa = '" . $_Empresa . "' and usuario = '" . $_Usuario . "' and contrasena = '" . $_Password . "'";
-$con = open_conection('127.0.0.1','root','','erp_main');
+$con = open_conection('localhost','FFARRO','Freluive1608@','ERP_MAIN');
 $result = mysqli_query($con,$sql);
     
 close_conection($con);

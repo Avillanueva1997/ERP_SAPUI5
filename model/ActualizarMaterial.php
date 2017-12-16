@@ -8,6 +8,7 @@ $_Pass_servidor = $_POST['_Pass_servidor'];
 $_Base_datos = $_POST['_Base_datos'];
 
 $_matnr=$_POST['matnr'];
+$_maktg=$_POST['maktg'];
 $_mtart=$_POST['mtart'];
 $_matkl=$_POST['matkl'];
 $_bismt=$_POST['bismt'];
@@ -57,6 +58,7 @@ $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
 $sql = "update mara
 		set mtart='".$_mtart."',
+		    maktg='".$_maktg."',
 			matkl='".$_matkl."',
 			bismt='".$_bismt."',
 			meins='".$_meins."',

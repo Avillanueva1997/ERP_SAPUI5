@@ -39,13 +39,13 @@
                             </f:title>
                             <f:content>
                                 <Label text="Tratamiento" />
-                                <ComboBox id="cbbTratamiento" width="300px" >
-                                    <core:Item key="1" text="Empresa" />
-                                    <core:Item key="2" text="Señor" />
-                                    <core:Item key="3" text="Señora" />
+                                <ComboBox id="cbbTratamiento" width="300px" editable="false" selectedKey="{/title_medi}" >
+                                    <core:Item key="Empresa" text="Empresa" />
+                                    <core:Item key="Señor" text="Señor" />
+                                    <core:Item key="Señora" text="Señora" />
                                 </ComboBox>
                                 <Label text="Nombre" />
-                                <Input id="iptNombre" width="300px" editable="false" />                              
+                                <Input id="iptNombre" width="300px" editable="false" value="{/name1}" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -55,7 +55,7 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Concepto busq.1/2" />
-                                <Input id="iptConbus" width="300px" editable="false" />                              
+                                <Input id="iptConbus" width="300px" editable="false" value="{/sort1}" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -65,17 +65,17 @@
                             </f:title>
                             <f:content>                               
                                 <Label text="Calle 2" />
-                                <Input id="iptCalle2" width="300px" editable="false" />                              
+                                <Input id="iptCalle2" width="300px" editable="false" value="{/str_suppl1}" />                              
                                 <Label text="Calle/Numero" />
-                                <Input id="iptCallenumero" width="300px" editable="false" />                              
+                                <Input id="iptCallenumero" width="300px" editable="false" value="{/street}" />                              
                                 <Label text="Distrito" />
-                                <Input id="iptDistrito" width="300px" editable="false" />                              
+                                <Input id="iptDistrito" width="300px" editable="false" value="{/city2}" />                              
                                 <Label text="Codigo postal/Pobl." />
-                                <Input id="iptCodpostal" width="300px" editable="false" />                              
+                                <Input id="iptCodpostal" width="300px" editable="false" value="{/post_code1}" />                              
                                 <Label text="Pais" />
-                                <Input id="iptPais" width="300px" editable="false" />                              
+                                <Input id="iptPais" width="300px" editable="false" value="{/country}" />                              
                                 <Label text="Region" />
-                                <Input id="iptRegion" width="300px" editable="false" />                              
+                                <Input id="iptRegion" width="300px" editable="false" value="{/region}" />                              
                             </f:content>
                         </f:SimpleForm>
                                                 

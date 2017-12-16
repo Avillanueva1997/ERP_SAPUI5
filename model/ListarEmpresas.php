@@ -2,7 +2,7 @@
 
 require 'DatosBD.php';
 
-$con = open_conection('127.0.0.1','root','','erp_main');
+$con = open_conection('localhost','FFARRO','Freluive1608@','ERP_MAIN');
 
 $sql = "select empresa,descripcion from empresa";
 

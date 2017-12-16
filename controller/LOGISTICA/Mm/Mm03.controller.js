@@ -23,9 +23,10 @@ sap.ui.define([
      onDisplay: function(oEvent){        
 
       var Matnr = this.byId("inpMatnr").getValue();
-      var Werks = this.byId("inpWerks").getValue();
+      //var Werks = this.byId("inpWerks").getValue();
+      var Werks = "";
 
-      if (Matnr != "" && Werks != "") {
+      if (Matnr != "") {
 
         var thes = this;
         var cnx = JSON.parse(ConexionGlobal);
