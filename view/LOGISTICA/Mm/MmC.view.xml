@@ -17,7 +17,7 @@
                     <Label text="Material" />
                     <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false" value="{/matnr}" />
                     <Label text="Descripcion" />
-                    <Input id="iptDescripcion" width="300px" showValueHelp="true" value="{/maktg}" />                                                            
+                    <Input id="iptDescripcion" width="300px"  value="{/maktg}" />                                                            
                 </f:content>
             </f:SimpleForm>
             <IconTabBar
@@ -153,7 +153,7 @@
 							<Label text="Centro"/>
 							<Input value="{/werks}"/>
                             <Label text="Almacen"/>
-							<Input value="{/}"/>
+							<Input value="{}"/>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
