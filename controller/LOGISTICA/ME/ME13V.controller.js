@@ -48,6 +48,7 @@ sap.ui.define([
        
        onBack: function(oEvent) {
            this.getRouter().navTo("me13");
+           this.clearModel("me13v");
        },
        
        onPressEnter: function(oEvent) {

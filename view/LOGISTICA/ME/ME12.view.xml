@@ -29,11 +29,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Registro info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true"/>
-                    <Label text="Org.compras" />
-                    <Input id="iptOrgcomp" width="300px" showValueHelp="true"/>  
-                    <Label text="Centro" />
-                    <Input id="iptCentro" width="300px" showValueHelp="true"/>     
+                    <Input maxLength="10" width	="12em" id="iptReginfo"  showValueHelp="true"/>  
                 </f:content>
             </f:SimpleForm>
             <f:SimpleForm

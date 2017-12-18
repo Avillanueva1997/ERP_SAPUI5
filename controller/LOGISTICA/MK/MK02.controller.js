@@ -113,6 +113,7 @@ sap.ui.define([
                   text: 'Cancelar',
                   press: function () {
                     dialog.close();
+                    sap.m.MessageToast.show("Se elimino con exito!");                    
                   }
                 }),
                 afterClose: function() {

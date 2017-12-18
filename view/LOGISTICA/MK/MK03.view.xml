@@ -28,7 +28,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Acreedor" />
-                    <Input id="inpLifnr" width="300px" showValueHelp="true"/>
+                    <Input maxLength="10" width	="10em" id="inpLifnr" showValueHelp="true"/>
                     <!--<Label text="Organización de compras" />
                     <Input id="inpEkorg" width="300px" showValueHelp="true"/>-->                
                 </f:content>

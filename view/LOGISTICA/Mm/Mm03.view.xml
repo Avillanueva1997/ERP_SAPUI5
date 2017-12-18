@@ -35,9 +35,11 @@
                 singleContainerFullSize="false">
                 <f:content>
                     <Label text="Material" />
-                    <Input id="inpMatnr"/>
-                    <!--<Label text="Centro" />
-                    <Input id="inpWerks"/>-->
+                    <Input maxLength="10" width	="10em" id="inpMatnr"/>
+                    <Label text="Centro" />
+                    <Input maxLength="04" width	="04em" id="inpWerks"/>
+                    <Label text="Tipo Material" />
+                    <Input maxLength="04" width	="04em" id="inpTipoMaterial"/>
                 </f:content>
             </f:SimpleForm>
         </content>

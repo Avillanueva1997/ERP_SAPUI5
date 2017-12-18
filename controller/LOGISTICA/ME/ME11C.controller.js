@@ -14,31 +14,33 @@ sap.ui.define([
       var thes = this; 
 
       $.ajax({
-                      //data:  parametros,
-                      url:   '/erp/model/entidades/registroinfo.json', 
-                      type:  'post',
-                      async: false,
-                      success:  function (response) {
-                        var oModel = new sap.ui.model.json.JSONModel(response); 
-                        thes.byId("me11c").setModel(oModel);                               
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                        alert(xhr.status);
-                        alert(thrownError);
-                      }
-                    });
+          //data:  parametros,
+          url:   '/erp/model/entidades/registroinfo.json', 
+          type:  'post',
+          async: false,
+          success:  function (response) {
+            var oModel = new sap.ui.model.json.JSONModel(response); 
+            thes.byId("me11c").setModel(oModel);                               
+          },
+          error: function (xhr, ajaxOptions, thrownError) {
+            alert(xhr.status);
+            alert(thrownError);
+          }
+        });
 
     },
     
     onBack: function(oEvent) {
      this.getRouter().navTo("me11");
+     this.clearModel("me11c");
    },
    
    onPressEnter: function(oEvent) {
      MessageToast.show("Button pressed");
    },
 
-   onSave: function(oEvent){
+   onSave: function(oEvent){   
+    
 
     var registroinfo = this.byId("iptReginfo").getValue();
 

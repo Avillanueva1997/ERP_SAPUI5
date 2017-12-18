@@ -43,6 +43,7 @@ sap.ui.define([
 
 			onBack: function(oEvent){
 				this.getRouter().navTo("mm03");
+                this.clearModel("mmv");
 			}
 
 		});

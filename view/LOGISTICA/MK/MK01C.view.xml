@@ -15,7 +15,7 @@
         <customHeader>            
 			<Toolbar>                
 				<ToolbarSpacer/>
-				<Title text="Acreedor Visualizar" level="H2"/>			
+				<Title text="Acreedor Crear" level="H2"/>			
                 <ToolbarSpacer/>
 			</Toolbar>
 		</customHeader>    

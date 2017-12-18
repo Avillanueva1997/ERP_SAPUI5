@@ -60,6 +60,7 @@ sap.ui.define([
 			onBack: function(oEvent){
 				sessionStorage.removeItem('Matnr');
 				this.getRouter().navTo("mm02");
+                this.clearModel("mmm");
 			},
 
 			onSave: function(oEvent){

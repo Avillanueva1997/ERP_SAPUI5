@@ -76,6 +76,7 @@ sap.ui.define([
            sessionStorage.removeItem('Lifnr');
            sessionStorage.removeItem('Ekorg');
            this.getRouter().navTo("mk03");
+           this.clearModel("mk03v");
        },
        
        onPressEnter: function(oEvent) {

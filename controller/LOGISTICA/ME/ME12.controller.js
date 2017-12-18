@@ -98,6 +98,7 @@ sap.ui.define([
 					text: 'Confirmar',
 					press: function () {
 						dialog.close();
+                        sap.m.MessageToast.show("Se elimino con exito!"); 
 					}
 				}),
 				endButton: new Button({

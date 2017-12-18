@@ -15,7 +15,7 @@
                 layout="ResponsiveGridLayout">
                 <f:content>
                     <Label text="Material" />
-                    <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false" value="{/matnr}" />
+                    <Input id="iptMaterial" width="300px" showValueHelp="true" editable="false" value="{/matnr}"/>
                     <Label text="Descripcion" />
                     <Input id="iptDescripcion" width="300px"  value="{/maktg}" />                                                            
                 </f:content>
@@ -43,7 +43,7 @@
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
 							<Label text="Unidad medida base"/>
-							<Input value="{/meins}"/>
+							<Input value="{/meins}" maxLength="{maraLength>/meins}" width	="{maraWidth>/meins}"/>
                             <Label text="N° material antiguo"/>
 							<Input value="{/bismt}"/>
                             <Label text="Status mat. Todos ce"/>

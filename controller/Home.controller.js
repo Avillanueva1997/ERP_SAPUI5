@@ -11,8 +11,6 @@ sap.ui.define([
 
        onInit: function(oEvent) {
 
-           sap.ui.getCore().byId("__component0---viewHome--prueba--inpTx").onsapenter = this.onPressEnter();
-
            var thes = this;
 
            var cnx = JSON.parse(ConexionGlobal);

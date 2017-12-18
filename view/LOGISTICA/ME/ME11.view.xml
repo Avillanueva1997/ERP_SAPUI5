@@ -27,13 +27,15 @@
         <content>
             <f:SimpleForm
                 layout="ResponsiveGridLayout">
-                <f:content>
-                    <Label text="Registro info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true"/>
+                <f:content>     
+                    <Label text="Proveedor" />
+                    <Input maxLength="10" width	="12em" id="iptProveedor"  showValueHelp="true"/>
+                    <Label text="Material" />
+                    <Input maxLength="10" width	="12em" id="iptMaterial"  showValueHelp="true"/>
                     <Label text="Org.compras" />
-                    <Input id="iptOrgcomp" width="300px" showValueHelp="true"/>  
+                    <Input maxLength="04" width	="06em" id="iptOrgcomp"  showValueHelp="true"/>  
                     <Label text="Centro" />
-                    <Input id="iptCentro" width="300px" showValueHelp="true"/>                    
+                    <Input maxLength="04" width	="06em" id="iptCentro"  showValueHelp="true"/>
                 </f:content>
             </f:SimpleForm>
             <f:SimpleForm

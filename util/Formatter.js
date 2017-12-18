@@ -42,5 +42,7 @@ sap.ui.su01.util.Formatter = {
 	        value = oDateFormat.parse(value);  
 			return oDateFormat.format(new Date(value)); 		
 		}
-	}
+	}   
+    
+    
 };

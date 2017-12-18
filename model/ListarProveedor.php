@@ -12,10 +12,14 @@ $_ekorg = $_POST['_ekorg'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
+//$sql = "select * from lfa1
+//			inner join lfm1 on lfa1.lifnr = lfm1.lifnr
+//			where lfa1.lifnr = '".$_lifnr."' and
+//			      lfm1.ekorg = '".$_ekorg."'";
+
 $sql = "select * from lfa1
 			inner join lfm1 on lfa1.lifnr = lfm1.lifnr
-			where lfa1.lifnr = '".$_lifnr."' and
-			      lfm1.ekorg = '".$_ekorg."'";
+			where lfa1.lifnr = '".$_lifnr."'";
 
 $result = mysqli_query($con,$sql);
 

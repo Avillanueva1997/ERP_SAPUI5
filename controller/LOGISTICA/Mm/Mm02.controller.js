@@ -23,8 +23,8 @@ sap.ui.define([
        onEdit: function(oEvent){
 
         var Matnr = this.byId("inpMatnr").getValue();
-        //var Werks = this.byId("inpWerks").getValue();
-        var Werks = "";
+        var Werks = this.byId("inpWerks").getValue();
+//        var Werks = "";
 
       if (Matnr != "") {
 
@@ -75,6 +75,7 @@ sap.ui.define([
 					text: 'Confirmar',
 					press: function () {
 						dialog.close();
+                        sap.m.MessageToast.show("Se elimino con exito!"); 
 					}
 				}),
 				endButton: new Button({

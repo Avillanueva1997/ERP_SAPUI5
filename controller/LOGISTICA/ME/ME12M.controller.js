@@ -10,7 +10,7 @@ sap.ui.define([
 
      onInit: function(oEvent) {        
       var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-      oRouter.getRoute("mk02m").attachPatternMatched(this._onObjectMatched, this);
+      oRouter.getRoute("me12m").attachPatternMatched(this._onObjectMatched, this);
     },
 
     _onObjectMatched: function (oEvent) {
@@ -58,6 +58,7 @@ sap.ui.define([
 
     onBack: function(oEvent) {
      this.getRouter().navTo("me12");
+     this.clearModel("me12m");
    },
 
    onPressEnter: function(oEvent) {

@@ -54,7 +54,7 @@ $_vensl=$_POST['vensl'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
-$_lifnr = nro_proveedor($con);
+//$_lifnr = nro_proveedor($con);
 
 $sql = "INSERT INTO lfa1 VALUES (
 								 	'".$_lifnr."',

@@ -14,24 +14,27 @@ sap.ui.define([
       var thes = this; 
 
       $.ajax({
-                      //data:  parametros,
-                      url:   '/erp/model/entidades/proveedor.json', 
-                      type:  'post',
-                      async: false,
-                      success:  function (response) {
-                        var oModel = new sap.ui.model.json.JSONModel(response); 
-                        thes.byId("mk01c").setModel(oModel);                               
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                        alert(xhr.status);
-                        alert(thrownError);
-                      }
-                    }); 
+          //data:  parametros,
+          url:   '/erp/model/entidades/proveedor.json', 
+          type:  'post',
+          async: false,
+          success:  function (response) {
+            var oModel = new sap.ui.model.json.JSONModel(response); 
+            thes.byId("mk01c").setModel(oModel);     
+            var Lifnr = sessionStorage.Lifnr;
+            thes.byId("iptAcreedor").setValue(Lifnr);
+          },
+          error: function (xhr, ajaxOptions, thrownError) {
+            alert(xhr.status);
+            alert(thrownError);
+          }
+        }); 
 
     },
 
     onBack: function(oEvent) {
-     this.getRouter().navTo("home");
+     this.getRouter().navTo("mk01");
+     this.clearModel("mk01c");
    },
 
    onPressEnter: function(oEvent) {

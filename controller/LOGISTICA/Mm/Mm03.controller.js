@@ -23,8 +23,8 @@ sap.ui.define([
      onDisplay: function(oEvent){        
 
       var Matnr = this.byId("inpMatnr").getValue();
-      //var Werks = this.byId("inpWerks").getValue();
-      var Werks = "";
+      var Werks = this.byId("inpWerks").getValue();
+      //var Werks = "";
 
       if (Matnr != "") {
 

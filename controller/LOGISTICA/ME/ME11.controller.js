@@ -16,7 +16,97 @@ sap.ui.define([
        },
        
        onNew: function(oEvent){
-           this.getRouter().navTo("me11c");
+           var Proveedor = this.byId("iptProveedor").getValue();
+           var Material = this.byId("iptMaterial").getValue();
+           var Orgcomp = this.byId("iptOrgcomp").getValue();
+           var Centro = this.byId("iptCentro").getValue();
+
+           if (Proveedor == "") {
+            sap.m.MessageToast.show("Ingrese codigo de proveedor");
+            return 0;
+          }else{
+            var thes = this;
+            var cnx = JSON.parse(ConexionGlobal); 
+            var data = {};       
+            data._Ip = cnx[0].ip;
+            data._Usuario_servidor = cnx[0].usuario_servidor;
+            data._Base_datos = cnx[0].base_datos;
+            data._Pass_servidor = cnx[0].pass_servidor;
+            data._Lifnr = Proveedor;
+
+            $.ajax({
+              data:  data,
+              url:   '/erp/model/ValidarProveedor.php', 
+              type:  'post',
+              async: false,
+              beforeSend: function () {
+              },
+              success:  function (response) {   
+                if (response == "") {
+                  sap.m.MessageToast.show("El codigo de proveedor ingresado no existe");
+                  return 0;
+                }                      
+              },
+              error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status);
+                alert(thrownError);
+              }
+            });            
+          }
+
+          if (Material == "") {
+            sap.m.MessageToast.show("Ingrese codigo de material");
+            return 0;
+          }else{
+            var thes = this;
+            var cnx = JSON.parse(ConexionGlobal); 
+            var data = {};       
+            data._Ip = cnx[0].ip;
+            data._Usuario_servidor = cnx[0].usuario_servidor;
+            data._Base_datos = cnx[0].base_datos;
+            data._Pass_servidor = cnx[0].pass_servidor;
+            data._Matnr = Material;
+            //data._Werks = Centro;
+            var Werks = "";
+
+            $.ajax({
+              data:  data,
+              url:   '/erp/model/ValidarMaterial.php', 
+              type:  'post',
+              async: false,
+              beforeSend: function () {
+              },
+              success:  function (response) {   
+                if (response == "") {
+                  sap.m.MessageToast.show("El codigo de material ingresado no existe");
+                  return 0;
+                }                     
+              },
+              error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status);
+                alert(thrownError);
+              }
+            });  
+          }
+
+          if (Orgcomp == "") {
+            sap.m.MessageToast.show("Ingrese organización de compras");
+            return 0;
+          }
+
+          if (Centro == "") {
+            sap.m.MessageToast.show("Ingrese centro");
+            return 0;
+          }
+
+
+
+           sessionStorage.Proveedor = this.byId("iptProveedor").getValue();
+           sessionStorage.Material = this.byId("iptMaterial").getValue();
+           sessionStorage.Orgcomp = this.byId("iptOrgcomp").getValue();
+           sessionStorage.Centro = this.byId("iptCentro").getValue();
+
+          this.getRouter().navTo("me11c");
        },
        
        onCopy: function(oEvent){
