@@ -16,9 +16,6 @@ sap.ui.define([
     _onObjectMatched: function (oEvent) {
 
       var Infnr = sessionStorage.Infnr;
-      var Ekorg = sessionStorage.Ekorg;
-      var Werks = sessionStorage.Werks;
-      var Esokz = sessionStorage.Esokz;
 
       var thes = this;
 
@@ -29,10 +26,7 @@ sap.ui.define([
         "_Usuario_servidor" : cnx[0].usuario_servidor,
         "_Pass_servidor" : cnx[0].pass_servidor,
         "_Base_datos" : cnx[0].base_datos,
-        "_infnr" : Infnr,
-        "_ekorg" : Ekorg,
-        "_esokz" : Esokz,
-        "_werks" : Werks
+        "_infnr" : Infnr
       };
 
       $.ajax({

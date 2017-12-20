@@ -83,8 +83,7 @@ sap.ui.define([
           "_Usuario_servidor" : cnx[0].usuario_servidor,
           "_Pass_servidor" : cnx[0].pass_servidor,
           "_Base_datos" : cnx[0].base_datos,
-          "_Lifnr" : Lifnr,            
-          "_Ekorg" : Ekorg            
+          "_Lifnr" : Lifnr       
         };
 
         $.ajax({
@@ -107,13 +106,33 @@ sap.ui.define([
                   text: 'Confirmar',
                   press: function () {
                     dialog.close();
+
+                    $.ajax({
+                      data:  parametros,
+                      url:   '/erp/model/EliminarProveedor.php', 
+                      type:  'post',
+                      async: false,
+                      beforeSend: function () {
+                      },
+                      success:  function (response) {                           
+                        if (response == "1") {
+                            sap.m.MessageToast.show("Se elimino con exito!"); 
+                          }else{
+                            sap.m.MessageToast.show("No se elimino: " + response); 
+                          }
+                      },
+                      error: function (xhr, ajaxOptions, thrownError) {
+                        alert(xhr.status);
+                        alert(thrownError);
+                      }
+                    });       
+
                   }
                 }),
                 endButton: new Button({
                   text: 'Cancelar',
                   press: function () {
-                    dialog.close();
-                    sap.m.MessageToast.show("Se elimino con exito!");                    
+                    dialog.close();                    
                   }
                 }),
                 afterClose: function() {
@@ -133,4 +152,4 @@ sap.ui.define([
       } 
     }
   });
- });
+});

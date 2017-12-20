@@ -9,6 +9,13 @@ sap.ui.define([
    return BaseController.extend("sap.ui.su01.controller.LOGISTICA.ME.ME13V", {
 
        onInit: function(oEvent) {
+        var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+      oRouter.getRoute("me13v").attachPatternMatched(this._onObjectMatched, this);
+       },
+
+       _onObjectMatched: function (oEvent) {
+
+           var Infnr = sessionStorage.Infnr;
 
            var thes = this;
 
@@ -19,10 +26,7 @@ sap.ui.define([
               "_Usuario_servidor" : cnx[0].usuario_servidor,
               "_Pass_servidor" : cnx[0].pass_servidor,
               "_Base_datos" : cnx[0].base_datos,
-              "_infnr" : "1000000001",
-              "_ekorg" : "100",
-              "_esokz" : "1",
-              "_werks" : "100"
+              "_infnr" : Infnr
            };
 
            $.ajax({
@@ -43,7 +47,6 @@ sap.ui.define([
                           alert(thrownError);
                       }
                   });
-
        },
        
        onBack: function(oEvent) {

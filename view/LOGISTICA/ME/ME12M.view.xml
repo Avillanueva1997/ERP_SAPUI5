@@ -31,16 +31,21 @@
                 <f:content>
                     <core:Title />
                     <Label text="Registro de info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true" value="{/infnr}" />                                                 
+                    <Input id="iptReginfo" width="300px" showValueHelp="true" value="{/infnr}" editable="false" />                                                 
                     <Label text="Proveedor" />
-                    <Input id="iptProveedor" width="300px" showValueHelp="true" value="{/lifnr}" />                                               
+                    <Input id="iptProveedor" width="300px" showValueHelp="true" value="{/lifnr}" editable="false" />                                               
                     <Label text="Material" />
-                    <Input id="iptMaterial" width="300px" showValueHelp="true" value="{/matnr}" />  
+                    <Input id="iptMaterial" width="300px" showValueHelp="true" value="{/matnr}" editable="false" />  
+
+                    <Label text="Org.compras" />
+                    <Input id="iptOrgcompras" width="300px" showValueHelp="true" value="{/ekorg}" editable="false" /> 
+
+                    <Label text="Centro" />
+                    <Input id="iptCentro" width="300px" showValueHelp="true" value="{/werks}" editable="false" /> 
+
                     <core:Title />
                     <Label text="Grupo articulos" />
-                    <Input id="iptGrparti" width="300px" showValueHelp="true" value="{/matkl}" />                                                 
-                    <Label text="Org.compras" />
-                    <Input id="iptOrgcompras" width="300px" showValueHelp="true" value="{/ekorg}" /> 
+                    <Input id="iptGrparti" width="300px" showValueHelp="true" value="{/matkl}" />                    
                     <Label text="Normal" />
                     <Input id="iptNormal" width="300px" showValueHelp="true" value="{}" /> 
                 </f:content>

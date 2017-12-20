@@ -31,7 +31,7 @@
                     <Input maxLength="10" width	="12em" id="iptReginfo"  showValueHelp="true"/>     
                 </f:content>
             </f:SimpleForm>
-            <f:SimpleForm
+            <!-- <f:SimpleForm
                 layout="ResponsiveGridLayout">
                 <f:title>
                     <core:Title text="Infotipo" />
@@ -49,7 +49,7 @@
                         </items>
                     </FlexBox>                         
                 </f:content>
-            </f:SimpleForm>
+            </f:SimpleForm> -->
         </content>
 	</Page>
 </mvc:View>

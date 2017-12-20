@@ -20,7 +20,17 @@ sap.ui.define([
           async: false,
           success:  function (response) {
             var oModel = new sap.ui.model.json.JSONModel(response); 
-            thes.byId("me11c").setModel(oModel);                               
+            thes.byId("me11c").setModel(oModel);   
+            var Proveedor = sessionStorage.Proveedor;
+            var Material = sessionStorage.Material;
+            var Orgcomp = sessionStorage.Orgcomp;
+            var Centro = sessionStorage.Centro;
+
+            thes.byId("iptProveedor").setValue(Proveedor);
+            thes.byId("iptMaterial").setValue(Material);
+            thes.byId("iptOrgcomp").setValue(Orgcomp); 
+            thes.byId("iptCentro").setValue(Centro);  
+
           },
           error: function (xhr, ajaxOptions, thrownError) {
             alert(xhr.status);
