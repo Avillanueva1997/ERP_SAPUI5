@@ -36,7 +36,7 @@
                 singleContainerFullSize="false">
                 <f:content>
                     <Label text="Material" />
-                    <Input maxLength="10" width	="10em"/>
+                    <Input maxLength="10" width	="10em" id="inpMatnr"/>
                     <Label text="Tipo Material" />
                     <Input maxLength="04" width	="04em" id="inpTipoMaterial"/>
                 </f:content>
