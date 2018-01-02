@@ -15,23 +15,38 @@ sap.ui.define([
        },
        
        onBack: function(oEvent){
-           this.getRouter().navTo("home");
+          this.byId("ipRol").setValue("");
+          this.getRouter().navTo("home");
        },
        
        onNew: function(oEvent){
-           this.getRouter().navTo("pfcgC");
+           
+        if(this.byId("ipRol").getValue() === ""){
+          MessageToast.show("Ingresar Rol");
+          return;
+        }
+        
+        this.getRouter().navTo("pfcgC");
+
+           
        },
        
-       onCopy: function(oEvent){           
-           var that = this;
-           var dialog = new Dialog({
+       onCopy: function(oEvent){
+        var that = this;
+
+        if(that.byId("ipRol").getValue() === ""){
+          MessageToast.show("Ingresar Rol");
+          return;
+        }
+           
+        var dialog = new Dialog({
 				title: 'Confirmación',
 				type: 'Message',
 				content: new Text({ text: 'Desea copiar el usuario?' }),
 				beginButton: new Button({
 					text: 'Confirmar',
-					press: function () {
-						that.getRouter().navTo("pfcgC");
+					press: function () {	
+            that.getRouter().navTo("pfcgC");					
 						dialog.close();
 					}
 				}),

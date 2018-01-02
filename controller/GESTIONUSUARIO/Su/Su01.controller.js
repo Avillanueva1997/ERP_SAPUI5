@@ -60,6 +60,7 @@
       },
 
       onBack: function(oEvent){
+       this.byId("inpUsuario").setValue("");
        this.getRouter().navTo("home");
      },
 

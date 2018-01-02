@@ -10,11 +10,6 @@
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page title="Modificar usuario"
         id="su01m">
-        <subHeader>
-			<Toolbar>
-				<Button icon="sap-icon://display" press="onView"/>
-			</Toolbar>
-		</subHeader>
         <content>    
             <ObjectHeader
 				title="{/usuario}"
@@ -73,28 +68,13 @@
                                 <Column
                                     minScreenWidth="Tablet"
                                     demandPopin="true">
-                                    <Text text="Estado" />
-                                </Column>
-                                <Column
-                                    minScreenWidth="Tablet"
-                                    demandPopin="true">
                                     <Text text="Rol" />
                                 </Column>
                                 <Column
                                     minScreenWidth="Tablet"
                                     demandPopin="true">
                                     <Text text="Descripción" />
-                                </Column>
-                                <Column
-                                    minScreenWidth="Tablet"
-                                    demandPopin="true">
-                                    <Text text="Fecha inicio" />
-                                </Column>
-                                <Column
-                                    minScreenWidth="Tablet"
-                                    demandPopin="true">
-                                    <Text text="Fecha fin" />
-                                </Column>                                
+                                </Column>                             
                             </columns>
                             <items>
                                 <ColumnListItem>
@@ -103,10 +83,6 @@
                                             text="" />
                                         <Text
                                             text="" />
-                                        <Text
-                                            text="" />
-                                        <DatePicker/>
-                                        <DatePicker/>
                                     </cells>
                                 </ColumnListItem>
                             </items>

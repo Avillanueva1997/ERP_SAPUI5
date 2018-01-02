@@ -9,16 +9,17 @@
 	xmlns="sap.m">
     <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
     <Page title="Modificar Rol">
-        <subHeader>
-			<Toolbar>
-                <Button icon="sap-icon://display" press="onDisplay"/>
-			</Toolbar>
-		</subHeader>
         <ObjectHeader
             title="lfarro"
             backgroundDesign="Solid">
         </ObjectHeader>
         <content>   
+            <f:SimpleForm
+                layout="ResponsiveGridLayout"
+                singleContainerFullSize="false">
+                <Label text="Descripción" />
+                <Input width="15em" id="ipDescripcion" />
+            </f:SimpleForm>
             <Table id="idProductsTable">
                 <columns>
                     <Column
