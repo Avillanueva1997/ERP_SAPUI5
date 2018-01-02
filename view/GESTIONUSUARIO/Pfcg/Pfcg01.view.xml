@@ -23,7 +23,7 @@
         <content>    
             <l:VerticalLayout class="sapUiSmallMargin" >
                 <Label text="Rol" />
-                <Input width="200px"/>  
+                <Input id="ipRol" width="200px"/>  
             </l:VerticalLayout>     
         </content>       
     </Page>

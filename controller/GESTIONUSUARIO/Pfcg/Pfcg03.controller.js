@@ -10,10 +10,15 @@ sap.ui.define([
        },
        
        onBack: function(oEvent){
+           this.byId("ipRol").setValue("");
            this.getRouter().navTo("home");
        },
        
        onDisplay: function(oEvent){
+           if(this.byId("ipRol").getValue() === ""){
+            MessageToast.show("Ingresar Rol");
+            return;
+           }
            this.getRouter().navTo("pfcgV");
        }
        

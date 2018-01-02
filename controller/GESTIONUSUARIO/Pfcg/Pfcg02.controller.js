@@ -15,15 +15,29 @@ sap.ui.define([
        },
        
        onBack: function(oEvent){
-           this.getRouter().navTo("home");
+          this.byId("ipRol").setValue("");
+          this.getRouter().navTo("home");
        },
        
        onEdit: function(oEvent){
-           this.getRouter().navTo("pfcgM");
+
+          if(this.byId("ipRol").getValue() === ""){
+            MessageToast.show("Ingresar Rol");
+            return;
+          }
+
+          this.getRouter().navTo("pfcgM");
        },
        
        onDelete: function(oEvent){
-           var dialog = new Dialog({
+        var that = this;
+        
+        if(this.byId("ipRol").getValue() === ""){
+          MessageToast.show("Ingresar Rol");
+          return;
+        }
+
+        var dialog = new Dialog({
 				title: 'Confirmación',
 				type: 'Message',
 				content: new Text({ text: 'Desea eliminar el Rol?' }),
