@@ -11,7 +11,6 @@ $_Base_datos = $_POST['_Base_datos'];
 $_lifnr=$_POST['lifnr'];
 $_brsch=$_POST['brsch'];
 $_kunnr=$_POST['kunnr'];
-$_lnrza=$_POST['lnrza'];
 $_stcd1=$_POST['stcd1'];
 $_stcd2=$_POST['stcd2'];
 $_vbund=$_POST['vbund'];
@@ -50,7 +49,6 @@ $_plifz=$_POST['plifz'];
 $_skrit=$_POST['skrit'];
 $_bstae=$_POST['bstae'];
 $_rdprf=$_POST['rdprf'];
-$_vensl=$_POST['vensl'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
@@ -60,7 +58,6 @@ $sql = "INSERT INTO lfa1 VALUES (
 								 	'".$_lifnr."',
 									'".$_brsch."',
 									'".$_kunnr."',
-									'".$_lnrza."',
 									'".$_stcd1."',
 									'".$_stcd2."',
 									'".$_vbund."',
@@ -104,8 +101,7 @@ $sql = "INSERT INTO lfm1 VALUES (
 									'".$_plifz."',
 									'".$_skrit."',
 									'".$_bstae."',
-									'".$_rdprf."',
-									'".$_vensl."'
+									'".$_rdprf."'
 								)";
 
 $result = mysqli_query($con,$sql);
@@ -123,7 +119,7 @@ function nro_proveedor($con){
     	$lifnr=$row['lifnr'];
 	}
 
-	if ($lifnr == " ") {
+	if ($lifnr == "") {
 		return '1000000000';
 	}else{		
 		return siguiente_correlativo($lifnr);

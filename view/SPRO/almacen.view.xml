@@ -1,0 +1,78 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.almacen"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="almacen"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Almacén" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>  
+    <t:Table id="tbAlmacenes"
+    inset="false"
+    mode="MultiSelect"
+    rows="{/}">
+    <t:toolbar>
+     <Toolbar>
+      <content>
+        <Title text="Almacenes" level="H2" />
+        <ToolbarSpacer/>
+        <Button press="onAdd" icon="sap-icon://add"/>
+        <Button press="onDelete" icon="sap-icon://delete"/>
+      </content>
+     </Toolbar>
+    </t:toolbar>
+    <t:columns>
+     <t:Column width="11.5rem" sortProperty="butxt" filterProperty="butxt">
+      <Label text="Sociedad" />
+      <t:template>
+        <ComboBox showSecondaryValues="true" editable="false" items="{path: 'cbSociedad>/', templateShareable:false}" 
+            width="300px" selectedKey="{bukrs}" >
+            <core:ListItem key="{cbSociedad>bukrs}" text="{cbSociedad>bukrs}"  additionalText="{cbSociedad>butxt}"/>
+        </ComboBox>
+      </t:template>
+     </t:Column>
+     <t:Column width="11.5rem" sortProperty="name1" filterProperty="name1" >
+      <Label text="Centro" />
+      <t:template>
+        <ComboBox showSecondaryValues="true" items="{path: 'cbCentro>/'}" width="300px" selectedKey="{werks}" editable="false" class="prueba">
+            <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}"/>
+        </ComboBox>
+      </t:template>
+     </t:Column>
+     <t:Column width="11.5rem" sortProperty="lgort" filterProperty="lgort">
+      <Label text="Almacén" />
+      <t:template>
+       <Input value="{lgort}"  maxLength="{t001lLength>/lgort}" width="{t001lWidth>/lgort}" editable="false"/>
+      </t:template>
+     </t:Column>
+     <t:Column width="11.5rem" sortProperty="lgobe" filterProperty="lgobe">
+      <Label text="Denominación" />
+      <t:template>
+       <Input value="{lgobe}"  maxLength="{t001lLength>/lgobe}" width="{t001lWidth>/lgobe}"/>
+      </t:template>
+     </t:Column>
+          <t:Column width="11.9rem" sortProperty="adrnr" filterProperty="adrnr">
+      <Label text="Dirección" />
+      <t:template>
+       <Input value="{adrnr}"  maxLength="{t001lLength>/adrnr}" width="{t001lWidth>/adrnr}"/>
+      </t:template>
+     </t:Column>
+    </t:columns>
+    </t:Table>                      
+    </content>
+    </Page>
+</mvc:View>

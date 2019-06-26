@@ -63,6 +63,9 @@
        this.byId("inpUsuario").setValue("");
        this.getRouter().navTo("home");
      },
+     onHome: function(oEvent) {
+      this.getRouter().navTo("home");      
+     },
 
      onEdit: function(oEvent){
 

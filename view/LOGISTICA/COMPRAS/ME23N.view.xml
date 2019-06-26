@@ -1,0 +1,483 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.COMPRAS.ME23N"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="true"
+        id="me23n" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Compras" level="H2"/>			
+                <ToolbarSpacer/>
+			</Toolbar>
+		</customHeader>    
+        <content>
+            <IconTabBar>
+                <items>
+                    <IconTabFilter text="Entrega/Factura">
+                        <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
+                            layout="ResponsiveGridLayout">
+                            <f:content>
+                                <core:Title/>
+
+                                <Label text="Cond.pago" id="lblCondpago" />
+                                <Input id="iptCondpago" />
+                                
+                                <Input/>
+                                <Label text="Días"/>
+
+                                <Input/>
+                                <Label text="Días"/>
+
+                                <Input/>
+                                <Label text="Días Neto"/>
+
+                                <Label text="Texto" id="lblTexto" />
+                                <Input id="iptTexto" />                                                 
+                                <core:Title />
+                                <Label text="Moneda" id="lblMoneda" />
+                                <Input id="iptMoneda" />  
+                                <Label text="Tipo de cambio" id="lblTipoCambio" />
+                                <Input id="iptTipoCambio"/>
+                                <FlexBox
+                                direction="Column"
+                                alignItems="Start"
+                                justifyContent="Center" >
+                                <items>                        
+                                    <CheckBox id="chkTpCambFijado" text="Tp.camb.fijado" />   
+                                </items>
+                                </FlexBox>                                
+                            </f:content>
+                        </f:SimpleForm>                                                
+                    </IconTabFilter>
+                    
+                    <IconTabFilter text="Condiciones">
+                        <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
+                            layout="ResponsiveGridLayout">
+                            <f:content>  
+                                <Label text="Neto" id="lblNeto" />
+                                <Input id="iptNeto1"/>
+                                <Input id="iptNeto2"/>
+                            </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
+                            layout="ResponsiveGridLayout">
+                            <f:content>
+                            <t:Table id="tbElemPrecio"
+                            inset="false"
+                            mode="MultiSelect"
+                            rows="{/}"
+                            visibleRowCount="5">
+                            <t:toolbar>
+                             <Toolbar>
+                              <content>
+                                <Title text="Elem.precio" level="H2" />
+                                <ToolbarSpacer/>
+                                <Button press="onAdd" icon="sap-icon://add"/>
+                                <Button press="onDelete" icon="sap-icon://delete"/>
+                              </content>
+                             </Toolbar>
+                            </t:toolbar>
+                            <t:columns>
+                             <t:Column width="5rem">
+                              <Label text="I..." />
+                              <t:template>
+                                <Input/>                                
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="C|Cd" />
+                              <t:template>
+                                <Input/>        
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Denominación" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Importe" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Mon." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="11.9rem">
+                              <Label text="por" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="UM" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Valor condición" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Mon." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Status" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Valor condición" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="MonCd" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Est." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                            </t:columns>
+                            </t:Table>                                             
+                            </f:content>
+                        </f:SimpleForm>
+                    </IconTabFilter>
+
+                    <IconTabFilter text="Dirección">
+                        <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
+                            layout="ResponsiveGridLayout">
+                            <f:content>
+                                <core:Title/>
+
+                                <Label text="Calle/Número" id="lblCalleNumC" />
+                                <Input id="iptCalleNumC1"/>
+                                <Input id="iptCalleNumC2"/>
+                                
+                                <Label text="Código postal/Pobl." id="lblCodPostal"/>
+                                <Input id="iptCodPostal1"/>
+                                <Input id="iptCodPostal2"/>
+                                
+                                <Label text="País" id="lblPaisD"/>
+                                <Input id="iptPais"/>
+
+                                <Label text="Teléfono" id="lblTelf"/>
+                                <Input id="iptTelf"/>
+
+                                <Label text="Fax" id="lblFax"/>
+                                <Input id="iptFax"/>
+                                                                                 
+                                <core:Title />
+                                <Label text="Extensión" id="lblExtension1" />
+                                <Input id="iptExtension1" />
+
+                                <Label text="Extensión" id="lblExtension2" />
+                                <Input id="iptExtension2" />                         
+                            </f:content>
+                        </f:SimpleForm>
+                        </IconTabFilter>             
+
+                        <IconTabFilter text="Dat.org.">
+                        <f:SimpleForm
+                        editable="true"
+                        columnsXL="2"                                      
+                        singleContainerFullSize="false"
+                        layout="ResponsiveGridLayout">
+                        <f:content>
+                            <core:Title/>
+                            <Label text="Org.compras" id="lblOrgCompras" />
+                            <Input id="iptOrgCompras"/>
+                            
+                            <Label text="Grupo compras" id="lblGrupoCompras"/>
+                            <Input id="iptGrupoCompras"/>
+                            
+                            <Label text="Sociedad" id="lblSociedad"/>
+                            <Input id="iptSociedad"/>                         
+                        </f:content>
+                        </f:SimpleForm>
+                        <f:SimpleForm
+                        editable="true"
+                        columnsXL="2"                                      
+                        singleContainerFullSize="false"
+                        layout="ResponsiveGridLayout">
+                        <f:content>
+                            <core:Title text="Status"/>
+                            <Label text="Liberación concluida" id="lblLibConcl" />
+                            <Input id="iptLibConcl"/>
+                            
+                            <Label text="Pedido Liberado" id="lblPedidoLib"/>
+                            <Input id="iptPedidoLib"/>
+                            
+                            <Label text="Enviada/o" id="lblEnviado"/>
+                            <Input id="iptEnviado"/>                         
+
+                            <Label text="No entregado" id="lblNoEntreg"/>
+                            <Input id="iptNoEntreg"/>    
+
+                            <Label text="Sin calcular" id="lblSinEntreg"/>
+                            <Input id="iptSinEntreg"/> 
+                            <core:Title/>
+
+                            <Label text="40 un"/>
+                            <Input id="costLibConcl"/>
+                            <Label text="PEN"/>
+
+                            <Label text="40 un"/>
+                            <Input id="costPedidoLib"/>
+                            <Label text="PEN"/>
+
+                            <Label text="40 un"/>
+                            <Input id="costEnviado"/>
+                            <Label text="PEN"/>
+
+                            <Label text="40 un"/>
+                            <Input id="costNoEntreg"/>
+                            <Label text="PEN"/>
+
+                            <Label text="40 un"/>
+                            <Input id="costSinEntreg"/>
+                            <Label text="PEN"/>
+
+                        </f:content>
+                        </f:SimpleForm>
+                        </IconTabFilter>
+
+                        <IconTabFilter text="Detalle">
+                        <f:SimpleForm
+                        editable="true"
+                        columnsXL="2"                                      
+                        singleContainerFullSize="false"
+                        layout="ResponsiveGridLayout">
+                        <f:content>
+                            <t:Table id="tbDetalle"
+                            inset="false"
+                            mode="MultiSelect"
+                            rows="{/}"
+                            visibleRowCount="5">
+                            <t:toolbar>
+                             <Toolbar>
+                              <content>
+                                <Title text="Detalle" level="H2" />
+                                <ToolbarSpacer/>
+                                <Button press="onAdd" icon="sap-icon://add"/>
+                                <Button press="onDelete" icon="sap-icon://delete"/>
+                              </content>
+                             </Toolbar>
+                            </t:toolbar>
+                            <t:columns>
+                             <t:Column width="5rem">
+                              <Label text="S..." />
+                              <t:template>
+                                <Input/>                                
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Pos" />
+                              <t:template>
+                                <Input/>        
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="I"/>
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Material" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Txt.brv." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="11.9rem">
+                              <Label text="Ctd.pedido"/>
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="UMP" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="T" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Fe.entrega" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Prc.neto" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Moneda" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="por" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Grupo art." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Ce." />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Almacén" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Lote" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="Reg.info" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                             <t:Column width="5rem">
+                              <Label text="BP" />
+                              <t:template>
+                               <Input/>
+                              </t:template>
+                             </t:Column>
+                            </t:columns>
+                            </t:Table>                                             
+                        </f:content>
+                        </f:SimpleForm>
+                        </IconTabFilter>
+
+                        <IconTabFilter text="Posición">
+                        <f:SimpleForm
+                        editable="true"
+                        columnsXL="2"                                      
+                        singleContainerFullSize="false"
+                        layout="ResponsiveGridLayout">
+                        <f:content>
+                            <core:Title/>
+                            <Label text="Tratamiento" id="lblTratamiento" />
+                            <Input id="iptTratamiento"/>
+                            
+                            <Label text="Nombre" id="lblNombre"/>
+                            <Input id="iptNombre1"/>
+                            <Input id="iptNombre2"/>
+
+                            
+                            <Label text="Calle/Número" id="lblCalleNumP"/>
+                            <Input id="iptCalleNumP1"/>
+                            <Input id="iptCalleNumP2"/>
+
+                            <Label text="Distrito" id="lblDistrito"/>
+                            <Input id="iptDistrito"/>
+
+                            <Label text="Código postal/Pobl." id="lblCodigoPostP"/>
+                            <Input id="iptCodigoPostP1"/>
+                            <Input id="iptCodigoPostP2"/>
+
+                            <Label text="País" id="lblPaisP"/>
+                            <Input id="iptCodigoPost1"/>
+                            <Label text="Perú"/>
+                            
+                            <Label text="Región"/>
+                            <Input id="iptRegion"/>
+                            <Label text="Lima y Callao"/>
+
+
+
+
+                            <core:Title/>
+
+                            <Label text="Dirección"/>
+                            <Input id="iptDireccion"/>
+
+                            <Label text="Proveedor"/>
+                            <Input id="iptProveedor"/>
+                             <FlexBox
+                             direction="Column"
+                             alignItems="Start"
+                             justifyContent="Center" >                  
+                                <items>                        
+                                    <CheckBox id="chkProvSub" text="ProvSub" />   
+                                </items>
+                             </FlexBox>
+                        </f:content>
+                        </f:SimpleForm>
+
+                        </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </content>
+	</Page>
+</mvc:View>

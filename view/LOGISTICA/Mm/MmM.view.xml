@@ -11,24 +11,23 @@
     <Page title="Modificar material"
         id="mmm">  
         <content>    
-            <!--<ObjectHeader
-				title="Martillo"
-				backgroundDesign="Solid">
-			</ObjectHeader>-->
             <f:SimpleForm
-                layout="ResponsiveGridLayout">
+                layout="ResponsiveGridLayout"
+                editable="true"
+                columnsXL="2"                                      
+                singleContainerFullSize="false">
                 <f:content>
-                    <Label text="Material" />
-                    <Input id="iptAcreedor" width="300px" showValueHelp="true" editable="false" value="{/matnr}" /> 
-                    <Label text="Descripcion" />
-                    <Input id="iptDescripcion" width="300px" showValueHelp="true" value="{/maktg}" />                                                      
+                    <Label text="Material" id="lblAcreedor" />
+                    <Input id="iptAcreedor" editable="false" value="{/matnr}" maxLength="{maraLength>/matnr}" width  ="{maraWidth>/matnr}" /> 
+                    <Label text="Descripcion" id="lblDescripcion"/>
+                    <Input id="iptDescripcion" value="{/maktg}" maxLength="{maraLength>/maktg}" width="30em" />                                                      
                 </f:content>
             </f:SimpleForm>
             <IconTabBar
 				expanded="{device>/isNoPhone}"
 				class="sapUiResponsiveContentPadding">
 				<items>
-					<IconTabFilter
+					<IconTabFilter id="datosBasicos"
 						text="Datos basicos">
 						<f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -46,41 +45,44 @@
                             columnsM="2"
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
-							<Label text="Unidad medida base"/>
-                            <Input value="{/meins}"/>
-                            <Label text="N° material antiguo"/>
-                            <Input value="{/bismt}"/>
-                            <Label text="Status mat. Todos ce"/>
-                            <Input value="{/kosch}"/>
+							<Label text="Unidad medida base" id="lblUnidadBase"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/meins}" id="unidadBase" editable="false">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="N° material antiguo" id="lblMaterialAntiguo"/>
+                            <Input value="{/bismt}" maxLength="{maraLength>/bismt}" width="{maraWidth>/bismt}" id="materialAntiguo" liveChange="validacionN"/>
+                            <Label text="Status General" id="lblStatusMat"/>
+                            <Input value="{/kosch}" maxLength="{maraLength>/kosch}" width="{maraWidth>/kosch}" id="statusMat"/>
                             <core:Title/>
-                            <Label text="Grupo de articulos"/>
-                            <Input value="{/matkl}" />
-                            <Label text="Valido de"/>
-                            <Input value="{/mstde}" />
+                            <Label text="Grupo de articulos" id="lblGrupoArt"/>
+                            <ComboBox showSecondaryValues="true" items="{cbGrupo>/}" width="300px" selectedKey="{/matkl}" id="grupoArt">
+                                <core:ListItem key="{cbGrupo>matkl}" text="{cbGrupo>matkl}" additionalText="{cbGrupo>butxt}"/>
+                            </ComboBox>
                             <core:Title text="Dimensiones/EAN" />
-                            <Label text="Peso bruto"/>
-                            <Input value="{/brgew}" />
-                            <Label text="Peso neto"/>
-                            <Input value="{/ntgew}"/>
-                            <Label text="Volumen"/>
-                            <Input value="{/volum}"/>
-                            <Label text="Tamaño/Dimensión"/>
-                            <Input value="{/groes}"/>
-                            <Label text="Codigo EAN/UPC"/>
-                            <Input value="{/ean11}"/>
+                            <Label text="Peso bruto" id="lblPesoBruto"/>
+                            <Input value="{/brgew}"  maxLength="{maraLength>/brgew}" width="{maraWidth>/brgew}" id="pesoBruto" liveChange="validacionF"/>
+                            <Input value="{/ntgew}" maxLength="{maraLength>/ntgew}" width="{maraWidth>/ntgew}" id="pesoNeto" liveChange="validacionF"/>
+                            <Label text="Volumen" id="lblVolumen"/>
+                            <Input value="{/volum}" maxLength="{maraLength>/volum}" width="{maraWidth>/volum}" id="volumen" liveChange="validacionF"/>
+                            <Label text="Codigo EAN/UPC" id="lblCodigoEanUpc"/>
+                            <Input value="{/ean11}" maxLength="{maraLength>/ean11}" width="{maraWidth>/ean11}" id="codigoEanUpc" liveChange="validacionN"/>
                             <core:Title/>
-                            <Label text="Unidad de peso"/>
-                            <Input value="{/gewei}"/>
-                            <Label text="Unidad de volumen"/>
-                            <Input value="{/voleh}"/>
-                            <Label text="Tipo EAN"/>
-                            <Input value="{/numtp}"/>
+                            <Label text="Unidad de peso" id="lblUnidadPeso"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/gewei}" id="unidadPeso">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Unidad de volumen" id="lblUnidadVolumen"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/voleh}" id="unidadVolumen">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Tipo EAN" id="lblTipoEan"/>
+                            <Input value="{/numtp}" maxLength="{maraLength>/numtp}" width="{maraWidth>/numtp}" id="tipoEan"/>
                             <core:Title text="Datos material de embalaje" />
-                            <Label text="Gr.materiales ME"/>
-                            <Input value="{/magrv}"/>
+                            <Label text="Gr.materiales ME" id="lblDatosMaterial"/>
+                            <Input value="{/magrv}" maxLength="{maraLength>/magrv}" width="{maraWidth>/magrv}" id="datosMaterial"/>
 						</f:SimpleForm>
 					</IconTabFilter>
-                    <IconTabFilter
+                    <IconTabFilter id="compras"
 						text="Compras">
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -97,8 +99,10 @@
                             columnsL="1"
                             columnsM="1"
                             singleContainerFullSize="false">
-							<Label text="Centro"/>
-                            <Input value="{/werks}"/>
+							<Label text="Centro" id="lblCentroC"/>
+                            <ComboBox showSecondaryValues="true" items="{cbCentro>/}" width="300px" selectedKey="{/werks}" id="cbxCentroC">
+                                <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}"/>
+                            </ComboBox>
                         </f:SimpleForm>
                         <f:SimpleForm
                             layout="ResponsiveGridLayout"
@@ -116,29 +120,32 @@
                             columnsM="2"
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
-                            <Label text="Unidad medida base"/>
-                            <Input value="{/meins}"/>
-                            <Label text="Grupo de compras"/>
-                            <Input value="{/ekgrp}"/>
-                            <Label text="Stat. mat. especif. ce."/>
-                            <Input value="{/mmsta}"/>
-                            <Label text="Ident. impuesto ma."/>
-                            <Input value="{/taxim}"/>
-                            <Label text="Sujeto-Lote"/>
-                            <CheckBox/>
+                            <Label text="Unidad medida base" id="lblUnidadBaseC"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/meins}" id="unidadBaseC" editable="false">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Grupo de compras"  id="lblGrupoComprasC"/>
+                            <Input value="{/ekgrp}" maxLength="{marcLength>/ekgrp}" width="{marcWidth>/ekgrp}" id="grupoComprasC"/>
+                            <Label text="Status General"  id="lblStatusMatC"/>
+                            <Input value="{/mmsta}" maxLength="{marcLength>/mmsta}" width="{marcWidth>/mmsta}" id="statusMatC"/>
+                            <Label text="Ident. impuesto ma."  id="lblIdenImpuestoC"/>
+                            <Input value="{/taxim}" maxLength="{mlanLength>/taxim}" width="{mlanWidth>/taxim}" id="idenImpuesto"/>
+                            <Label text="Sujeto-Lote"  id="lblSujetoLoteC"/>
+                            <CheckBox id="chckLote"/>
                             <core:Title/>
-                            <Label text="Unidad medida pedido"/>
-                            <CheckBox/>
-                            <Label text="Grupo de articulos"/>
-                            <Input value="{/matkl}"/>
-                            <Label text="Valido de"/>
-                            <Input value="{/mmstd}"/>
-                            <Label text="UMP var."/>
-                            <Input value="{/vabme}"/>
+                            <!--<Label text="Unidad medida pedido" id="lblUnidadPedidoC"/>
+                            <CheckBox/> -->
+                            <Label text="Grupo de articulos" id="lblGrupoArtC"/>
+                            <ComboBox showSecondaryValues="true" items="{cbGrupo>/}" width="300px" selectedKey="{/matkl}" id="grupoArtC">
+                                <core:ListItem key="{cbGrupo>matkl}" text="{cbGrupo>matkl}" additionalText="{cbGrupo>butxt}"/>
+                            </ComboBox>
+                            <Label text="UMP var." id="lblUmpVarC"/>
+                            <Input value="{/vabme}" maxLength="{maraLength>/vabme}" width="{maraWidth>/vabme}" id="UmpVarC"/>
 						</f:SimpleForm>
                     </IconTabFilter>
-                    <IconTabFilter
-						text="Almacenamiento">
+                    <IconTabFilter 
+						text="Almacenamiento"
+                        id="almacenamiento">
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
                             labelSpanXL="2"
@@ -154,10 +161,14 @@
                             columnsL="1"
                             columnsM="1"
                             singleContainerFullSize="false">
-							<Label text="Centro"/>
-                            <Input value="{/werks}"/>
-                            <Label text="Almacen"/>
-                            <Input value="{}"/>
+							<Label text="Centro" id="lblCentroA"/>
+                            <ComboBox showSecondaryValues="true" items="{cbCentro>/}" width="300px" selectedKey="{/werks}" id="cbxCentroA">
+                                <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}"/>
+                            </ComboBox>
+                            <Label text="Almacen" id="lblAlmacenA"/>
+                            <ComboBox showSecondaryValues="true" items="{cbAlmacen>/}" width="300px" selectedKey="{/lgort}" id="cbxAlmacenA">
+                                <core:ListItem key="{cbAlmacen>lgort}" text="{cbAlmacen>lgort}" additionalText="{cbCAlmacen}"/>
+                            </ComboBox>
 						</f:SimpleForm>
                         <f:SimpleForm
 							layout="ResponsiveGridLayout"
@@ -175,33 +186,39 @@
                             columnsM="2"
                             singleContainerFullSize="false">
                             <core:Title text="Datos generales" />
-                            <Label text="Unidad medida base"/>
-                            <Input value="{/meins}"/>
-                            <Label text="Condic. temperatura"/>
-                            <Input value="{/tempb}"/>
-                            <Label text="sujeto-lote"/>
+                            <Label text="Unidad medida base" id="lblUnidadBaseA"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/meins}" id="unidadBaseA" editable="false">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Condic. temperatura" id="lblCondicTemperaturaA"/>
+                                <Input value="{/tempb}" maxLength="{maraLength>/tempb}" width="{maraWidth>/tempb}" id="condicTemperatura"/>
+                            <Label text="sujeto-lote" id="lblSujetoLoteA"/>
                             <CheckBox/>
                             <core:Title/>
-                            <Label text="Unidad med. Salida"/>
-                            <Input value="{/ausme}"/>
-                            <Label text="Cond. almacenaje"/>
-                            <Input value="{/raube}"/>
+                            <Label text="Unidad med. Salida" id="lblUnidadSalidaA"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/ausme}" id="unidadSalida">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Cond. almacenaje" id="lblCondAlmacenajeA"/>
+                                <Input value="{/raube}" maxLength="{maraLength>/raube}" width="{maraWidth>/raube}" id="condAlmacenaje"/>
                             <core:Title text="Datos de conservación" />
-                            <Label text="Tmp-almacenaje max."/>
-                            <Input value="{/maxlz}"/>
-                            <Label text="Tmp-min. durac. reset."/>
-                            <Input value="{/mhdrz}"/>
-                            <Label text="Ind. per. fe. caducidad"/>
-                            <Input value="{/iprkz}"/>
-                            <Label text="%tempo. caduc. almacen"/>
-                            <Input value="{/mhdlp}"/>
+                            <Label text="Tmp-almacenaje max." id="lblTmpAlmacenajeA"/>
+                                <Input value="{/maxlz}" maxLength="{marcLength>/maxlz}" width="{marcWidth>/maxlz}" id="tmpAlmacenaje" liveChange="validacionF"/>
+                            <Label text="Tmp-min. durac. reset." id="lblTmpMinA"/>
+                                <Input value="{/mhdrz}" maxLength="{maraLength>/mhdrz}" width="{maraWidth>/mhdrz}" id="tmpMin" liveChange="validacionN"/>
+                            <Label text="Ind. per. fe. caducidad" id="lblInfPerA"/>
+                                <Input value="{/iprkz}" maxLength="{maraLength>/iprkz}" width="{maraWidth>/iprkz}" id="infPer"/>
+                            <Label text="%tempo. caduc. almacen" id="lblTempoCaducA"/>
+                                <Input value="{/mhdlp}" maxLength="{maraLength>/mhdlp}" width="{maraWidth>/mhdlp}" id="tempoCaduc" liveChange="validacionN"/>
                             <core:Title/>
-                            <Label text="Unidad de tiempo"/>
-                            <Input value="{/lzeih}"/>
-                            <Label text="Dur. total conserv."/>
-                            <Input value="{/mhdhb}"/>
-                            <Label text="Regla redondeo FPC"/>
-                            <Input value="{/rdmhd}"/>
+                            <Label text="Unidad de tiempo en días" id="lblUnidadTiempoA"/>
+                            <ComboBox showSecondaryValues="true" items="{cbUnidad>/}" width="300px" selectedKey="{/lzeih}" id="unidadTiempo">
+                                <core:ListItem key="{cbUnidad>msehi}" text="{cbUnidad>msehi}" additionalText="{cbUnidad>mseht}"/>
+                            </ComboBox>
+                            <Label text="Dur. total conserv." id="lblDurTotalA"/>
+                                <Input value="{/mhdhb}" maxLength="{maraLength>/mhdhb}" width="{maraWidth>/mhdhb}" id="durTotal" liveChange="validacionN"/>
+                            <Label text="Regla redondeo FPC" id="lblReglaRedondeoA"/>
+                                <Input value="{/rdmhd}" maxLength="{maraLength>/rdmhd}" width="{maraWidth>/rdmhd}" id="reglaRedondeo"/>
 						</f:SimpleForm>
                     </IconTabFilter>
 				</items>

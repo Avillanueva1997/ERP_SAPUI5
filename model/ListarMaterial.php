@@ -12,10 +12,21 @@ $_werks = $_POST['_werks'];
 
 $con = open_conection($_Ip,$_Usuario_servidor,$_Pass_servidor,$_Base_datos);
 
-$sql = "select * from mara
+if ($_matnr == "" && $_werks == "") {
+
+	$sql = "select * from mara
+	        inner join marc on mara.matnr = marc.matnr";
+
+} else {
+
+	$sql = "select * from mara
 			inner join marc on mara.matnr = marc.matnr
 			where mara.matnr = '".$_matnr."' and
 			      marc.werks = '".$_werks."'";
+
+
+}
+
 
 $result = mysqli_query($con,$sql);
 
@@ -30,7 +41,6 @@ while($row = mysqli_fetch_array($result))
 	$bismt=$row['bismt'];
 	$meins=$row['meins'];
 	$bstme=$row['bstme'];
-	$groes=$row['groes'];
 	$brgew=$row['brgew'];
 	$ntgew=$row['ntgew'];
 	$gewei=$row['gewei'];
@@ -41,8 +51,7 @@ while($row = mysqli_fetch_array($result))
 	$ean11=$row['ean11'];
 	$numtp=$row['numtp'];
 	$vabme=$row['vabme'];
-	$magrv=$row['magrv'];
-	$mstde=$row['mstde'];
+	$magrv=$row['magrv'];;
 	$mhdrz=$row['mhdrz'];
 	$mhdhb=$row['mhdhb'];
 	$mhdlp=$row['mhdlp'];
@@ -52,7 +61,6 @@ while($row = mysqli_fetch_array($result))
 	
 	$werks=$row['werks'];
 	$mmsta=$row['mmsta'];
-	$mmstd=$row['mmstd'];
 	$ekgrp=$row['ekgrp'];
 	$ausme=$row['ausme'];
 	$maxlz=$row['maxlz'];
@@ -78,7 +86,6 @@ while($row = mysqli_fetch_array($result))
 							'bismt'=>$bismt,
 							'meins'=>$meins,
 							'bstme'=>$bstme,
-							'groes'=>$groes,
 							'brgew'=>$brgew,
 							'ntgew'=>$ntgew,
 							'gewei'=>$gewei,
@@ -90,7 +97,6 @@ while($row = mysqli_fetch_array($result))
 							'numtp'=>$numtp,
 							'vabme'=>$vabme,
 							'magrv'=>$magrv,
-							'mstde'=>$mstde,
 							'mhdrz'=>$mhdrz,
 							'mhdhb'=>$mhdhb,
 							'mhdlp'=>$mhdlp,
@@ -100,7 +106,6 @@ while($row = mysqli_fetch_array($result))
 
 							'werks'=>$werks,
 							'mmsta'=>$mmsta,
-							'mmstd'=>$mmstd,
 							'ekgrp'=>$ekgrp,
 							'ausme'=>$ausme,
 							'maxlz'=>$maxlz,

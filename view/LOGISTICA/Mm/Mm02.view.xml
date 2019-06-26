@@ -11,15 +11,16 @@
     <Page
 		showHeader="true"
 		enableScrolling="false" 
-        title="Modificar material">
+        title="Modificar Material">
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://edit" press="onEdit" tooltip="Editar"/>
 				<Button icon="sap-icon://delete" press="onDelete"/>
 			</Toolbar>
 		</subHeader>
         <content>
             <f:SimpleForm
+                editable="true"
                 layout="ResponsiveGridLayout"
                 labelSpanXL="2"
                 labelSpanL="2"
@@ -35,12 +36,18 @@
                 columnsM="1"
                 singleContainerFullSize="false">
                 <f:content>
-                    <Label text="Material" />
-                    <Input maxLength="10" width	="10em" id="inpMatnr" />
-                    <Label text="Centro" />
-                    <Input maxLength="04" width	="04em" id="inpWerks"/>
-                    <Label text="Tipo Material" />
-                    <Input maxLength="04" width	="04em" id="inpTipoMaterial"/>
+                    <Label text="Material" id="lblMaterial"/>
+                    <ComboBox id="inpMatnr" showSecondaryValues="true" items="{cbMaterial>/}" width="300px" selectedKey="{matnr}">
+                        <core:ListItem key="{cbMaterial>matnr}" text="{cbMaterial>matnr}" additionalText="{cbMaterial>maktg}" />
+                    </ComboBox>
+                    <Label text="Centro" id="lblCentro"/>
+                    <ComboBox id="inpWerks" showSecondaryValues="true" items="{cbCentro>/}" width="300px" selectedKey="{werks}">
+                        <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}" />
+                    </ComboBox>
+                    <Label text="Almacén" id="lblAlmacen"/>
+                    <ComboBox id="idAlmacen" showSecondaryValues="true" items="{cbAlmacen>/}" width="300px" selectedKey="{lgort}">
+                        <core:ListItem key="{cbAlmacen>lgort}" text="{cbAlmacen>lgort}" additionalText="{cbAlmacen>lgobe}" />
+                    </ComboBox> 
                 </f:content>
             </f:SimpleForm>
         </content>

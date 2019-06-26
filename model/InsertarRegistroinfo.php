@@ -44,15 +44,11 @@ $_ekorg=$_POST['ekorg'];
 $_esokz=$_POST['esokz'];
 $_werks=$_POST['werks'];
 $_ekgrp=$_POST['ekgrp'];
-$_waers=$_POST['waers'];
 $_minbm=$_POST['minbm'];
 $_norbm=$_POST['norbm'];
 $_aplfz=$_POST['aplfz'];
 $_uebto=$_POST['uebto'];
 $_untto=$_POST['untto'];
-$_netpr=$_POST['netpr'];
-$_peinh=$_POST['peinh'];
-$_bprme=$_POST['bprme'];
 $_prdat=$_POST['prdat'];
 $_bpumz=$_POST['bpumz'];
 $_bpumn=$_POST['bpumn'];
@@ -117,15 +113,11 @@ $sql = "INSERT INTO eine VALUES (
 									'".$_esokz."',
 									'".$_werks."',
 									'".$_ekgrp."',
-									'".$_waers."',
 									'".$_minbm."',
 									'".$_norbm."',
 									'".$_aplfz."',
 									'".$_uebto."',
 									'".$_untto."',
-									'".$_netpr."',
-									'".$_peinh."',
-									'".$_bprme."',
 									'".$_prdat."',
 									'".$_bpumz."',
 									'".$_bpumn."',

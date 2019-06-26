@@ -1,11 +1,12 @@
 <?php
 
+require_once('../security.php');
 require 'DatosBD.php';
 
 $_Empresa = $_POST['_Empresa'];
 
 $sql = "select * from empresa where empresa = '" . $_Empresa . "'";
-$con = open_conection('localhost','FFARRO','Freluive1608@','ERP_MAIN');
+$con = open_conection($host, $user, $pass, $db);
 $result = mysqli_query($con,$sql);
 $cadena = array();
 

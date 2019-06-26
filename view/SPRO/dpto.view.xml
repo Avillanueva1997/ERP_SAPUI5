@@ -1,0 +1,66 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.dpto"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="dpto"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Departamento" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>  
+
+        <t:Table id="tbDptos"
+        inset="false"
+        mode="MultiSelect"
+        rows="{/}"
+        visibleRowCount="7">
+        <t:toolbar>
+         <Toolbar>
+          <content>
+            <Title text="Departamentos" level="H2" />
+            <ToolbarSpacer/>
+            <Button press="onAdd" icon="sap-icon://add"/>
+            <Button press="onDelete" icon="sap-icon://delete"/>
+          </content>
+         </Toolbar>
+        </t:toolbar>
+        <t:columns>
+         <t:Column width="11.5rem" sortProperty="codPais" filterProperty="codPais">
+          <Label text="Código País" />
+          <t:template>
+            <ComboBox showSecondaryValues="true" editable="false" items="{path: 'cbPais>/', templateShareable:false}" 
+            width="300px" selectedKey="{codPais}" >
+            <core:ListItem key="{cbPais>codPais}" text="{cbPais>codPais}"  additionalText="{cbPais>descripPais}"/>
+        </ComboBox>
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="codDpto" filterProperty="codDpto">
+          <Label text="Código Departamento" />
+          <t:template>
+            <Input value="{codDpto}" maxLength="{tdptoLength>/codDpto}" width="{tdptoWidth>/codDpto}" editable="false" />
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="descripDpto" filterProperty="descripDpto" >
+          <Label text="Descripción Departamento" />
+          <t:template>
+            <Input value="{descripDpto}" maxLength="{tdptoLength>/descripDpto}" width="{tdptoWidth>/descripDpto}" />
+          </t:template>
+         </t:Column>
+        </t:columns>
+       </t:Table>                     
+    </content>
+    </Page>
+</mvc:View>

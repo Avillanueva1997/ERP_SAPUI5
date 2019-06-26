@@ -56,6 +56,9 @@
        onBack: function(oEvent){        
         this.getRouter().navTo("su01");
        },
+       onHome: function(oEvent) {
+      this.getRouter().navTo("home");      
+       },
 
        onEdit: function(oEvent){
         var Usuario = this.byId("objHusuario").getTitle();

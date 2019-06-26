@@ -1,0 +1,88 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.tipo"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="tipo"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Tipo" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>
+    <t:Table id="tbTipos"
+    inset="false"
+    mode="MultiSelect"
+    rows="{/}"
+    visibleRowCount="7">
+    <t:toolbar>
+     <Toolbar>
+      <content>
+        <Title text="Tipos de Materiales" level="H2"/>
+        <ToolbarSpacer/>
+        <Button press="onAdd" icon="sap-icon://add"/>
+        <Button press="onDelete" icon="sap-icon://delete"/>
+      </content>
+     </Toolbar>
+    </t:toolbar>
+    <t:columns>
+     <t:Column width="11rem" sortProperty="mtart" filterProperty="mtart">
+      <Label text="Tipo de Material" />
+      <t:template>
+        <Input value="{mtart}"  maxLength="{t134Length>/mtart}" width="{t134Width>/mtart}" editable="false"/>
+      </t:template>
+     </t:Column>
+     <t:Column width="11rem" sortProperty="mtbez" filterProperty="mtbez">
+      <Label text="Denominación" />
+      <t:template>
+        <Input value="{mtbez}"  maxLength="{t134Length>/mtbez}" width="{t134Width>/mtbez}"/>
+      </t:template>
+     </t:Column>
+    </t:columns>
+   </t:Table>                        
+        <!-- <Table id="tbTipos"
+            inset="false"
+            mode="MultiSelect"
+            items="{
+            path: '/'
+            }">
+            <headerToolbar>
+                <Toolbar>
+                    <Title text="Tipos Material" level="H2"/>
+                    <ToolbarSpacer/>
+                    <Button press="onAdd" icon="sap-icon://add"/>
+                    <Button press="onDelete" icon="sap-icon://delete"/>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <Text text="Tipo Material" />
+                </Column>                           
+                <Column>
+                    <Text text="Denominación" />
+                </Column>    
+
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Input value="{mtart}"  maxLength="{t134Length>/mtart}" width="{t134Width>/mtart}" editable="false"/>
+                        <Input value="{mtbez}"  maxLength="{t134Length>/mtbez}" width="{t134Width>/mtbez}"/>
+                    </cells>
+                </ColumnListItem>
+                        </items>                    
+                    </Table>  -->
+                </content>
+            </Page>
+        </mvc:View>

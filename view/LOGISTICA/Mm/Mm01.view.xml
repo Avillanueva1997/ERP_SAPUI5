@@ -14,12 +14,13 @@
         title="Crear material">   
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://document" press="onNew"/>
+				<Button icon="sap-icon://document" press="onNew" tooltip="Nuevo"/>
 				<!--<Button icon="sap-icon://copy" press="onCopy"/>-->
 			</Toolbar>
 		</subHeader>
         <content>
             <f:SimpleForm
+                editable="true"
                 layout="ResponsiveGridLayout"
                 labelSpanXL="2"
                 labelSpanL="2"
@@ -35,10 +36,10 @@
                 columnsM="1"
                 singleContainerFullSize="false">
                 <f:content>
-                    <Label text="Material" />
-                    <Input maxLength="10" width	="10em" id="inpMatnr"/>
-                    <Label text="Tipo Material" />
-                    <Input maxLength="04" width	="04em" id="inpTipoMaterial"/>
+                    <Label text="Tipo Material" id="lblTipoMaterial"/>
+                    <ComboBox showSecondaryValues="true" items="{cbTipo>/}" width="300px" selectedKey="{mtart}" id="inpTipoMaterial">
+                        <core:ListItem key="{cbTipo>mtart}" text="{cbTipo>mtart}"  additionalText="{cbTipo>mtbez}"/>
+                    </ComboBox>
                 </f:content>
             </f:SimpleForm>
         </content>

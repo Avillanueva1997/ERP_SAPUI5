@@ -29,25 +29,27 @@
                     <core:Title text="Datos generales" />
                 </f:title>
                 <f:content>
-                    <core:Title />
-                    <Label text="Registro de info" />
-                    <Input id="iptReginfo" width="300px" showValueHelp="true" value="{/infnr}" editable="false" />                                                 
-                    <Label text="Proveedor" />
-                    <Input id="iptProveedor" width="300px" showValueHelp="true" value="{/lifnr}" editable="false" />                                               
-                    <Label text="Material" />
-                    <Input id="iptMaterial" width="300px" showValueHelp="true" value="{/matnr}" editable="false" />
+                    <core:Title id="datosGenerales1"/>
+                    <Label text="Registro de info" id="lblReginfo" />
+                    <Input id="iptReginfo" value="{/infnr}" editable="false" maxLength="{eineLength>/infnr}" width="{eineWidth>/infnr}" />                                                 
+                    <Label text="Proveedor" id="lblProveedor" />
+                    <Input id="iptProveedor" value="{/lifnr}" editable="false" maxLength="{lfm1Length>/lifnr}" width="{lfm1Width>/lifnr}"/>                                               
+                    <Label text="Material" id="lblMaterial" />
+                    <Input id="iptMaterial" value="{/matnr}" editable="false" maxLength="{maraLength>/matnr}" width="{maraWidth>/matnr}" />
 
-                    <Label text="Org.compras" />
-                    <Input id="iptOrgcomp" width="300px" showValueHelp="true" value="{/ekorg}" editable="false" />  
+                    <Label text="Org.compras" id="lblOrgcomp" />
+                    <Input id="iptOrgcomp" value="{/ekorg}" editable="false" maxLength="{lfm1Length>/ekorg}" width="{lfm1Width>/ekorg}" />  
 
-                    <Label text="Centro" />
-                    <Input id="iptCentro" width="300px" showValueHelp="true" value="{/werks}" editable="false" />
+                    <Label text="Centro" id="lblCentro" />
+                    <Input id="iptCentro" value="{/werks}" editable="false" maxLength="{eineLength>/werks}" width="{eineWidth>/werks}" />
 
-                    <core:Title />
-                    <Label text="Grupo articulos" />
-                    <Input id="iptGrparti" width="300px" showValueHelp="true" value="{/matkl}" />
-                    <Label text="Normal" />
-                    <Input id="iptNormal" width="300px" showValueHelp="true" value="{}" /> 
+                    <core:Title id="datosGenerales2"/>
+                    <Label text="Grupo articulos" id="lblGrparti" />
+                    <ComboBox showSecondaryValues="true" id="iptGrparti" items="{path: 'cbGrupoArt>/', templateShareable:false}" width="300px" selectedKey="{/matkl}">
+                            <core:ListItem key="{cbGrupoArt>matkl}" text="{cbGrupoArt>matkl}"  additionalText="{cbGrupoArt>butxt}"/>
+                    </ComboBox>
+                    <Label text="Normal" id="lblNormal" />
+                    <Input id="iptNormal" width="300px" value="{}" /> 
                 </f:content>
             </f:SimpleForm>
             <IconTabBar>
@@ -64,42 +66,42 @@
                                 <core:Title text="Control" />
                             </f:title>
                             <f:content>
-                                <core:Title />
-                                <Label text="Plaz.entr.prev." />
-                                <Input id="iptPlaentprev" width="300px" value="{/aplfz}" />                              
-                                <Label text="Grupo-compras" />
-                                <Input id="iptGrpcomp" width="300px" value="{/ekgrp}" />                              
-                                <Label text="Ctd.estandar" />
+                                <core:Title id="control1"/>
+                                <Label text="Plaz.entr.prev." id="lblPlanetprev" />
+                                <Input id="iptPlaentprev" value="{/aplfz}" maxLength="{eineLength>/aplfz}" width="{eineWidth>/aplfz}" liveChange="validacionF" />                              
+                                <Label text="Grupo-compras" id="lblGrpcomp" />
+                                <Input id="iptGrpcomp" value="{/ekgrp}" maxLength="{eineLength>/ekgrp}" width="{eineWidth>/ekgrp}" />                              
+                                <Label text="Ctd.estandar" id="lblCtdestandar" />
                                 <l:HorizontalLayout class="sapUiSmallMargin" >
-                                    <Input id="iptCtdestandar1" width="260px" value="{/norbm}" />                              
-                                    <Input id="iptCtdestandar2" width="40px" value="{}" />                              
+                                    <Input id="iptCtdestandar1" value="{/norbm}" maxLength="{eineLength>/norbm}" width="{eineWidth>/norbm}" liveChange="validacionF"/>                              
+                                    <Input id="iptCtdestandar2" width="40px" value="{}" liveChange="validacionF" />                              
                                 </l:HorizontalLayout>
-                                <Label text="Ctd.minima" />
-                                <Input id="iptCtdminima1" width="300px" value="{/minbm}" /> 
+                                <Label text="Ctd.minima" id="lblCtdminima" />
+                                <Input id="iptCtdminima1" value="{/minbm}" maxLength="{eineLength>/minbm}" width="{eineWidth>/minbm}" liveChange="validacionF"/> 
                                 <Input id="iptCtdminima2" width="300px" value="{}" /> 
-                                <Label text="Tmpohastacaduc" />
-                                <Input id="iptTmpohastacaduc1" width="300px" value="{/mhdrz}" />
+                                <Label text="Tmpohastacaduc" id="lblTmpohastacaduc" />
+                                <Input id="iptTmpohastacaduc1" value="{/mhdrz}" maxLength="{eineLength>/mhdrz}" width="{eineWidth>/mhdrz}" liveChange="validacionF" />
                                 <Input id="iptTmpohastacaduc2" width="300px" value="{}" /> 
-                                <Label text="Normas envio" />
-                                <Input id="iptNormasenvio" width="300px" value="{/evers}" /> 
-                                <Label text="Cantidad maxima" />
-                                <Input id="iptCantidadmax1" width="300px" value="{/bstma}" />                                
-                                <Input id="iptCantidadmax2" width="300px" value="{}" /> 
-                                <core:Title />
-                                <Label text="TolSumIncompl" />
-                                <Input id="iptTolSumIncompl" width="300px" value="{/untto}" />                              
-                                <Label text="TolExcSum" />
-                                <Input id="iptTolExcSum" width="300px" value="{/uebto}" />                              
-                                <Label text="CtrlConf" />
-                                <Input id="iptCtrlConf" width="300px" value="{/bstae}" />                              
-                                <Label text="IndImp" />
-                                <Input id="iptIndImp" width="300px" value="{/mwskz}" />                              
-                                <Label text="Procedimiento" />
-                                <Input id="iptProced" width="300px" value="{/exprf}" />                              
-                                <Label text="PerfRed" />
-                                <Input id="iptPerfRed" width="300px" value="{/rdprf}" />                              
-                                <Label text="Grupo UM" />
-                                <Input id="iptGrpum" width="300px" value="{/megru}" />                              
+                                <Label text="Normas envio" id="lblNormasenvio" />
+                                <Input id="iptNormasenvio" value="{/evers}" maxLength="{eineLength>/evers}" width="{eineWidth>/evers}" /> 
+                                <Label text="Cantidad maxima" id="lblCantidadmax" />
+                                <Input id="iptCantidadmax1" value="{/bstma}" maxLength="{eineLength>/bstma}" width="{eineWidth>/bstma}" liveChange="validacionF" />                                
+                                <Input id="iptCantidadmax2" width="300px" value="{}" liveChange="validacionF" /> 
+                                <core:Title id="control2"/>
+                                <Label text="TolSumIncompl" id="lblToSumIncompl" />
+                                <Input id="iptTolSumIncompl" value="{/untto}" maxLength="{eineLength>/untto}" width="{eineWidth>/untto}" liveChange="validacionF" />                              
+                                <Label text="TolExcSum" id="lblTolExcSum" />
+                                <Input id="iptTolExcSum" value="{/uebto}" maxLength="{eineLength>/uebto}" width="{eineWidth>/uebto}" liveChange="validacionF" />                              
+                                <Label text="CtrlConf" id="lblCtrlConf" />
+                                <Input id="iptCtrlConf" value="{/bstae}" maxLength="{eineLength>/bstae}" width="{eineWidth>/bstae}" />                              
+                                <Label text="IndImp" id="lblIndImp" />
+                                <Input id="iptIndImp" value="{/mwskz}" maxLength="{eineLength>/mwskz}" width="{eineWidth>/mwskz}" />                              
+                                <Label text="Procedimiento" id="lblProced" />
+                                <Input id="iptProced" value="{/exprf}" maxLength="{eineLength>/exprf}" width="{eineWidth>/exprf}" />                              
+                                <Label text="PerfRed" id="lblPerfRed" />
+                                <Input id="iptPerfRed" value="{/rdprf}" maxLength="{eineLength>/rdprf}" width="{eineWidth>/rdprf}" />                              
+                                <Label text="Grupo UM" id="lblGrpum" />
+                                <Input id="iptGrpum" value="{/megru}" maxLength="{eineLength>/megru}" width="{eineWidth>/megru}" />                              
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -111,9 +113,9 @@
                                 <core:Title text="Condiciones" />
                             </f:title>
                             <f:content>
-                                <core:Title />
-                                <Label text="Precio neto" />
-                                <l:HorizontalLayout class="sapUiSmallMargin" >                                    
+                                <core:Title id="condiciones1"/>
+                                <Label text="Precio neto" id="lblPrecioNeto" />
+                                <l:HorizontalLayout class="sapUiSmallMargin" > 
                                     <Input id="iptPrecioneto1" width="300px" value="{}" />
                                     <Label text="_" level="H2" />
                                     <Input id="iptPrecioneto2" width="50px" value="{}" />
@@ -122,26 +124,23 @@
                                     <Label text="_" level="H2" />
                                     <Input id="iptPrecioneto4" width="50px" value="{}" />
                                 </l:HorizontalLayout>
-                                <Label text="Precio efectivo" />
-                                <Input id="iptPrecioefec1" width="300px" value="{/netpr}" />
-                                <Input id="iptPrecioefec2" width="300px" value="{/waers}" />
-                                <Input id="iptPrecioefec3" width="300px" value="{/peinh}" />
-                                <Input id="iptPrecioefec4" width="300px" value="{/bprme}" />
-                                <Label text="Conv.ctd." />
-                                <Input id="iptConvctd1" width="300px" value="{/bpumn}" />
-                                <Input id="iptConvctd2" width="300px" value="{/bpumz}" />
-                                <Input id="iptConvctd3" width="300px" value="{}" />
-                                <Input id="iptConvctd4" width="300px" value="{}" />
-                                <core:Title />
-                                <Label text="TipFechaPrecio" />
-                                <Input id="iptTipfechaprecio" width="300px" value="{/meprf}" />
-                                <Label text="Incoterms" />
-                                <Input id="iptIncoterms1" width="300px" value="{/inco1}" />
-                                <Input id="iptIncoterms2" width="300px" value="{/inco2}" />
-                                <Label text="Validez a" />
-                                <Input id="iptValideza" width="300px" value="{/prdat}" />
-                                <Label text="Gr.cond" />
-                                <Input id="iptGrcond" width="300px" value="{/ekkol}" />
+                                <Label text="Conv.ctd." id="lblConvctd" />
+                                <l:HorizontalLayout class="sapUiSmallMargin" >
+                                    <Input id="iptConvctd1" value="{/bpumn}" maxLength="{eineLength>/bpumn}" width="{eineWidth>/bpumn}" liveChange="validacionF" />
+                                    <Input id="iptConvctd2" value="{/bpumz}" maxLength="{eineLength>/bpumz}" width="75px" liveChange="validacionF" />
+                                    <Input id="iptConvctd3" width="50px" value="{}" />
+                                    <Input id="iptConvctd4" width="50px" value="{}" />
+                                </l:HorizontalLayout>
+                                <core:Title id="condiciones2"/>
+                                <Label text="TipFechaPrecio" id="lblTipfechaprecio" />
+                                <Input id="iptTipfechaprecio" value="{/meprf}" maxLength="{eineLength>/meprf}" width="{eineWidth>/meprf}" />
+                                <Label text="Incoterms" id="lblIncoterms" />
+                                <Input id="iptIncoterms1" value="{/inco1}" maxLength="{eineLength>/inco1}" width="{eineWidth>/inco1}" />
+                                <Input id="iptIncoterms2" value="{/inco2}" maxLength="{eineLength>/inco2}" width="{eineWidth>/inco2}" />
+                                <Label text="Validez a" id="lblValideza" />
+                                <Input id="iptValideza" value="{/prdat}" maxLength="{eineLength>/prdat}" width="{eineWidth>/prdat}" />
+                                <Label text="Gr.cond" id="lblGrcond" />
+                                <Input id="iptGrcond" value="{/ekkol}" maxLength="{eineLength>/ekkol}" width="{eineWidth>/ekkol}" />
                             </f:content>
                         </f:SimpleForm>                                                
                     </IconTabFilter>
@@ -157,35 +156,36 @@
                             <f:title>
                                 <core:Title text="Datos de proveedor" />
                             </f:title>
-                            <f:content>      
-                                <core:Title />
-                                <Label text="1°reclamacion" />
-                                <Input id="iptReclamacion1" width="300px" value="{/mahn1}" />                              
-                                <Label text="2°reclamacion" />
-                                <Input id="iptReclamacion2" width="300px" value="{/mahn2}" />
-                                <Label text="3°reclamacion" />
-                                <Input id="iptReclamacion3" width="300px" value="{/mahn3}" />                              
-                                <Label text="Mat.proveedor" />
-                                <Input id="iptMatpro" width="300px" value="{/idnlf}" />
-                                <Label text="Surtido parcial" />
-                                <Input id="iptSurparcial" width="300px" value="{/ltsnr}" />                              
-                                <Label text="N°clasSurParcPr" />
-                                <Input id="iptclasSurParcPr" width="300px" value="{/ltssf}" />
-                                <core:Title />
-                                <Label text="Gr.mcia.prov." />
-                                <Input id="iptGrmciaprov" width="300px" value="{/wglif}" />                              
-                                <Label text="Puntos" />
-                                <Input id="iptPuntos1" width="300px" value="{/anzpu}" />
-                                <Input id="iptPuntos2" width="300px" value="{}" />
-                                <Input id="iptPuntos3" width="300px" value="{}" />
-                                <Label text="Vendedor" />
-                                <Input id="iptVendedor" width="300px" value="{/verkf}" />                              
-                                <Label text="Telefono" />
-                                <Input id="iptTelefono" width="300px" value="{/telf1}" />
-                                <Label text="Acuerdo adm.dev" />
-                                <Input id="iptAcueroadm" width="300px" value="{/rueck}" />                              
-                                <Label text="Pre-proveedor" />
-                                <Input id="iptPreprov" width="300px" value="{/kolif}" />
+                            <f:content> 
+                                <core:Title id="datosProveedor1"/>     
+                                <Label text="1°reclamacion" id="lblReclamacion1" />
+                                <Input id="iptReclamacion1"  value="{/mahn1}" maxLength="{einaLength>/mahn1}" width="{einaWidth>/mahn1}" liveChange="validacionF" />                              
+                                <Label text="2°reclamacion" id="lblReclamacion2" />
+                                <Input id="iptReclamacion2"  value="{/mahn2}" maxLength="{einaLength>/mahn2}" width="{einaWidth>/mahn2}" liveChange="validacionF" />
+                                <Label text="3°reclamacion" id="lblReclamacion3" />
+                                <Input id="iptReclamacion3" value="{/mahn3}" maxLength="{einaLength>/mahn3}" width="{einaWidth>/mahn3}" liveChange="validacionF" />                              
+                                <Label text="Mat.proveedor" id="lblMatpro" />
+                                <Input id="iptMatpro"  value="{/idnlf}" maxLength="{einaLength>/idnlf}" width="{einaWidth>/idnlf}" />
+                                <Label text="Surtido parcial" id="lblSurparcial" />
+                                <Input id="iptSurparcial"  value="{/ltsnr}" maxLength="{einaLength>/ltsnr}" width="{einaWidth>/ltsnr}" />                              
+                                <Label text="N°clasSurParcPr" id="lblclasSurParcPr" />
+                                <Input id="iptclasSurParcPr"  value="{/ltssf}" maxLength="{einaLength>/ltssf}" width="{einaWidth>/ltssf}"/>
+                                <core:Title id="datosProveedor2"/>
+
+                                <Label text="Gr.mcia.prov." id="lblGrmciaprov" />
+                                <Input id="iptGrmciaprov"  value="{/wglif}" maxLength="{einaLength>/wglif}" width="{einaWidth>/wglif}" />                              
+                                <Label text="Puntos" id="lblPuntos1" />
+                                <Input id="iptPuntos1" value="{/anzpu}" maxLength="{einaLength>/anzpu}" width="{einaWidth>/anzpu}" liveChange="validacionF" />
+                                <Input id="iptPuntos2" width="80px" value="{}" liveChange="validacionF" />
+                                <Input id="iptPuntos3" width="80px" value="{}" liveChange="validacionF" />
+                                <Label text="Vendedor" id="lblVendedor" />
+                                <Input id="iptVendedor" value="{/verkf}" maxLength="{einaLength>/verkf}" width="{einaWidth>/verkf}" />                              
+                                <Label text="Telefono" id="lblTelefono" />
+                                <Input id="iptTelefono" value="{/telf1}" maxLength="{einaLength>/telf1}" width="{einaWidth>/telf1}" />
+                                <Label text="Acuerdo adm.dev" id="lblAcueroadm" />
+                                <Input id="iptAcueroadm" value="{/rueck}" maxLength="{einaLength>/rueck}" width="{einaWidth>/rueck}" />                              
+                                <Label text="Pre-proveedor" id="lblPreprov" />
+                                <Input id="iptPreprov" value="{/kolif}" maxLength="{einaLength>/kolif}" width="{einaWidth>/kolif}" />
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -197,17 +197,19 @@
                                 <core:Title text="Unidad de medida de pedido" />
                             </f:title>
                             <f:content>    
-                                <core:Title />
-                                <Label text="UM de pedido" />
-                                <Input id="iptUmpedido" width="300px" value="{/meins}" />                              
-                                <Label text="Conversion" />
-                                <Input id="iptConversion1" width="300px" value="{/umren}" /> 
-                                <Input id="iptConversion2" width="300px" value="{/umrez}" /> 
-                                <Input id="iptConversion3" width="300px" value="{/lmein}" /> 
-                                <Input id="iptConversion4" width="300px" value="{}" /> 
-                                <core:Title />
-                                <Label text="UMP variable" />
-                                <Input id="iptUmpvar" width="300px" value="{/vabme}" />   
+                                <core:Title id="unidadPedido1"/>
+                                <Label text="UM de pedido" id="lblUmpedido" />
+                                <Input id="iptUmpedido" value="{/meins}" maxLength="{einaLength>/meins}" width="{einaWidth>/meins}" />                              
+                                <Label text="Conversion" id="lblConversion" />
+                                <l:HorizontalLayout class="sapUiSmallMargin" >
+                                <Input id="iptConversion1"  value="{/umren}" maxLength="{einaLength>/umren}" width="{einaWidth>/umren}" liveChange="validacionF"  /> 
+                                <Input id="iptConversion2"  value="{/umrez}" maxLength="{einaLength>/umrez}" width="75px" liveChange="validacionF"  /> 
+                                <Input id="iptConversion3"  value="{/lmein}" maxLength="{einaLength>/lmein}" width="{einaWidth>/lmein}"  /> 
+                                <Input id="iptConversion4" width="50px" value="{}" /> 
+                                </l:HorizontalLayout>
+                                <core:Title id="unidadPedido2"/>
+                                <Label text="UMP variable" id="lblUmpvar" />
+                                <Input id="iptUmpvar" value="{/vabme}" maxLength="{einaLength>/vabme}" width="{einaWidth>/vabme}" />   
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -219,22 +221,22 @@
                                 <core:Title text="Datos originarios" />
                             </f:title>
                             <f:content>           
-                                <core:Title />
-                                <Label text="Tpo.certif." />
-                                <Input id="iptTpocertif" width="300px" value="{/urztp}" />                              
-                                <Label text="No.-certificado" />
-                                <Input id="iptNocertif" width="300px" value="{/urznr}" />                              
-                                <Label text="validez a" />
-                                <Input id="iptVala" width="300px" value="{/urzdt}" />                              
-                                <Label text="Pais de origen" />
-                                <Input id="iptPaisorig" width="300px" value="{/urzla}" />          
-                                <core:Title />
-                                <Label text="Region" />
-                                <Input id="iptRegion" width="300px" value="{/regio}" />                              
-                                <Label text="Numero" />
-                                <Input id="iptNumero" width="300px" value="{/urzzt}" />                              
-                                <Label text="Fabricante" />
-                                <Input id="iptFabricante" width="300px" value="{/mfrnr}" />                               
+                                <core:Title id="datosOriginarios1"/>
+                                <Label text="Tpo.certif." id="lblTpocertif" />
+                                <Input id="iptTpocertif" value="{/urztp}" maxLength="{einaLength>/urztp}" width="{einaWidth>/urztp}" />                              
+                                <Label text="No.-certificado" id="lblNocertif" />
+                                <Input id="iptNocertif" value="{/urznr}" maxLength="{einaLength>/urznr}" width="{einaWidth>/urznr}" />                              
+                                <Label text="validez a" id="lblVala" />
+                                <Input id="iptVala" value="{/urzdt}" maxLength="{einaLength>/urzdt}" width="{einaWidth>/urzdt}" />                              
+                                <Label text="Pais de origen" id="lblPaisorig" />
+                                <Input id="iptPaisorig" value="{/urzla}" maxLength="{einaLength>/urzla}" width="{einaWidth>/urzla}" />          
+                                <core:Title id="datosOriginarios2"/>
+                                <Label text="Region" id="lblRegion" />
+                                <Input id="iptRegion" value="{/regio}" maxLength="{einaLength>/regio}" width="{einaWidth>/regio}" />                              
+                                <Label text="Numero" id="lblNumero" />
+                                <Input id="iptNumero" value="{/urzzt}" maxLength="{einaLength>/urzzt}" width="{einaWidth>/urzzt}" />                              
+                                <Label text="Fabricante" id="lblFabricante" />
+                                <Input id="iptFabricante" value="{/mfrnr}" maxLength="{einaLength>/mfrnr}" width="{einaWidth>/mfrnr}" />                               
                             </f:content>
                         </f:SimpleForm>
                         <f:SimpleForm
@@ -246,12 +248,12 @@
                                 <core:Title text="Opción de suministro" />
                             </f:title>
                             <f:content>                               
-                                <core:Title />
-                                <Label text="Suministr.desde" />
-                                <Input id="iptRamo" width="300px" value="{/lifab}" />  
-                                <core:Title />
-                                <Label text="Suministr.hasta" />
-                                <Input id="iptSuministrhasta" width="300px" value="{/lifbi}" />                              
+                                <core:Title id="opcionSuministro1"/>
+                                <Label text="Suministr.desde" id="lblSuminisdesde" />
+                                <Input id="iptSuminisdesde" value="{/lifab}" maxLength="{einaLength>/lifab}" width="{einaWidth>/lifab}" />  
+                                <core:Title id="opcionSuministro2"/>
+                                <Label text="Suministr.hasta" id="lblSuministrhasta" />
+                                <Input id="iptSuministrhasta" value="{/lifbi}" maxLength="{einaLength>/lifbi}" width="{einaWidth>/lifbi}"/>                              
                             </f:content>
                         </f:SimpleForm>
                     </IconTabFilter>              

@@ -1,0 +1,71 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.clase"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="clase"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Clase de Movimiento" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>
+      <t:Table id="tbClases"
+      inset="false"
+      mode="MultiSelect"
+      rows="{/}"
+      visibleRowCount="7">
+      <t:toolbar>
+       <Toolbar>
+        <content>
+          <Title text="Clases de Movimiento" level="H2"/>
+          <ToolbarSpacer/>
+          <Button press="onAdd" icon="sap-icon://add"/>
+          <Button press="onDelete" icon="sap-icon://delete"/>
+        </content>
+       </Toolbar>
+      </t:toolbar>
+      <t:columns>
+       <t:Column width="11rem" sortProperty="bwart" filterProperty="bwart">
+        <Label text="Clase de Movimiento" />
+        <t:template>
+          <Input value="{bwart}" maxLength="{t156Length>/bwart}" width="{t156Width>/bwart}" editable="false"/>
+        </t:template>
+       </t:Column>
+       <t:Column width="11rem" sortProperty="shkzg" filterProperty="shkzg">
+        <Label text="Indicador Debe/Haber" />
+        <t:template>
+           <ComboBox width="300px" selectedKey="{shkzg}" >
+              <core:Item key="S" text="S - Debe" />
+              <core:Item key="H" text="H - Haber" />
+           </ComboBox>
+        </t:template>
+       </t:Column>
+       <t:Column width="11rem" sortProperty="btext" filterProperty="btext">
+        <Label text="Texto" />
+        <t:template>
+         <Input value="{btext}" maxLength="{t156Length>/btext}" width="{t156Width>/btext}"/>
+        </t:template>
+       </t:Column>
+       <t:Column width="11rem" sortProperty="movRef" filterProperty="movRef">
+        <Label text="Movimiento de Referencia" />
+        <t:template>
+         <Input value="{movRef}" maxLength="{t156Length>/movRef}" width="{t156Width>/movRef}"/>
+        </t:template>
+       </t:Column>
+      </t:columns>
+     </t:Table>                        
+    </content>
+    </Page>
+</mvc:View>

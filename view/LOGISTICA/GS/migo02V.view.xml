@@ -1,0 +1,185 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.GS.migo02V"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="true"
+        id="migo02v" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Salida de mercancías Documento de material #.... " level="H2"/>			
+                <ToolbarSpacer/>
+			</Toolbar>
+		</customHeader>    
+        <content>
+            <f:SimpleForm
+                editable="true"
+                columnsXL="2"                                      
+                singleContainerFullSize="false"
+                layout="ResponsiveGridLayout">
+                <f:content>
+                   <ComboBox showSecondaryValues="true" items="{cbClase>/}" width="300px" selectedKey="{/bwart}" id="documentoMaterial" editable="false">
+                        <core:ListItem key="{cbClase>bwart}" text="{cbClase>bwart}" additionalText="{cbClase>btext}"/>
+                    </ComboBox>
+                    <Input id="codigoDoc" value="{/mblnr}" maxLength="{mkpfLength>/mblnr}" width  ="{mkpfWidth>/mblnr}" editable="false"/>
+                    <Input id ="year" value="{/mjahr}" maxLength="{mkpfLength>/mjahr}" width  ="{mkpfWidth>/mjahr}" editable="false"/>                                                             
+                </f:content>
+            </f:SimpleForm>
+            <f:SimpleForm
+                            editable="true"
+                            columnsXL="2"                                      
+                            singleContainerFullSize="false"
+                            layout="ResponsiveGridLayout">
+                            <f:content>             
+                                <core:Title/>
+                                <Label text="Fecha documento" id="lblFechaDoc"/>
+                                <DatePicker id="fechaDoc"                               
+                                change="handleChange"
+                                class="sapUiSmallMarginBottom"
+                                displayFormat="dd/MM/yyyy"
+                                width="300px" value="{/bldat}" editable="false"/>                              
+                                <Label text="Fecha contab." id="lblFechaCont"/>
+                                <DatePicker id="fechaCon"                               
+                                change="handleChange"
+                                class="sapUiSmallMarginBottom"
+                                displayFormat="dd/MM/yyyy"
+                                width="300px" value="{/budat}" editable="false"/>
+
+                                <Label text="Centro" id="lblCentro"/>
+                                <ComboBox showSecondaryValues="true" items="{path: 'cbCentro>/', templateShareable:false}" width="300px" selectedKey="{/werks}" id="cbxCentro" selectionChange="changingCentro" editable="false">
+                                <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}"/>
+                                </ComboBox>
+                                <Label text="Centro-Destino" id="lblCentroDestino" visible="false"/>
+                                <ComboBox showSecondaryValues="true" items="{path: 'cbCentro>/', templateShareable:false}" width="300px" selectedKey="{/umwrk}" id="cbxCentroDestino" visible="false" editable="false">
+                                <core:ListItem key="{cbCentro>werks}" text="{cbCentro>werks}" additionalText="{cbCentro>name1}"/>
+                                </ComboBox>
+
+                                <Label/>
+                                <Button press="anular" text="Anular"/>     
+                                <core:Title/>
+                                <Label text="Vale material" id="lblValeMat"/>
+                                <Input id="valeMaterial"  value="{/mtsnr}" maxLength="{mkpfLength>/mtsnr}" width="{mkpfWidth>/mtsnr}" editable="false" /> 
+                                <Label text="Ref. Proyecto" id="lblRefPro" />
+                                <Input id="refProyecto"  value="{/bktxt}" maxLength="{mkpfLength>/bktxt}" width="{mkpfWidth>/bktxt}" editable="false"/>
+                                <Label text="Almacén" id="lblAlmacen"/>
+                                <ComboBox showSecondaryValues="true" items="{path: 'cbAlmacen>/', templateShareable:false}" width="300px" selectedKey="{/lgort}" id="cbxAlmacen" editable="false">
+                                <core:ListItem key="{cbAlmacen>lgort}" text="{cbAlmacen>lgort}" additionalText="{cbAlmacen>lgobe}"/>
+                                </ComboBox>  
+                                <Label text="Almacén-Destino" id="lblAlmacenDestino" visible="false"/>
+                                <ComboBox showSecondaryValues="true" items="{path: 'cbAlmacen>/', templateShareable:false}" width="300px" selectedKey="{/umlgo}" id="cbxAlmacenDestino" visible="false" editable="false">
+                                <core:ListItem key="{cbAlmacen>lgort}" text="{cbAlmacen>lgort}" additionalText="{cbAlmacen>lgobe}"/>
+                                </ComboBox>                            
+                            </f:content>
+                        </f:SimpleForm>
+
+                        <t:Table id="tbMseg"
+                        inset="false"
+                        mode="MultiSelect"
+                        rows="{/}"
+                        visibleRowCount="4">
+                        <t:toolbar>
+                         <Toolbar>
+                          <content>
+                            <ToolbarSpacer/>
+                          </content>
+                         </Toolbar>
+                        </t:toolbar>
+                        <t:columns>
+                         <t:Column width="3.6rem" sortProperty="zeile" filterProperty="zeile">
+                          <Label text="Posición" />
+                          <t:template>
+                            <Input value="{zeile}" editable="false"/>
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="matnr" filterProperty="matnr" >
+                          <Label text="Nº de material" />
+                          <t:template>
+                            <Input value="{matnr}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="maktx" filterProperty="maktx">
+                          <Label text="Txt. breve mat." />
+                          <t:template>
+                           <Input value="{maktx}" editable="false" /> 
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="3rem" sortProperty="menge" filterProperty="menge">
+                          <Label text="Cantidad" />
+                          <t:template>
+                           <Input value="{menge}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="meins" filterProperty="meins">
+                          <Label text="Unidad de Medida" />
+                          <t:template>
+                           <Input value="{meins}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="kostl" filterProperty="kostl">
+                          <Label text="Centro de Coste" />
+                          <t:template>
+                           <Input value="{kostl}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="sakto" filterProperty="sakto">
+                          <Label text="Cta. Mayor" />
+                          <t:template>
+                           <Input value="{sakto}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="2.4rem" sortProperty="charg" filterProperty="charg">
+                          <Label text="Lote" />
+                          <t:template>
+                           <Input value="{charg}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="bwtar" filterProperty="bwtar">
+                          <Label text="Clase de Valoración" />
+                          <t:template>
+                           <Input value="{bwtar}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="bwart" filterProperty="bwart">
+                          <Label text="Clase de Movimiento" />
+                          <t:template>
+                           <Input value="{bwart}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="shkzg" filterProperty="shkzg">
+                          <Label text="Debe/Haber" />
+                          <t:template>
+                           <Input value="{shkzg}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="4rem" sortProperty="insmk" filterProperty="insmk">
+                          <Label text="Tipo de Stock" />
+                          <t:template>
+                           <Input value="{insmk}" editable="false" />  
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="3rem" sortProperty="kunnr" filterProperty="knr">
+                          <Label text="Cliente" editable="false" />
+                          <t:template>
+                           <Input value="{kunnr}" editable="false" />  
+                          </t:template>
+                         </t:Column>
+                         <t:Column width="3rem" sortProperty="lifnr" filterProperty="lifnr">
+                          <Label text="Proveedor" />
+                          <t:template>
+                           <Input value="{lifnr}" editable="false" />
+                          </t:template>
+                         </t:Column>
+                        </t:columns>
+                       </t:Table>
+        </content>
+	</Page>
+</mvc:View>

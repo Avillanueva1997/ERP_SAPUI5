@@ -8,14 +8,13 @@
     id="frgCabecera">   
     
     <tnt:ToolHeader>
-        <Button icon="sap-icon://sys-enter-2" press="onPressEnter" type="Transparent" />
-        <Input id="inpTx" width="150px" />            
+        <Button icon="sap-icon://sys-enter-2" press="onPressEnter" type="Transparent" tooltip="Ejecutar"  />
+        <Input id="inpTx" width="150px" submit="onPressEnter"/>            
         <Button icon="sap-icon://save" type="Transparent" press="onSave"/>
-        <Button icon="sap-icon://sys-back-2" type="Transparent" press="onBack" />
-        <Button icon="sap-icon://system-exit-2" type="Transparent"/>
-        <Button icon="sap-icon://sys-cancel-2" type="Transparent"/>
+        <Button icon="sap-icon://sys-back-2" type="Transparent" press="onBack" tooltip="Atrás"/>
+        <Button icon="sap-icon://system-exit-2" type="Transparent" press="onHome" tooltip="Home"/>
         <ToolbarSpacer/>
-        <Button icon="sap-icon://log" press="onPress" ariaLabelledBy="editButtonLabel" type="Transparent"/>
+        <Button icon="sap-icon://log" press="onPress" ariaLabelledBy="editButtonLabel" type="Transparent" tooltip="Salir"/>
 	</tnt:ToolHeader>
     
 </core:FragmentDefinition>

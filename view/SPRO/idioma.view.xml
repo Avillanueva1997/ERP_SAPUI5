@@ -1,0 +1,87 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.idioma"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="idioma"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>
+    <t:Table id="tbIdiomas"
+    inset="false"
+    mode="MultiSelect"
+    rows="{/}"
+    visibleRowCount="7">
+    <t:toolbar>
+     <Toolbar>
+      <content>
+        <Title text="Idiomas" level="H2"/>
+        <ToolbarSpacer/>
+        <Button press="onAdd" icon="sap-icon://add"/>
+        <Button press="onDelete" icon="sap-icon://delete"/>
+      </content>
+     </Toolbar>
+    </t:toolbar>
+    <t:columns>
+     <t:Column width="11rem" sortProperty="spras" filterProperty="spras">
+      <Label text="Idioma" />
+      <t:template>
+        <Input value="{spras}" maxLength="{t002Length>/spras}" width="{t002Width>/spras}"  editable="false"/>
+      </t:template>
+     </t:Column>
+     <t:Column width="11rem" sortProperty="sptxt" filterProperty="sptxt">
+      <Label text="Denominación" />
+      <t:template>
+        <Input value="{sptxt}" maxLength="{t002Length>/sptxt}" width="{t002Width>/sptxt}"/>
+      </t:template>
+     </t:Column>
+    </t:columns>
+   </t:Table>                         
+        <!-- <Table id="tbIdiomas"
+            inset="false"
+            mode="MultiSelect"
+            items="{
+            path: '/'
+            }">
+            <headerToolbar>
+                <Toolbar>
+                    <Title text="Idiomas" level="H2"/>
+                    <ToolbarSpacer/>
+                    <Button press="onAdd" icon="sap-icon://add"/>
+                    <Button press="onDelete" icon="sap-icon://delete"/>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <Text text="Idioma"  />
+                </Column>
+                <Column>
+                    <Text text="Denominación" />
+                </Column>                       
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Input value="{spras}" maxLength="{t002Length>/spras}" width="{t002Width>/spras}"  editable="false"/>
+                        <Input value="{sptxt}" maxLength="{t002Length>/sptxt}" width="{t002Width>/sptxt}"/>
+                    </cells>
+                </ColumnListItem>
+                        </items>                    
+                    </Table>  -->
+                </content>
+            </Page>
+        </mvc:View>

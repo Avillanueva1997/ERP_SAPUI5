@@ -20,37 +20,21 @@
 		</customHeader>   
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://edit" press="onEdit" tooltip="Editar"/>
 				<Button icon="sap-icon://delete" press="onDelete"/>
 			</Toolbar>
 		</subHeader>
         <content>
             <f:SimpleForm
+                editable="true"
                 layout="ResponsiveGridLayout">
                 <f:content>
-                    <Label text="Registro info" />
-                    <Input maxLength="10" width	="12em" id="iptReginfo"  showValueHelp="true"/>  
+                    <Label text="Registro info" id="lblReginfo" />
+                    <ComboBox items="{path: 'cbReginfo>/', templateShareable:false}" width="300px" selectedKey="{infnr}" id ="iptReginfo">
+                        <core:ListItem key="{cbReginfo>infnr}" text="{cbReginfo>infnr}"/>
+                    </ComboBox>
                 </f:content>
             </f:SimpleForm>
-            <!-- <f:SimpleForm
-                layout="ResponsiveGridLayout">
-                <f:title>
-                    <core:Title text="Infotipo" />
-                </f:title>
-                <f:content>
-                    <FlexBox
-                         direction="Column"
-                         alignItems="Start"
-                         justifyContent="Center" >					
-                        <items>   
-                            <RadioButton id="chkNormal" groupName="GroupA" text="Normal" selected="true" />
-                            <RadioButton id="chksubcont" groupName="GroupA" text="Subcontratación" />
-                            <RadioButton id="chkPipe" groupName="GroupA" text="Pipeline" />
-                            <RadioButton id="chkCons" groupName="GroupA" text="Consignación" />
-                        </items>
-                    </FlexBox>                           
-                </f:content>
-            </f:SimpleForm> -->
         </content>
 	</Page>
 </mvc:View>

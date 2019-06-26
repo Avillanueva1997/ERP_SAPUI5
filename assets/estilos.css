@@ -1,0 +1,6258 @@
+label[id="__component0---viewME12M--lblPrecioNeto"]{
+	margin-top: 10px;	
+}
+
+header > div > h2 > span {
+	font-weight: bold;
+	color: rgb(66, 139, 202);
+	font-size: 1.5em;
+}
+
+div > div > span {
+
+	font-weight: bold;
+	color: rgb(66, 139, 202);
+	font-size: 1.5em;
+
+
+}
+
+td > div > div > div > input[type="text"]{
+	height: 30px !important;
+}
+
+
+td > div > div{
+	height: 37px !important;
+}
+
+td > div > div > div{
+	height: 30px !important;
+}
+
+td{
+	height: 50px !important;
+}
+
+td > div > div > span {
+	line-height: 1.5rem !important;
+}
+
+section > div > div > div > div > input[id|="__component0---ViewPfcg01"]{
+	height: 30px !important;
+}
+
+section > div > div > div > div[class="sapMInputDivWrapper"]{
+	height: 30px !important;
+}
+
+section > div > div > div > div > div > div > div > div > div > input[id|="__component0---ViewPfcgC"] {
+
+	height: 30px !important;
+}
+
+section > div > div > div > div > div > div > div > div > div[class="sapMInputDivWrapper"] {
+
+	height: 30px !important;
+}
+
+section > div > div > div > div > div > div > div > div > div > div > div > div > input[id|="__component10---ViewSu01c"]{
+
+	height: 30px !important;
+}
+
+
+
+div[class="sapMInputBaseReadonlyInner sapMInputDivWrapper"] > input[type="text"] {
+
+	height: 30px !important;
+
+}
+
+div[class="sapMInputBaseReadonlyInner sapMInputDivWrapper"]{
+
+	height: 30px !important;
+
+}
+
+
+div[id="__component0---viewmigo01--documentoMaterial"]{
+
+	height: 30px !important;
+
+}
+
+div[id="__component0---viewmigo01--documentoMaterial"] > span{
+
+	line-height: 1.4rem;
+
+}
+
+input[id="__component0---viewmigo01--something"]{
+
+	height: 37px !important;
+
+}
+
+div[id="__component0---viewmigo01--something"]{
+
+	height: 37px !important;
+
+
+}
+
+div[id="__component0---viewmigo01--something"] > span{
+
+	line-height: 1.5rem;
+
+}
+
+/*mm01*/
+
+
+input[id="__component0---ViewMm01--inpTipoMaterial-inner"]{
+	height: 27px !important;
+}
+
+div[id="__component0---ViewMm01--inpTipoMaterial"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm01--inpTipoMaterial"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMm01--lblTipoMaterial"]{
+	bottom: 10px;
+}
+
+
+
+/*mm02*/
+
+
+input[id="__component0---ViewMm02--inpWerks"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm02--inpWerks"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm02--inpWerks"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMm02--lblCentro"]{
+	bottom: 10px;
+}
+
+
+input[id="__component0---ViewMm02--inpMatnr-inner"]{
+	height: 27px !important;
+}
+
+div[id="__component0---ViewMm02--inpMatnr"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm02--inpMatnr"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMm02--lblMaterial"]{
+	bottom: 10px;
+}	
+
+	
+/*mm03*/
+input[id="__component0---ViewMm03--inpWerks"]{
+	height: 27px !important;
+}
+
+div[id="__component0---ViewMm03--inpWerks"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm03--inpWerks"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMm03--inpMatnr"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm03--inpMatnr"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm03--inpMatnr"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMm03--inpTipoMaterial"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm03--inpTipoMaterial"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm03--inpTipoMaterial"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmV--lblAcreedor"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---ViewMmV--lblDescripcion"]{
+	bottom: 10px;
+}
+
+
+
+label[id="__component0---ViewMmV--lblUnidadBase"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblGrpArt"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblMaterialAntiguo"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblValidoDe"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblStatusMat"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblPesoBruto"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblUnidadPeso"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblPesoNeto"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblUnidadVolumen"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblVolumen"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblTipoEan"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblTamanioDimension"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblCodigoEanUpc"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblGrMateriales"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblCentroC"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+
+label[id="__component0---ViewMmV--lblUnidadBaseC"]{
+	padding-top: 10px;
+}
+
+
+label[id="__component0---ViewMmV--lblGrpComrasC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblGrpArticulosC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblStatMatC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblStatMatC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblValidoDeC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblIdentImpuestoC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblUmpVar"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblSujetoLoteC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblCentroA"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+label[id="__component0---ViewMmV--lblAlmacenA"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+label[id="__component0---ViewMmV--lblUnidadBaseA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblUnidadSalidaA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblCondicTemperaturaA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblCondAlmacenajeA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblSujetoLoteA"]{
+	padding-top: 20px;
+}
+
+label[id="__component0---ViewMmV--lblTmpAlmacenajeA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblUnidadTiempoA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblTmpDuracA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblDurTotalA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblIndCaducA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblReglaRedondeoA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmV--lblTempoCaducA"]{
+	padding-top: 10px;
+}
+
+
+
+/*mk01 better*/
+
+input[id="__component0---viewMK01--iptLifnr-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01--iptLifnr"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01--iptLifnr"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---viewMK01--lblAcreedor"]{
+	bottom: 10px;
+}
+
+/*mk01c*/
+input[id="__component0---viewMK01C--cbbTratamiento"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--cbbTratamiento"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--cbbTratamiento"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewMK01C--iptNombre-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptNombre"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptNombre"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCalle2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCalle2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCalle2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCallenumero-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCallenumero"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCallenumero"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptDistrito-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptDistrito"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK01C--iptDistrito"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCodpostal-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCodpostal"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCodpostal"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptPais-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptPais"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptPais"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptRegion-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptRegion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptRegion"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptRegion-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptRegion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptRegion"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCliente-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCliente"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCliente"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptSocglasoc-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptSocglasoc"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptSocglasoc"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptNumidenfis1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptNumidenfis1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptNumidenfis1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptNumidenfis2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptNumidenfis2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptNumidenfis2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptDomfis-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptDomfis"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptDomfis"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptRepre-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptRepre"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptRepre"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptNif-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptNif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptNif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptClaseimp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptClaseimp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptClaseimp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptTipopera-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptTipopera"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptTipopera"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptTipind-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptTipind"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptTipind"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptRamo-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptRamo"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK01C--iptRamo"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptZonatransp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptZonatransp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptZonatransp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptMonped-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptMonped"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptMonped"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCondpago-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCondpago"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCondpago"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptIncoterms1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptIncoterms1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptIncoterms1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptIncoterms2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptIncoterms2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptIncoterms2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptValminped-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptValminped"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptValminped"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptGresquema-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptGresquema"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptGresquema"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCtrlfechaprecio-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCtrlfechaprecio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCtrlfechaprecio"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptVend-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptVend"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptVend"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptTelf-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptTelf"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptTelf"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptModtranspfron-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptModtranspfron"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptModtranspfron"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptAduaentra-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptAduaentra"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptAduaentra"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCritclasi-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCritclasi"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCritclasi"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptGrpcomp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptGrpcomp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptGrpcomp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptPlazoent-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptPlazoent"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptPlazoent"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptCtrlconfi-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptCtrlconfi"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptCtrlconfi"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK01C--iptPerfilred-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--iptPerfilred"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK01C--iptPerfilred"]  > div{
+	height: 30px !important;
+}
+
+/*mk03*/
+
+input[id="__component0---viewMK03--iptAcreedor"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK03--iptAcreedor"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK03--iptAcreedor"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+input[id="__component0---viewMK03V--cbbTratamiento-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK03V--cbbTratamiento"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK01C--cbbTratamiento"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---viewMK01C--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblTratamiento"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblConBus"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCalle2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCodPostal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCalleNumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblPais"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblDistrito"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCliente"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblSocglasoc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblNumidenfis1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblNif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lbllNumidenfis2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblClaseimp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblDomfis"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblTipopera"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblRepre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblTipind"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblRamo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblZonatransp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblRecaltPago"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewMK01C--lblMonped"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewMK01C--lblValminped"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewMK01C--lblCondpago"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblGresquema"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblIncoterms1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCtrlfechaprecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblVen"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblTelf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblModtranspfron"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblAduanaentra"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCritclasi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblCtrlconfi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblPlazoent"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK01C--lblPerfilred"]{
+	bottom: 10px;
+}
+
+
+input[id="__component0---viewMK02--iptAcreedor"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02--iptAcreedor"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02--iptAcreedor"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewMK02M--cbbTratamiento"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--cbbTratamiento"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--cbbTratamiento"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+input[id="__component0---viewMK02M--iptNombre-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptNombre"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptNombre"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCalle2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCalle2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCalle2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCodpostal-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCodpostal"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCodpostal"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCallenumero-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCallenumero"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCallenumero"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptPais-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptPais"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptPais"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptDistrito-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptDistrito"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK02M--iptDistrito"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptRegion-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptRegion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptRegion"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCliente-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCliente"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCliente"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptSocglasoc-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptSocglasoc"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptSocglasoc"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptNumidenfis1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptNumidenfis1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptNumidenfis1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptNif-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptNif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptNif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptNumidenfis2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptNumidenfis2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptNumidenfis2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptClaseimp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptClaseimp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptClaseimp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCondpago-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCondpago"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCondpago"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptDomfis-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptDomfis"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptDomfis"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptTipopera-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptTipopera"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptTipopera"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptRepre-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptRepre"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptRepre"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptTipind-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptTipind"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptTipind"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptRamo-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptRamo"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK02M--iptRamo"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptZonatransp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptZonatransp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptZonatransp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptMonped-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptMonped"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptMonped"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptValminped-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptValminped"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptValminped"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptGresquema-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptGresquema"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptGresquema"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptIncoterms1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptIncoterms1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptIncoterms1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptIncoterms2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptIncoterms2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptIncoterms2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCtrlfechaprecio-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCtrlfechaprecio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCtrlfechaprecio"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptVend-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptVend"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptVend"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptTelf-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptTelf"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptTelf"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptModtranspfron-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptModtranspfron"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptModtranspfron"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptAduaentra-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptAduaentra"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptAduaentra"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptCritclasi-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCritclasi"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCritclasi"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptGrpcomp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptGrpcomp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptGrpcomp"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewMK02M--iptCtrlconfi-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptCtrlconfi"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptCtrlconfi"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptPlazoent-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptPlazoent"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptPlazoent"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewMK02M--iptPerfilred-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewMK02M--iptPerfilred"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewMK02M--iptPerfilred"]  > div{
+	height: 30px !important;
+}
+
+
+
+
+label[id="__component0---viewMK02M--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblTratamiento"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblConbus"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCalle2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCodPostal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCallenumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblPais"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblDistrito"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCliente"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblSocglasoc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblNumidenfis1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblNif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblNumidenfis2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblClaseimp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblDomfis"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblTipopera"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblRepre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblTipind"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblRamo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblZonatransp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblRecaltpago"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblMonped"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblValminped"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCondpago"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblGresquema"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblIncoterms"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCtrlfechaprecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblVend"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblTelf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblModtranspfron"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblAduanaentra"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCritclasi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblCtrlconfi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblPlazoent"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK02M--lblPerfilred"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewMK02--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblTratamiento"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblConbus"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCalle2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCodPostal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCallenumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblPais"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblDistrito"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCliente"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblSocglasoc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblNumidenfis1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblNif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblNumidenfis2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblClaseimp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblDomfis"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblTipopera"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblRepre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblTipind"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblRamo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblZonatransp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblRecaltpago"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblMonped"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblValminped"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCondpago"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblGresquema"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblIncoterms"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCtrlfechaprecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblVend"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblTelf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblModtranspfron"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblAduaentra"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCritclasi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblCtrlconfi"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblPlazoent"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewMK03V--lblPerfilred"]{
+	bottom: 10px;
+}
+
+
+
+
+/*me11*/
+
+input[id="__component0---viewME11--iptProveedor"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptProveedor"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptProveedor"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewME11--iptMaterial"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptMaterial"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptMaterial"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmC--lblMaterial"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+input[id="__component0---viewME11--iptOrgcomp"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptOrgcomp"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptOrgcomp"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewME11--iptCentro"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptCentro"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11--iptCentro"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewME11C--iptGrparti-inner"]{
+	width: 217px !important;
+}
+
+div[id="__component0---viewME11C--iptGrparti"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptGrparti"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewME12M--iptGrparti-inner"]{
+	width: 217px !important;
+}
+
+div[id="__component0---viewME12M--iptGrparti"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptGrparti"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---viewME13V--iptGrparti"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME13V--iptGrparti"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME13V--iptGrparti"]  > span {
+
+	line-height: 1.4rem;
+}
+input[id="__component0---viewME11C--iptNormal-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptNormal"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptNormal"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPlaentprev-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptPlaentprev"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPlaentprev"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME11C--iptGrpcomp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptGrpcomp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptGrpcomp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCtdestandar1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdestandar1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdestandar1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCtdestandar2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdestandar2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdestandar2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCtdminima1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdminima1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdminima1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCtdminima2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdminima2"] {
+	width: 182px !important;
+}
+
+div[id="__component0---viewME11C--iptCtdminima2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTmpohastacaduc1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptTmpohastacaduc1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTmpohastacaduc1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTmpohastacaduc2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptTmpohastacaduc2"] {
+	width: 182px !important;
+}
+
+div[id="__component0---viewME11C--iptTmpohastacaduc2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptNormasenvio-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptNormasenvio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptNormasenvio"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCantidadmax1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCantidadmax1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptCantidadmax1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCantidadmax2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCantidadmax2"] {
+	width: 182px !important;
+}
+
+div[id="__component0---viewME11C--iptCantidadmax2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTolSumIncompl-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptTolSumIncompl"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTolSumIncompl"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTolExcSum-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptTolExcSum"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTolExcSum"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptCtrlConf-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptCtrlConf"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptCtrlConf"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptIndImp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptIndImp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptIndImp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptProced-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptProced"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptProced"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPerfRed-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptPerfRed"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPerfRed"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptGrpum-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptGrpum"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptGrpum"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPrecioneto1-inner"]{
+	width: 126px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto1"] {
+	width: 126px !important;
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPrecioneto2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPrecioneto3-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPrecioneto4-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPrecioneto4"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME11C--iptConvctd1-inner"]{
+	height: 30px !important;
+	width: 126px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd1"] {
+	height: 40px !important;
+	width: 126px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptConvctd2-inner"]{
+	height: 30px !important;
+
+}
+
+div[id="__component0---viewME11C--iptConvctd2"] {
+	height: 40px !important;
+
+}
+
+div[id="__component0---viewME11C--iptConvctd2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptConvctd3-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptConvctd4-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConvctd4"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTipfechaprecio-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptTipfechaprecio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTipfechaprecio"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptIncoterms1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptIncoterms1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptIncoterms1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptIncoterms2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptIncoterms2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptIncoterms2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptValideza-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME11C--iptValideza"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptValideza"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptGrcond-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptGrcond"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewME11C--iptGrcond"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptUmpedido-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptUmpedido"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptUmpedido"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME11C--iptConversion1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptConversion1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConversion1"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME11C--iptConversion2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptConversion2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConversion2"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME11C--iptConversion3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptConversion3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConversion3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptConversion4-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptConversion4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptConversion4"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptUmpvar-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptUmpvar"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptUmpvar"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTpocertif-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptTpocertif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTpocertif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptNocertif-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptNocertif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptNocertif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptVala-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptVala"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptVala"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPaisorig-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptPaisorig"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPaisorig"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptRegion-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptRegion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptRegion"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptNumero-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptNumero"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptNumero"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptFabricante-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptFabricante"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptFabricante"]  > div{
+	height: 60px !important;
+}
+
+input[id="__component0---viewME11C--iptSuminisdesde-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptSuminisdesde"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewME11C--iptSuminisdesde"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptSuministrhasta-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptSuministrhasta"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptSuministrhasta"]  > div{
+	height: 30px !important;
+}
+
+
+
+
+
+
+input[id="__component0---viewME12M--iptNormal-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptNormal"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptNormal"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPlaentprev-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptPlaentprev"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPlaentprev"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptGrpcomp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptGrpcomp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptGrpcomp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptCtdestandar1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdestandar1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdestandar1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptCtdestandar2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdestandar2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdestandar2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptCtdminima1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdminima1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdminima1"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptCtdminima2"] {
+	width: 183px !important;
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCtdminima2"]  > div{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptTmpohastacaduc1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTmpohastacaduc1"]  > div{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptTmpohastacaduc2"] {
+	height: 40px !important;
+	width: 183px !important;
+}
+
+div[id="__component0---viewME12M--iptTmpohastacaduc2"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptNormasenvio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptNormasenvio"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptCantidadmax1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCantidadmax1"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptCantidadmax2"] {
+	height: 40px !important;
+	width: 183px !important;
+}
+
+div[id="__component0---viewME12M--iptCantidadmax2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptTolSumIncompl-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptTolSumIncompl"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTolSumIncompl"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptTolExcSum-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptTolExcSum"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTolExcSum"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptCtrlConf-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptCtrlConf"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptCtrlConf"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptIndImp-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptIndImp"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptIndImp"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptProced-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptProced"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptProced"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPerfRed-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptPerfRed"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPerfRed"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptGrpum-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptGrpum"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptGrpum"]  > div{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPrecioneto1"] {
+	width: 130px !important;
+	height: 40px !important;
+
+}
+
+div[id="__component0---viewME12M--iptPrecioneto1"]  > div{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPrecioneto2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPrecioneto2"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptPrecioneto3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPrecioneto3"]  > div{
+	height: 30px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptPrecioneto4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPrecioneto4"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptConvctd1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd1"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptConvctd2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptConvctd3-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptConvctd4-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConvctd4"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptTipfechaprecio-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptTipfechaprecio"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTipfechaprecio"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptIncoterms1-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptIncoterms1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptIncoterms1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptIncoterms2-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptIncoterms2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptIncoterms2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptValideza-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME12M--iptValideza"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptValideza"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptGrcond-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptGrcond"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptGrcond"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptReclamacion1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptReclamacion1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptReclamacion1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptReclamacion2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptReclamacion2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptReclamacion2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptReclamacion3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptReclamacion3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptReclamacion3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptMatpro-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptMatpro"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptMatpro"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptSurparcial-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptSurparcial"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptSurparcial"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptclasSurParcPr-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptclasSurParcPr"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptclasSurParcPr"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptGrmciaprov-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptGrmciaprov"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptGrmciaprov"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPuntos1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPuntos1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPuntos1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPuntos2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPuntos2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPuntos2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPuntos3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPuntos3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPuntos3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptVendedor-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptVendedor"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptVendedor"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptTelefono-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptTelefono"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTelefono"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptAcueroadm-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptAcueroadm"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptAcueroadm"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPreprov-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPreprov"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPreprov"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptReclamacion1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptReclamacion1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptReclamacion1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptReclamacion2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptReclamacion2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptReclamacion2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptReclamacion3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptReclamacion3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptReclamacion3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptMatpro-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptMatpro"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptMatpro"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptSurparcial-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptSurparcial"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptSurparcial"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptclasSurParcPr-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptclasSurParcPr"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptclasSurParcPr"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptGrmciaprov-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptGrmciaprov"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptGrmciaprov"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPuntos1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptPuntos1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPuntos1"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPuntos2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptPuntos2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPuntos2"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPuntos3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptPuntos3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPuntos3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptVendedor-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptVendedor"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptVendedor"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptTelefono-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptTelefono"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptTelefono"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptAcueroadm-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptAcueroadm"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptAcueroadm"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME11C--iptPreprov-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME11C--iptPreprov"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME11C--iptPreprov"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptUmpedido-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptUmpedido"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptUmpedido"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptConversion1-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptConversion1"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConversion1"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptConversion2-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptConversion2"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConversion2"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---viewME12M--iptConversion3-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptConversion3"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConversion3"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptConversion4-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptConversion4"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptConversion4"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptUmpvar-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptUmpvar"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptUmpvar"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptTpocertif-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptTpocertif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptTpocertif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptNocertif-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptNocertif"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptNocertif"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptVala-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptVala"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptVala"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptPaisorig-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptPaisorig"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptPaisorig"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptRegion-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptRegion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptRegion"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptNumero-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptNumero"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptNumero"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptFabricante-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptFabricante"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptFabricante"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptSuministrodesde-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptSuministrodesde"] {
+	height: 80px !important;
+}
+
+div[id="__component0---viewME12M--iptSuministrodesde"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---viewME12M--iptSuministrhasta-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewME12M--iptSuministrhasta"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewME12M--iptSuministrhasta"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---viewME11C--lblReginfo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblGrparti"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblProveedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblNormal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblMaterial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblOrgcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblCentro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPlanetprev"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblToSumIncompl"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblTolExcSum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblCtdestandar"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---viewME11C--lblCtrlConf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblIndImp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblCtdminima"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblProced"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblTmpohastacaduc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPerfRed"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblNormasenvio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblGrpum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblCantidadmax"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPrecioNeto"]{
+
+	padding-top: 10px;	
+}
+
+label[id="__component0---viewME11C--lblTipfechaprecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblIncoterms"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewME11C--lblValideza"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblConvctd"]{
+	margin-top: 10px;
+}
+
+label[id="__component0---viewME11C--lblGrcond"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblReclamacion1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblReclamacion2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblReclamacion3"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblMatpro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblSurparcial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblclasSurParcPr"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblGrmciaprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPuntos1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblVendedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblTelefono"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblAcueroadm"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPreprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblUmpedido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblUmpvar"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblConversion"]{
+	margin-top: 10px;
+}
+
+label[id="__component0---viewME11C--lblTpocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblNocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblNumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblVala"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblFabricante"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblPaisorig"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblSuminisdesde"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11C--lblSuministrhasta"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblReginfo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblGrparti"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblProveedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblNormal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblMaterial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblOrgcompras"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblCentro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblPlaentprev"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblToSumIncompl"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblTolExcSum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblCtdestandar"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---viewME12M--lblCtrlConf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblIndImp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblCtdminima"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblProced"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblTmpohastacaduc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblPerfRed"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblNormasenvio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblGrpum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblCantidadmax"]{
+	bottom: 10px;
+}
+
+
+
+label[id="__component0---viewME12M--lblTipfechaprecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblTolSumIncompl"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblIncoterms"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---viewME12M--lblValideza"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblConvctd"]{
+	margin-top: 10px;
+}
+
+label[id="__component0---viewME12M--lblGrcond"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblReclamacion1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblReclamacion2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblReclamacion3"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblMatpro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblSurparcial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblclasSurParcPr"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblGrmciaprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblPuntos"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblVendedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblTelefono"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblAcueroadm"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblPreprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblUmpedido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblUmpvar"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblConversion"]{
+	margin-top: 10px;
+}
+
+label[id="__component0---viewME12M--lblTpocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblNocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblNumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblVala"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblFabricante"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblPaisorig"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblSuministrodesde"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12M--lblSuministrhasta"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13--lblReginfo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblReginfo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblGrparti"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblProveedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblNormal"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblMaterial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblOrgcompras"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblCentro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPlaentprev"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblToSumIncompl"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblGrpcomp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblTolExcSum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblCtdestandar"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---viewME13V--lblCtrlConf"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblIndImp"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblCtdminima"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblProced"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblTmpohastacaduc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPerfRed"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblNormasenvio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblGrpum"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblCantidadmax"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPrecioneto"]{
+
+	padding-top: 10px;	
+}
+
+label[id="__component0---viewME13V--lblTipFechaPrecio"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblIncoterms"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblValideza"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblConvctd"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblGrcond"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblReclamacion1"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblReclamacion2"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblReclamacion3"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblMatpro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblSurparcial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblclasSurParcPr"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblGrmciaprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPuntos"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblVendedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblTelefono"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblAcueroadm"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPreprov"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblUmpedido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblUmpvar"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblConversion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblTpocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblRegion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblNocertif"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblNumero"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblVala"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblFabricante"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblPaisorig"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblSuministrodesde"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME13V--lblSuministrhasta"]{
+	bottom: 10px;
+}
+
+
+
+
+/*me13*/
+
+
+input[id="__component0---viewME13--iptReginfo"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewME13--iptReginfo"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewME13--iptReginfo"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+
+
+/*login*/
+
+input[id="__component0---viewLogin--txtUsuario-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewLogin--txtUsuario"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewLogin--txtUsuario"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---viewLogin--lblUsuario"]{
+
+	padding-top: 10px;
+	bottom: 20px;
+
+}
+
+input[id="__component0---viewLogin--txtPassword-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---viewLogin--txtPassword"] {
+	height: 40px !important;
+}
+
+div[id="__component0---viewLogin--txtPassword"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---viewLogin--lblContrasenia"]{
+	padding-top: 10px;
+	bottom: 20px;
+
+
+}
+
+input[id="__component0---viewLogin--cmbEmpresas"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewLogin--cmbEmpresas"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewLogin--cmbEmpresas"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---viewLogin--lblEmpresa"]{
+
+padding-top: 10px;
+bottom: 20px;
+
+}
+
+/*MmC*/
+
+div[id="__component0---ViewMmC--iptMaterial"] {
+	height: 40px !important;
+}
+
+
+input[id="__component0---ViewMmC--iptDescripcion-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--iptDescripcion"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--iptDescripcion"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblDescripcion"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+label[id="__component0---ViewMmM--lblAcreedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewMmM--lblDescripcion"]{
+	bottom: 10px;
+}
+
+
+input[id="__component0---ViewMmC--inpTipoMaterial-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--inpTipoMaterial"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--inpTipoMaterial"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblTipoMaterial"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+input[id="__component0---ViewMmC--unidadBase"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadBase"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadBase"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmC--lblUnidadBase"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--grupoArticulo"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--grupoArticulo"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--grupoArticulo"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmC--lblGrupoArticulo"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--materialAntiguo-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--materialAntiguo"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--materialAntiguo"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblMaterialAntiguo"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--statusMaterial-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--statusMaterial"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--statusMaterial"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblStatusMaterial"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--validoDe-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---ViewMmC--validoDe"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--validoDe"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblValidoDe"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--pesoBruto-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--pesoBruto"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--pesoBruto"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblPesoBruto"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--unidadPeso"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadPeso"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadPeso"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmC--lblUnidadPeso"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--pesoNeto-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---ViewMmC--pesoNeto"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--pesoNeto"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblPesoNeto"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--volumen-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---ViewMmC--volumen"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--volumen"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblVolumen"]{
+	padding-top: 10px;
+}
+
+
+
+label[id="__component0---ViewMmC--lblTamanioDimension"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--codEanUpc-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---ViewMmC--codEanUpc"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--codEanUpc"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblCodEanUpc"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--unidadVolumen"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadVolumen"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--unidadVolumen"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMmC--lblUnidadVolumen"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--tipoEan-inner"]{
+	height: 30px !important;
+}
+
+
+div[id="__component0---ViewMmC--tipoEan"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmC--tipoEan"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblTipoEan"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmC--grMaterialesMe-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmC--grMaterialesMe"] {
+	height: 80px !important;
+}
+
+div[id="__component0---ViewMmC--grMaterialesMe"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmC--lblGrMaterialesMe"]{
+	padding-top: 10px;
+}
+/*mm02*/
+
+
+
+input[id="__component0---ViewMm02--idAlmacen"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm02--idAlmacen"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMm02--idAlmacen"]  > span {
+
+	line-height: 1.4rem;
+}
+
+label[id="__component0---ViewMm02--lblAlmacen"]{
+	bottom: 10px;
+}
+
+/*mmm*/
+
+
+
+label[id="__component0---ViewMmM--lblUnidadBase"]{
+ padding-top: 10px;
+
+}
+
+input[id="__component0---ViewMmM--grupoArt"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--grupoArt"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--grupoArt"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--grupoArtC"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--grupoArtC"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--grupoArtC"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--cbxCentroA"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--cbxCentroA"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--cbxCentroA"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--cbxCentroC"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--cbxCentroC"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--cbxCentroC"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--cbxAlmacenA-inner"]{
+	height: 27px !important;
+}
+
+div[id="__component0---ViewMmM--cbxAlmacenA"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--cbxAlmacenA"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+
+
+label[id="__component0---ViewMmM--lblGrupoArt"]{
+ padding-top: 10px;
+
+}
+
+
+input[id="__component0---ViewMmM--materialAntiguo-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--materialAntiguo"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--materialAntiguo"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblMaterialAntiguo"]{
+ padding-top: 10px;
+
+}
+
+
+input[id="__component0---ViewMmM--validDe-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--validDe"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--validDe"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblValidDe"]{
+ padding-top: 10px;
+}
+
+
+input[id="__component0---ViewMmM--statusMat-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--statusMat"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--statusMat"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblStatusMat"]{
+ padding-top: 10px;
+}
+
+input[id="__component0---ViewMmM--pesoBruto-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--pesoBruto"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--pesoBruto"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblPesoBruto"]{
+ padding-top: 10px;
+}
+
+
+
+label[id="__component0---ViewMmM--lblUnidadPeso"]{
+ padding-top: 10px;
+}
+
+
+input[id="__component0---ViewMmM--pesoNeto-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--pesoNeto"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--pesoNeto"]  > div{
+	height: 30px !important;
+}
+
+
+
+label[id="__component0---ViewMmM--lblUnidadVolumen"]{
+ padding-top: 10px;
+}
+
+
+
+input[id="__component0---ViewMmM--volumen-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--volumen"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--volumen"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblVolumen"]{
+ padding-top: 10px;
+}
+
+input[id="__component0---ViewMmM--tipoEan-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--tipoEan"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--tipoEan"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblTipoEan"]{
+ padding-top: 10px;
+}
+
+
+input[id="__component0---ViewMmM--codigoEanUpc-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--codigoEanUpc"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--codigoEanUpc"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblCodigoEanUpc"]{
+ padding-top: 10px;
+}
+
+input[id="__component0---ViewMmM--datosMaterial-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--datosMaterial"] {
+	height: 80px !important;
+}
+
+div[id="__component0---ViewMmM--datosMaterial"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblDatosMaterial"]{
+ padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblCentroC"]{
+	bottom: 20px;
+	padding-top: 10px;
+}
+
+
+
+label[id="__component0---ViewMmM--lblUnidadBaseC"]{
+	padding-top: 10px;
+}
+
+
+
+input[id="__component0---ViewMmM--grupoComprasC-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--grupoComprasC"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--grupoComprasC"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblGrupoComprasC"]{
+	padding-top: 10px;
+}
+
+
+input[id="__component0---ViewMmM--idenImpuesto-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--idenImpuesto"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--idenImpuesto"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblIdenImpuestoC"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblGrupoArtC"]{
+	padding-top: 10px;
+}
+
+input[id="__component0---ViewMmM--validDeC-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--validDeC"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--validDeC"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblValidDeC"]{
+	padding-top: 10px;
+}
+
+
+
+
+input[id="__component0---ViewMmM--statusMatC-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--statusMatC"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--statusMatC"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblStatusMatC"]{
+	padding-top: 10px;
+}
+
+
+
+
+input[id="__component0---ViewMmM--UmpVarC-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--UmpVarC"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--UmpVarC"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMmM--lblUmpVarC"]{
+	padding-top: 10px;
+}
+
+
+
+label[id="__component0---ViewMmM--lblSujetoLoteC"]{
+	padding-top: 25px;
+}
+
+label[id="__component0---ViewMmM--lblCentroA"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+label[id="__component0---ViewMmM--lblAlmacenA"]{
+	padding-top: 10px;
+	bottom: 20px;
+}
+
+label[id="__component0---ViewMmM--lblUnidadBaseA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblCondicTemperaturaA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblUnidadSalidaA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblCondAlmacenajeA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblSujetoLoteA"]{
+	padding-top: 20px;
+}
+
+label[id="__component0---ViewMmM--lblTmpAlmacenajeA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblUnidadTiempoA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblTmpMinA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblDurTotalA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblInfPerA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblReglaRedondeoA"]{
+	padding-top: 10px;
+}
+
+label[id="__component0---ViewMmM--lblTempoCaducA"]{
+	padding-top: 10px;
+}
+
+
+input[id="__component0---ViewMmM--unidadBase"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBase"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBase"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadPeso"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadPeso"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadPeso"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadVolumen"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadVolumen"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadVolumen"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadBaseC"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBaseC"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBaseC"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadBaseA"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBaseA"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadBaseA"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadSalida"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadSalida"] {
+	height: 32px !important;
+}
+
+div[id="__component0---ViewMmM--unidadSalida"]  > span {
+
+	line-height: 1.4rem;
+}
+
+input[id="__component0---ViewMmM--unidadTiempo"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadTiempo"] {
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--unidadTiempo"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+input[id="__component0---ViewMmM--condicTemperatura-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--condicTemperatura"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--condicTemperatura"]  > div{
+	height: 30px !important;
+}
+
+
+
+
+input[id="__component0---ViewMmM--condAlmacenaje-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--condAlmacenaje"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--condAlmacenaje"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---ViewMmM--tmpAlmacenaje-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--tmpAlmacenaje"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--tmpAlmacenaje"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---ViewMmM--tmpMin-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--tmpMin"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--tmpMin"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---ViewMmM--infPer-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--infPer"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--infPer"]  > div{
+	height: 30px !important;
+}
+
+
+input[id="__component0---ViewMmM--tempoCaduc-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--tempoCaduc"] {
+	height: 80px !important;
+}
+
+div[id="__component0---ViewMmM--tempoCaduc"]  > div{
+	height: 30px !important;
+}
+
+
+
+input[id="__component0---ViewMmM--durTotal-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--durTotal"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--durTotal"]  > div{
+	height: 30px !important;
+}
+
+input[id="__component0---ViewMmM--reglaRedondeo-inner"]{
+	height: 30px !important;
+}
+
+div[id="__component0---ViewMmM--reglaRedondeo"] {
+	height: 40px !important;
+}
+
+div[id="__component0---ViewMmM--reglaRedondeo"]  > div{
+	height: 30px !important;
+}
+
+label[id="__component0---ViewMm03--lblMaterial"]{
+
+	bottom: 10px;
+
+}
+
+label[id="__component0---ViewMm03--lblTipoMaterial"]{
+
+	bottom: 10px;
+
+}
+
+
+label[id="__component0---ViewMm03--lblCentro"]{
+
+	bottom: 10px;
+
+}
+
+
+label[id="__component0---viewME11--lblProveedor"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11--lblMaterial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11--lblOrgCompras"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME11--lblCentro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo01--lblProformaLiq"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo01--lblFechaDoc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo01--lblFechaCont"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo01--lblValeMaterial"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo01--lblRefProyecto"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewME12--lblReginfo"]{
+	bottom: 10px;
+}
+
+
+div[id="__component0---viewMK01C--chkEntradasref"] {
+    bottom: 12px !important;
+}
+
+h5[id="__component0---viewMK01C--nombre1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--nombre2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK01C--direccion1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--direccion2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK01C--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--inf1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--inf2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK01C--datos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--datos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--nombre1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--nombre2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--direccion1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--direccion2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK03V--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--inf1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--inf2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--datos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--datos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--datosVenta1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--datosVenta2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK03V--valoresPropuestos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK03V--valoresPropuestos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK02M--nombre1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--nombre2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--inf1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--inf2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--datos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--datos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK02M--direccion1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--direccion2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK02M--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK02M--datosVenta1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--datosVenta2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--valoresPropuestos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK02M--valoresPropuestos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewMK01C--datosVenta1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--datosVenta2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--valoresPropuestos1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--valoresPropuestos2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--datosControl1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewMK01C--datosControl2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosGenerales1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosGenerales2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewME11C--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--unidadPedido1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--unidadPedido2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosOriginarios1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosOriginarios2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--opcionSuministro1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--opcionSuministro2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosProveedor1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME11C--datosProveedor2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosGenerales1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosGenerales2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewME12M--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--unidadPedido1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--unidadPedido2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosOriginarios1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosOriginarios2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--opcionSuministro1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--opcionSuministro2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosProveedor1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME12M--datosProveedor2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewME13V--datosGenerales1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--datosGenerales2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+h5[id="__component0---viewME13V--control1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--control2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--condiciones1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--condiciones2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--unidadPedido1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--unidadPedido2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--datosOriginarios1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--datosOriginarios2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--opcionSuministro1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--opcionSuministro2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--datosProveedor1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewME13V--datosProveedor2"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+div[id="__component0---ViewMmV--chckLote"]{
+	bottom: 10px !important;
+}
+   
+
+/* chck*/
+
+div[id="__component0---viewMK01C--chkVerif-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkAfentrega-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkAfdevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkIndobl-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkPedauto-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkLiquipos-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK01C--chkIndliq-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+}
+
+div[id="__component0---viewMK01C--chkDevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+
+
+div[id="__component0---viewMK02M--chkVerif-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkAfentrega-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkAfdevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkIndobl-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkPedauto-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkLiquipos-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK02M--chkIndliq-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+}
+
+div[id="__component0---viewMK02M--chkDevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+
+div[id="__component0---viewMK03V--chkVerif-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkAfentrega-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkAfdevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkIndobl-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkPedauto-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkLiquipos-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+div[id="__component0---viewMK03V--chkIndliq-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+}
+
+div[id="__component0---viewMK03V--chkDevol-CbBg"]{
+	height: 18px !important;
+	width: 18px !important;
+
+}
+
+
+
+
+div[class="sapMFlexBoxBGTransparent sapMFlexItem sapMFlexItemAlignAuto"]{
+
+	height: 46px !important;
+}
+
+div[id="__component0---viewHome--Tree"]{
+	height: 2050px !important;
+}
+
+
+
+
+div[id="__component0---ViewMmV--iptGrMateriales"]{
+	height: 80px !important;
+}
+
+div[id="__component0---ViewMmV--chckLote"]{
+	height: 80px !important;
+}
+
+div[id="__component0---ViewMmV--iptTempoCaducA"]{
+	height: 80px !important;
+}
+
+
+div[id="__component0---ViewMmM--chckLote"]{
+	height: 80px !important;
+	top : 5px;
+}
+
+
+
+
+div[id="__component0---viewMK03V--iptDistrito"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK03V--iptRamo"]{
+	height: 80px !important;
+}
+
+
+
+div[id="__component0---viewME12M--iptGrcond"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewME13V--iptGrcond"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewME13V--iptSuministrodesde"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK02M--iptPlazoent"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK01C--iptPlazoent"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewMK03V--iptPlazoent"]{
+	height: 80px !important;
+}
+
+div[id="__component0---viewalmacen--tbAlmacenes-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewcentro--tbCentros-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewmoneda--tbMonedas-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewsociedad--tbSociedades-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewclase--tbClases-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewgrupo--tbGrupos-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewtipo--tbTipos-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewunidad--tbUnidades-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewdpto--tbDptos-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewdistrito--tbDistritos-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewpais--tbPaises-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+div[id="__component0---viewprovincia--tbProvincias-sapUiTableCnt"]{
+
+	top: 17px !important;
+}
+
+
+
+div[class="sapUiRespGridSpanL5 sapUiRespGridSpanM5 sapUiRespGridSpanS12 sapUiRespGridSpanXL5"]{
+	padding-top: 1px !important;
+    width: 235.66666px !important;
+
+}
+
+div[class="sapUiRespGridSpanL3 sapUiRespGridSpanM3 sapUiRespGridSpanS12 sapUiRespGridSpanXL3"]{
+
+	width: 170.66666px !important; 
+
+}
+
+div[class="sapUiRespGridSpanL2 sapUiRespGridSpanM2 sapUiRespGridSpanS12 sapUiRespGridSpanXL2"]{
+
+	width: 170.66666px !important; 
+
+}
+
+div[class="sapUiRespGridSpanL8 sapUiRespGridSpanM10 sapUiRespGridSpanS12 sapUiRespGridSpanXL8"]{
+
+	margin-left: 0.5px !important;
+    width: 310.66666px !important;
+
+
+}
+
+div[class="sapUiRespGridSpanL10 sapUiRespGridSpanM10 sapUiRespGridSpanS12 sapUiRespGridSpanXL10"]{
+	margin-left: 0.500px !important;
+	width: 490.66666px !important;
+	height: 41.500px !important;
+}
+
+
+div[class="sapUiFormElementLbl sapUiRespGridBreak sapUiRespGridSpanL2 sapUiRespGridSpanM2 sapUiRespGridSpanS12 sapUiRespGridSpanXL2"]{
+	width: 190px !important;
+	padding-right:16px !important;
+	padding-left: 5.333px !important;
+	padding-top: 21.333px !important;
+}
+
+div[class="sapUiRespGridSpanL2 sapUiRespGridSpanM3 sapUiRespGridSpanS12 sapUiRespGridSpanXL1"]{
+	padding-top: 1.500px !important;
+	margin-left: 0.500px !important;
+}
+
+
+label[id="__component0---ViewSu01--lblUsuario"]{
+	margin-top: 10px !important;
+}
+
+input[id="__component0---viewmigo02--iptCodigo"]{
+	height: 30px !important;
+}
+
+div[id="__component0---viewmigo02--iptCodigo"] {
+	height: 30px !important;
+}
+
+div[id="__component0---viewmigo02--iptCodigo"]  > span {
+
+	line-height: 1.4rem;
+}
+
+
+label[id="__component0---viewmigo02--lblCodigo"]{
+	bottom: 10px;
+}
+
+
+
+div[id="__component0---viewmigo02V--documentoMaterial"] {
+
+	height: 30px !important;
+
+}
+
+label[id="__component0---viewmigo02V--lblFechaDoc"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo02V--lblFechaCont"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo02V--lblValeMat"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo02V--lblRefPro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo02V--lblProformaLiq"]{
+	bottom: 10px;
+}
+
+
+div[class="sapUiFormResGridLastContM sapUiFormResGridLastRowXL sapUiFormResGridLastRowL sapUiFormResGridLastRowM sapUiFormResGridFirstRowXL sapUiFormResGridFirstRowL sapUiFormResGridFirstRowM sapUiRespGridBreakL sapUiRespGridBreakXL sapUiRespGridSpanL6 sapUiRespGridSpanM12 sapUiRespGridSpanS12 sapUiRespGridSpanXL6"]{
+	width: 700px !important;
+}
+
+label[id="__component0---ViewPfcgC--lblDescripcion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewPfcgM--lblDescripcion"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewPfcgV--lblDescripcion"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---ViewSu01c--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01c--lblApellido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01c--inpCorreo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01c--lblCelular"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01c--lblContrasenia"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01c--lblRepetirContrasenia"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---ViewSu01m--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01m--lblApellido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01m--inpCorreo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01m--lblCelular"]{
+	bottom: 10px;
+}
+
+
+label[id="__component0---ViewSu01v--lblNombre"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01v--lblApellido"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01v--inpCorreo"]{
+	bottom: 10px;
+}
+
+label[id="__component0---ViewSu01v--lblCelular"]{
+	bottom: 10px;
+}
+
+
+div[class="sapUiHLayout sapUiHLayoutNoWrap sapUiSmallMargin"]{
+    margin-left: 0px !important;
+
+}
+
+div[id="__component0---viewmigo01--fechaDoc"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--fechaDoc"] > div[class="sapMInputValHelp"] > span{
+	height: 32px !important;
+	line-height: 1.35rem;
+}
+
+
+div[id="__component0---viewmigo01--fechaDoc"] > div{
+	height: 32px !important;
+}
+
+input[id="__component0---viewmigo01--fechaDoc-inner"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--fechaCon"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--fechaCon"] > div[class="sapMInputValHelp"] > span{
+	height: 32px !important;
+	line-height: 1.35rem;
+}
+
+div[id="__component0---viewmigo01--fechaCon"] > div{
+	height: 32px !important;
+}
+
+
+input[id="__component0---viewmigo01--fechaCon-inner"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--cbxCentro"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--cbxCentroDestino"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--cbxAlmacenDestino"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--cbxAlmacen"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo01--valeMaterial"]{
+	height: 32px !important;
+	margin-bottom: 21.333px !important;
+}
+
+div[id="__component0---viewmigo01--valeMaterial"] > div{
+	height: 32px !important;
+	
+}
+
+input[id="__component0---viewmigo01--valeMaterial-inner"]{
+	height: 32px !important;
+}
+
+
+
+div[id="__component0---viewmigo01--refProyecto"]{
+	height: 32px !important;
+	margin-bottom: 21.333px !important;
+}
+
+div[id="__component0---viewmigo01--refProyecto"] > div{
+	height: 32px !important;
+}
+
+input[id="__component0---viewmigo01--refProyecto-inner"]{
+	height: 32px !important;
+}
+
+
+
+div[id="__component0---viewmigo01--cbxAlmacen"] > span{
+	line-height: 1.4rem;
+}
+
+div[id="__component0---viewmigo01--cbxAlmacenDestino"] > span{
+	line-height: 1.4rem;
+}
+
+div[id="__component0---viewmigo01--cbxCentro"] > span{
+	line-height: 1.4rem;
+}
+
+div[id="__component0---viewmigo01--cbxCentroDestino"] > span{
+	line-height: 1.4rem;
+}
+
+
+label[id="__component0---viewmigo01--lblCentro"]{
+	bottom: 10px !important;
+}
+
+
+label[id="__component0---viewmigo01--lblCentroDestino"]{
+	bottom: 10px !important;
+}
+
+label[id="__component0---viewmigo01--lblAlmacen"]{
+	bottom: 10px !important;
+}
+
+label[id="__component0---viewmigo01--lblAlmacenDestino"]{
+	bottom: 10px !important;
+}
+
+span[id="__component0---viewmigo01--print"]{
+	margin-top: 17px !important;
+}
+
+div[id="__component0---viewME21N--iptOrgCompras"] > div{
+	height: 32px !important;
+}
+
+input[id="__component0---viewME21N--iptOrgCompras-inner"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewME21N--iptGrupoCompras"] > div{
+	height: 32px !important;
+}
+
+input[id="__component0---viewME21N--iptGrupoCompras-inner"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewME21N--iptSociedad"] > div{
+	height: 32px !important;
+}
+
+input[id="__component0---viewME21N--iptSociedad-inner"]{
+	height: 32px !important;
+}
+
+
+div[id="__component0---viewmigo02V--cbxCentro"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo02V--cbxAlmacen"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo02V--fechaDoc"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo02V--fechaCon"]{
+	height: 32px !important;
+}
+
+div[id="__component0---viewmigo02V--valeMaterial"]{
+	height: 32px !important;
+	margin-bottom: 21.333px !important;
+}
+
+div[id="__component0---viewmigo02V--refProyecto"]{
+	margin-bottom: 21.333px !important;
+	height: 32px !important;
+}
+
+label[id="__component0---viewmigo02V--lblCentro"]{
+	bottom: 10px;
+}
+
+label[id="__component0---viewmigo02V--lblAlmacen"]{
+	bottom: 10px;
+}
+
+
+/*tr[id^="__component0---viewmigo01--tbMseg-rows"] > td[id*="col2"] > div > div > div > input{
+
+	font-size: 	1rem;
+}
+*/
+
+h5[id="__component0---viewmigo01--migo0"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+h5[id="__component0---viewmigo01--migo1"]{
+	height: 8px !important;
+	margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

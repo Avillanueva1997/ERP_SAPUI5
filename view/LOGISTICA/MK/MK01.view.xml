@@ -20,36 +20,19 @@
 		</customHeader> 
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://document" press="onNew"/>
+				<Button icon="sap-icon://document" press="onNew" tooltip="Nuevo"/>
 				<!--<Button icon="sap-icon://copy" press="onCopy"/>-->
 			</Toolbar>
 		</subHeader>
         <content>
             <f:SimpleForm
+                editable="true"
                 layout="ResponsiveGridLayout">
                 <f:content>
-                    <Label text="Acreedor" />
-                    <Input maxLength="10" width	="10em" id="iptLifnr" showValueHelp="true"/>
-<!--
-                    <Label text="Organización compras" />
-                    <Input width="300px" showValueHelp="true"/>
--->
-                    <!--<Label text="Grupo de cuentas" />
-                    <Input width="300px" showValueHelp="true"/>-->                                           
+                    <Label text="Acreedor" id="lblAcreedor"/>
+                    <Input maxLength="11" width	="10em" id="iptLifnr" liveChange="validacionN"/>                        
                 </f:content>
             </f:SimpleForm>
-            <!--<f:SimpleForm
-                layout="ResponsiveGridLayout">
-                <f:title>
-                    <core:Title text="Modelo" />
-                </f:title>
-                <f:content>
-                    <Label text="Acreedor" />
-                    <Input width="300px" showValueHelp="true"/>
-                    <Label text="Organización compras" />
-                    <Input width="300px" showValueHelp="true"/>                              
-                </f:content>
-            </f:SimpleForm>-->
         </content>
 	</Page>
 </mvc:View>

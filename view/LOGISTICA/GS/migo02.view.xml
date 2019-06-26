@@ -1,0 +1,39 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.GS.migo02"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:core="sap.ui.core"
+  xmlns:tnt="sap.tnt"
+  xmlns:u="sap.ui.unified"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+    showHeader="true"
+    enableScrolling="false" >
+        <customHeader>            
+      <Toolbar>                
+        <ToolbarSpacer/>
+        <Title text="Visualizar: MIGO" level="H2"/>     
+                <ToolbarSpacer/>
+      </Toolbar>
+    </customHeader>  
+        <subHeader>
+      <Toolbar>
+        <Button icon="sap-icon://display" press="onDisplay"/>
+      </Toolbar>
+    </subHeader>
+        <content>
+            <f:SimpleForm
+                editable="true"
+                layout="ResponsiveGridLayout">
+                <f:content>
+                    <Label text="Código" id="lblCodigo" />
+                    <ComboBox showSecondaryValues="true" items="{path: 'cbMigo>/', templateShareable:false}" width="300px" selectedKey="{mblnr}" id="iptCodigo">
+                            <core:ListItem key="{cbMigo>mblnr}" text="{cbMigo>mblnr}"  additionalText="{cbMigo>mjahr}"/>
+                    </ComboBox>                
+                </f:content>
+            </f:SimpleForm>
+        </content>
+  </Page>
+</mvc:View>

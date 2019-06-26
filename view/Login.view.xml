@@ -18,15 +18,15 @@
                     <core:Title text="Login" />
                 </forms:title>
                 <forms:content> 
-                    <Label text="Empresa" />
+                    <Label text="Empresa"  id="lblEmpresa"/>
                     <ComboBox id="cmbEmpresas" selectedKey="{/empresa}"
                     items="{cbEmpresas>/}" width="300px" >
                         <core:Item key="{cbEmpresas>empresa}" text="{cbEmpresas>descripcion}" />
                     </ComboBox>                    
-                    <Label text="Usuario" />
+                    <Label text="Usuario" id="lblUsuario"/>
                     <Input width="300px" id="txtUsuario" value="{/usuario}" />
-                    <Label text="Contraseña" />
-                    <Input width="300px" type="Password" id="txtPassword" value="{/contrasenia}" />                   
+                    <Label text="Contraseña" id="lblContrasenia"/>
+                    <Input width="300px" type="Password" id="txtPassword" value="{/contrasenia}" submit="onPressAcceder" />                   
                 </forms:content>
             </forms:SimpleForm>                 
         </content>        

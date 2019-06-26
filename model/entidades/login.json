@@ -1,5 +1,6 @@
 {
 	"empresa":"",
 	"usuario":"",
-	"contrasenia":""
+	"contrasenia":"",
+	"rol":""
 }

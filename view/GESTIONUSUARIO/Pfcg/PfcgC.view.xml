@@ -17,10 +17,16 @@
             <f:SimpleForm
                 layout="ResponsiveGridLayout"
                 singleContainerFullSize="false">
-                <Label text="Descripción" />
+                <Label text="Descripción" id="lblDescripcion" />
                 <Input width="15em" id="ipDescripcion" />
             </f:SimpleForm>
             <Table id="idProductsTable">
+                <headerToolbar>
+                    <Toolbar>
+                        <ToolbarSpacer/>
+                        <Button press="btnAdd" icon="sap-icon://add"/>
+                    </Toolbar>
+                </headerToolbar>
                 <columns>
                     <Column
                         minScreenWidth="Tablet"

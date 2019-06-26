@@ -18,6 +18,9 @@ sap.ui.define([
           this.byId("ipRol").setValue("");
           this.getRouter().navTo("home");
        },
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
+       },
        
        onEdit: function(oEvent){
 

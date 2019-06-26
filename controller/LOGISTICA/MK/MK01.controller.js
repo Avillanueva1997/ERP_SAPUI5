@@ -8,11 +8,21 @@ sap.ui.define([
    "use strict";
    return BaseController.extend("sap.ui.su01.controller.LOGISTICA.MK.MK01", {
 
-       onInit: function(oEvent) {
+       onInit: function(oEvent){
+
+          var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+          oRouter.getRoute("mk01").attachPatternMatched(this._onObjectMatched, this);
+          
+        },
+
+        _onObjectMatched: function(oEvent) {
        },
        
        onBack: function(oEvent) {
            this.getRouter().navTo("home");
+       },
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
        },
        
        onNew: function(oEvent){

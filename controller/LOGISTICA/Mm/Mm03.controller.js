@@ -13,17 +13,32 @@ sap.ui.define([
    "use strict";
    return BaseController.extend("sap.ui.su01.controller.LOGISTICA.Mm.Mm03", {
 
-     onInit: function(oEvent) {
+     onInit: function(oEvent){
+
+      var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+      oRouter.getRoute("mm03").attachPatternMatched(this._onObjectMatched, this);
+      
+    },
+
+    _onObjectMatched: function(oEvent) {
+
+      var thes = this;
+      this.cargarMaterial(thes);
+      this.cargarCentro(thes);
+
      },
 
      onBack: function(oEvent){
        this.getRouter().navTo("home");
      },
+     onHome: function(oEvent) {
+       this.getRouter().navTo("home");
+     },
 
      onDisplay: function(oEvent){        
 
-      var Matnr = this.byId("inpMatnr").getValue();
-      var Werks = this.byId("inpWerks").getValue();
+      var Matnr = this.byId("inpMatnr").getSelectedKey();
+      var Werks = this.byId("inpWerks").getSelectedKey();
       //var Werks = "";
 
       if (Matnr != "") {
@@ -64,6 +79,67 @@ sap.ui.define([
       }else{
         sap.m.MessageToast.show("Ingrese todos los campos");
       }
+    },
+    cargarCentro: function(thes){
+      var thes = this;
+
+      var cnx = JSON.parse(ConexionGlobal);
+      var data = {};
+      data._Ip = cnx[0].ip;
+      data._Usuario_servidor = cnx[0].usuario_servidor;
+      data._Base_datos = cnx[0].base_datos;
+      data._Pass_servidor = cnx[0].pass_servidor; 
+      data._bukrs = ""; 
+      data._werks = ""; 
+
+      $.ajax({
+        data:  data,
+        url:   '/erp/model/SPRO/ListarCentro.php', 
+        type:  'post',
+        async: false,
+        beforeSend: function () {
+        },
+        success:  function (response) {    
+          response = JSON.parse(response); 
+          var oModel = new sap.ui.model.json.JSONModel(response);  
+          thes.getView().setModel(oModel,"cbCentro");
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(xhr.status);
+          alert(thrownError);
+        }
+      });
+
+    },
+    cargarMaterial: function(thes){
+      var thes = this;
+
+      var cnx = JSON.parse(ConexionGlobal);
+      var data = {};
+      data._Ip = cnx[0].ip;
+      data._Usuario_servidor = cnx[0].usuario_servidor;
+      data._Base_datos = cnx[0].base_datos;
+      data._Pass_servidor = cnx[0].pass_servidor; 
+      data._matnr = ""; 
+      data._werks = ""; 
+
+      $.ajax({
+        data:  data,
+        url:   '/erp/model/ListarMaterial.php', 
+        type:  'post',
+        async: false,
+        beforeSend: function () {
+        },
+        success:  function (response) {    
+          response = JSON.parse(response); 
+          var oModel = new sap.ui.model.json.JSONModel(response);  
+          thes.getView().setModel(oModel,"cbMaterial");
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(xhr.status);
+          alert(thrownError);
+        }
+      });
     }
 
   });

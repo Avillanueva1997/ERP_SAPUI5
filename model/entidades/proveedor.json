@@ -2,7 +2,6 @@
 	"lifnr":"",
 	"brsch":"",
 	"kunnr":"",
-	"lnrza":"",
 	"stcd1":"",
 	"stcd2":"",
 	"vbund":"",
@@ -41,6 +40,5 @@
 	"plifz":"",
 	"skrit":"",
 	"bstae":"",
-	"rdprf":"",
-	"vensl":""
+	"rdprf":""
 }

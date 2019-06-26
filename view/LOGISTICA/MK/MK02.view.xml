@@ -20,41 +20,21 @@
 		</customHeader>  
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://edit" press="onEdit" tooltip="Editar"/>
 				<Button icon="sap-icon://delete" press="onDelete"/>
 			</Toolbar>
 		</subHeader>
         <content>
             <f:SimpleForm
+                editable="true"
                 layout="ResponsiveGridLayout">
                 <f:content>
-                    <Label text="Acreedor" />
-                    <Input maxLength="10" width	="10em" id="inpLifnr" showValueHelp="true"/>
-                    <!--<Label text="Organización de compras" />
-                    <Input id="inpEkorg" width="300px" showValueHelp="true"/>-->                
+                    <Label text="Acreedor" id="lblAcreedor" />
+                    <ComboBox showSecondaryValues="true" items="{path: 'cbAcreedor>/', templateShareable:false}" width="300px" selectedKey="{lifnr}" id="iptAcreedor">
+                            <core:ListItem key="{cbAcreedor>lifnr}" text="{cbAcreedor>lifnr}"  additionalText="{cbAcreedor>name1}"/>
+                    </ComboBox>        
                 </f:content>
             </f:SimpleForm>
-            <!--<f:SimpleForm
-                layout="ResponsiveGridLayout">
-                <f:title>
-                    <core:Title text="Datos Generales" />
-                </f:title>
-                <f:content>
-                    <CheckBox text="Dirección" />
-                    <CheckBox text="Control" />
-                    <CheckBox text="Pagos" />
-                    <CheckBox text="Persona de contacto" />
-                </f:content>
-            </f:SimpleForm>
-            <f:SimpleForm
-                layout="ResponsiveGridLayout">
-                <f:title>
-                    <core:Title text="Datos organización de compras" />
-                </f:title>
-                <f:content>
-                    <CheckBox text="Datos de compra" />
-                </f:content>
-            </f:SimpleForm>-->
         </content>
 	</Page>
 </mvc:View>

@@ -10,8 +10,9 @@
     <meta http-equiv="Pragma" content="no-cache">
     
  	<title>Sistema ERP</title>
+  <link rel="stylesheet" type="text/css" href="assets/estilos.css">
 	<script          
-         src="https://openui5.hana.ondemand.com/1.48.10/resources/sap-ui-core.js"
+         src="https://sapui5.hana.ondemand.com/1.52.6/resources/sap-ui-core.js"
 		 id="sap-ui-bootstrap"
 		 data-sap-ui-theme="sap_belize"
          data-sap-ui-libs="sap.m"
@@ -31,6 +32,11 @@
             }).placeAt("content");
          });
       </script>
+     <script type="text/javascript">
+    $(document).ready(function(){
+    $('body').css('zoom','95%'); /* Other non-webkit browsers */
+  });
+  </script>
 </head>
 <body class="sapUiBody" id="content">
 </body>

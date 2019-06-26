@@ -43,13 +43,13 @@
                             columnsL="1"
                             columnsM="1"
                             singleContainerFullSize="false">
-							<Label text="Nombre"/>
+							<Label text="Nombre" id="lblNombre"/>
 							<Input value="{/nombre}" />
-                            <Label text="Apellido"/>
+                            <Label text="Apellido" id="lblApellido" />
 							<Input value="{/apellido}"/>
-                            <Label text="Correo"/>
+                            <Label text="Correo" id="lblCorreo" />
 							<Input value="{/correo}"/>
-                            <Label text="Celular"/>
+                            <Label text="Celular" id="lblCelular" />
 							<Input value="{/celular}"/>
 						</f:SimpleForm>
 					</IconTabFilter>

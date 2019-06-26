@@ -11,6 +11,13 @@ sap.ui.define([
        
        onBack: function(oEvent){
            this.getRouter().navTo("pfcg01");
+       },
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
+       },
+
+       btnAdd: function(oEvent){
+          
        }
        
    });

@@ -12,8 +12,17 @@ sap.ui.define([
        onInit: function(oEvent) {
 
            var thes = this;
+           var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+           oRouter.getRoute("home").attachPatternMatched(this._onObjectMatched, this);
 
-           var cnx = JSON.parse(ConexionGlobal);
+           this.obtenerRol(thes);
+           
+       },      
+
+       _onObjectMatched: function (oEvent) {
+
+          var thes = this;
+          var cnx = JSON.parse(ConexionGlobal);
 
            var parametros = {
               "_Ip" : cnx[0].ip,
@@ -30,7 +39,12 @@ sap.ui.define([
                       beforeSend: function () {
                       },
                       success:  function (response) {   
-                          response = JSON.parse(response);                        
+                          response = JSON.parse(response); 
+
+                          if(sessionStorage.rol.toUpperCase() === "USUARIO"){
+                            response[0].nodes.splice(0,2);
+                          }
+
                           var oModel = new sap.ui.model.json.JSONModel(response);  
                           thes.getView().setModel(oModel);
                       },
@@ -40,14 +54,40 @@ sap.ui.define([
                       }
                   });
 
+
        },
-       
-       onPress: function(oEvent) {
-           this.getRouter().navTo("login");
+       obtenerRol: function(thes){
+
+      var thes = this;
+
+      var cnx = JSON.parse(ConexionGlobal);
+      var data = {};
+      data._Empresa = sessionStorage.empresa; 
+      data._Usuario = sessionStorage.usuario;
+      data._Password = sessionStorage.contrasena;
+
+
+      $.ajax({
+        data:  data,
+        url:   '/erp/model/ObtenerRol.php', 
+        type:  'post',
+        async: false,
+        beforeSend: function () {
+        },
+        success:  function (response) {    
+           sessionStorage.rol = response;  
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(xhr.status);
+          alert(thrownError);
+        }
+      });      
+
        },
 
        onEnter: function(oEvent){
         this.onPressEnter();
+        
        },
 
        onPressEnter: function(evt){
@@ -97,6 +137,12 @@ sap.ui.define([
               this.getRouter().navTo(sPath);
             }            				    
 		},
+    onBack: function(oEvent) {
+      this.getRouter().navTo("home");      
+    },
+    onHome: function(oEvent) {
+      this.getRouter().navTo("home");      
+    }
        
    });
 });

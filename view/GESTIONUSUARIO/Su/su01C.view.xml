@@ -35,17 +35,17 @@
                             columnsL="1"
                             columnsM="1"
                             singleContainerFullSize="false">
-							<Label text="Nombre" />
+							<Label text="Nombre" id="lblNombre" />
 							<Input id="inpNombre" />
-                            <Label text="Apellido"/>
+                            <Label text="Apellido" id="lblApellido"/>
 							<Input id="inpApellido"/>
-                            <Label text="Correo"/>
+                            <Label text="Correo" id="lblCorreo"/>
 							<Input id="inpCorreo"/>
-                            <Label text="Celular"/>
+                            <Label text="Celular" id="lblCelular"/>
 							<Input id="inpCelular"/>
-                            <Label text="Contraseña"/>
+                            <Label text="Contraseña" id="lblContrasenia"/>
 							<Input id="inpContrasena" type="Password"/>
-                            <Label text="Repitir contraseña"/>
+                            <Label text="Repitir contraseña" id="lblRepetirContrasenia"/>
 							<Input id="inpRepContra" type="Password"/>
 						</f:SimpleForm>
 					</IconTabFilter>

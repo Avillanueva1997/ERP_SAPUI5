@@ -199,6 +199,144 @@
                 "pattern": "mmV",
 				"name": "mmV",
 				"target": "mmV"
+                },
+                {
+                "pattern": "homeSPRO",
+                "name": "homeSPRO",
+                "target": "homeSPRO"
+                },
+                {
+                "pattern": "sociedad",
+                "name": "sociedad",
+                "target": "sociedad"
+                },
+                {
+                "pattern": "centro",
+                "name": "centro",
+                "target": "centro"
+                },
+                {
+                "pattern": "almacen",
+                "name": "almacen",
+                "target": "almacen"
+                },
+                {
+                "pattern": "moneda",
+                "name": "moneda",
+                "target": "moneda"
+                },
+                {
+                "pattern": "descripMoneda",
+                "name": "descripMoneda",
+                "target": "descripMoneda"
+                },
+                {
+                "pattern": "idioma",
+                "name": "idioma",
+                "target": "idioma"
+                },
+                {
+                "pattern": "descripIdioma",
+                "name": "descripIdioma",
+                "target": "descripIdioma"
+                },
+                {
+                "pattern": "grupo",
+                "name": "grupo",
+                "target": "grupo"
+                },
+                {
+                "pattern": "descripGrupo",
+                "name": "descripGrupo",
+                "target": "descripGrupo"
+                },
+                {
+                "pattern": "unidad",
+                "name": "unidad",
+                "target": "unidad"
+                },
+                {
+                "pattern": "descripUnidad",
+                "name": "descripUnidad",
+                "target": "descripUnidad"
+                },
+                {
+                "pattern": "tipo",
+                "name": "tipo",
+                "target": "tipo"
+                },
+                {
+                "pattern": "descripTipo",
+                "name": "descripTipo",
+                "target": "descripTipo"
+                },
+                {
+                "pattern": "dinamicProcess",
+                "name": "dinamicProcess",
+                "target": "dinamicProcess"
+                },
+                {
+                "pattern": "clase",
+                "name": "clase",
+                "target": "clase"
+                },
+                {
+                "pattern": "migo01",
+                "name": "migo01",
+                "target": "migo01"
+                },
+                {
+                "pattern": "migo02",
+                "name": "migo02",
+                "target": "migo02"
+                },
+                {
+                "pattern": "migo02V",
+                "name": "migo02V",
+                "target": "migo02V"
+                },
+                {
+                "pattern": "pais",
+                "name": "pais",
+                "target": "pais"
+                },
+                {
+                "pattern": "dpto",
+                "name": "dpto",
+                "target": "dpto"
+                },
+                {
+                "pattern": "provincia",
+                "name": "provincia",
+                "target": "provincia"
+                },
+                {
+                "pattern": "distrito",
+                "name": "distrito",
+                "target": "distrito"
+                }
+                ,
+                {
+                "pattern": "me21n",
+                "name": "me21n",
+                "target": "me21n"
+                }
+                ,
+                {
+                "pattern": "me22n",
+                "name": "me22n",
+                "target": "me22n"
+                }
+                ,
+                {
+                "pattern": "me23n",
+                "name": "me23n",
+                "target": "me23n"
+                },
+                {
+                "pattern": "mm60",
+                "name": "mm60",
+                "target": "mm60"
                 }
             ],
 			"targets": {
@@ -380,6 +518,168 @@
                     "path": "sap.ui.su01.view",
 					"viewName": "LOGISTICA/Mm/MmV",
                     "viewId" : "ViewMmV",
+                    "viewLevel" : 3
+                },
+                "homeSPRO": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/HomeSPRO",
+                    "viewId" : "viewHomeSPRO",
+                    "viewLevel" : 3
+                },
+                "sociedad": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/sociedad",
+                    "viewId" : "viewsociedad",
+                    "viewLevel" : 3
+                },
+                "centro": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/centro",
+                    "viewId" : "viewcentro",
+                    "viewLevel" : 3
+                },
+                "almacen": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/almacen",
+                    "viewId" : "viewalmacen",
+                    "viewLevel" : 3
+                },
+                "moneda": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/moneda",
+                    "viewId" : "viewmoneda",
+                    "viewLevel" : 3
+                },
+                "descripMoneda": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/descripMoneda",
+                    "viewId" : "viewdescripMoneda",
+                    "viewLevel" : 3
+                },
+                "idioma": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/idioma",
+                    "viewId" : "viewidioma",
+                    "viewLevel" : 3
+                },
+                "descripIdioma": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/descripIdioma",
+                    "viewId" : "viewdescripIdioma",
+                    "viewLevel" : 3
+                },
+                "grupo": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/grupo",
+                    "viewId" : "viewgrupo",
+                    "viewLevel" : 3
+                },
+                "descripGrupo": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/descripGrupo",
+                    "viewId" : "viewdescripGrupo",
+                    "viewLevel" : 3
+                },
+                "unidad": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/unidad",
+                    "viewId" : "viewunidad",
+                    "viewLevel" : 3
+                },
+                "descripUnidad": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/descripUnidad",
+                    "viewId" : "viewdescripUnidad",
+                    "viewLevel" : 3
+                },
+                "tipo": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/tipo",
+                    "viewId" : "viewtipo",
+                    "viewLevel" : 3
+                },
+                "descripTipo": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/descripTipo",
+                    "viewId" : "viewdescripTipo",
+                    "viewLevel" : 3
+                },
+                "dinamicProcess": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/dinamicProcess",
+                    "viewId" : "viewdinamicProcess",
+                    "viewLevel" : 3
+                },
+                "clase": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/clase",
+                    "viewId" : "viewclase",
+                    "viewLevel" : 3
+                },
+                "migo01": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/GS/migo01",
+                    "viewId" : "viewmigo01",
+                    "viewLevel" : 3
+                },
+                "migo02": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/GS/migo02",
+                    "viewId" : "viewmigo02",
+                    "viewLevel" : 3
+                },
+                "migo02V": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/GS/migo02V",
+                    "viewId" : "viewmigo02V",
+                    "viewLevel" : 3
+                },
+                "pais": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/pais",
+                    "viewId" : "viewpais",
+                    "viewLevel" : 3
+                },
+                "dpto": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/dpto",
+                    "viewId" : "viewdpto",
+                    "viewLevel" : 3
+                },
+                "provincia": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/provincia",
+                    "viewId" : "viewprovincia",
+                    "viewLevel" : 3
+                },
+                "distrito": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "SPRO/distrito",
+                    "viewId" : "viewdistrito",
+                    "viewLevel" : 3
+                },
+                "me21n": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/COMPRAS/ME21N",
+                    "viewId" : "viewME21N",
+                    "viewLevel" : 3
+                },
+                "me22n": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/COMPRAS/ME22N",
+                    "viewId" : "viewME22N",
+                    "viewLevel" : 3
+                },
+                "me23n": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/COMPRAS/ME23N",
+                    "viewId" : "viewME23N",
+                    "viewLevel" : 3
+                },
+                "mm60": {
+                    "path": "sap.ui.su01.view",
+                    "viewName": "LOGISTICA/GS/MM60",
+                    "viewId" : "viewMM60",
                     "viewLevel" : 3
                 }
 			}

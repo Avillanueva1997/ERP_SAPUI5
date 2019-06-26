@@ -13,6 +13,9 @@ sap.ui.define([
        onBack: function(oEvent){
            this.getRouter().navTo("su01");
        },
+       onHome: function(oEvent) {
+      this.getRouter().navTo("home");      
+       },
        
        onSave: function(oEvent){
            var thes = this;

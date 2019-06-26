@@ -1,8 +1,9 @@
 <?php
 
+require_once('../security.php');
 require 'DatosBD.php';
 
-$con = open_conection('localhost','FFARRO','Freluive1608@','ERP_MAIN');
+$con = open_conection($host, $user, $pass, $db);
 
 $sql = "select empresa,descripcion from empresa";
 

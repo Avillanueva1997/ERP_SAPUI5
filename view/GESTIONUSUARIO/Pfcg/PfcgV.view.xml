@@ -17,7 +17,7 @@
             <f:SimpleForm
                 layout="ResponsiveGridLayout"
                 singleContainerFullSize="false">
-                <Label text="Descripción" />
+                <Label text="Descripción" id="lblDescripcion" />
                 <Text width="15em" id="ipDescripcion" />
             </f:SimpleForm>
             <Table id="idProductsTable">

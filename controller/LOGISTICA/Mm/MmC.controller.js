@@ -13,13 +13,30 @@ sap.ui.define([
    "use strict";
    return BaseController.extend("sap.ui.su01.controller.LOGISTICA.Mm.MmC", {
 
-       onInit: function(oEvent) {
+      onInit: function(oEvent){
 
-       	var thes = this; 
+      var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+      oRouter.getRoute("mmC").attachPatternMatched(this._onObjectMatched, this);
+      
+    },
+
+    _onObjectMatched: function(oEvent) {
+
+       	var thes = this;
+        this.cargarUnidad(thes);
+        this.cargarGrupo(thes);
+
+        /*var id = "tipoEan";
+
+        this.validar(id);*/
+
+        var mtart = sessionStorage.mtart;
+
+        this.byId("inpTipoMaterial").setValue(mtart);
 
               $.ajax({
                       //data:  parametros,
-                      url:   '/erp/model/entidades/material.json', 
+                      url:   '/erp/model/entidades/mara.json', 
                       type:  'post',
                       async: false,
                       success:  function (response) {
@@ -34,11 +51,11 @@ sap.ui.define([
                 
                 var cnx = JSON.parse(ConexionGlobal);
                 var data = {};
-				data._Ip = cnx[0].ip;
-				data._Usuario_servidor = cnx[0].usuario_servidor;
-				data._Base_datos = cnx[0].base_datos;
-				data._Pass_servidor = cnx[0].pass_servidor;	
-				data._tabla = "mara";	
+        				data._Ip = cnx[0].ip;
+        				data._Usuario_servidor = cnx[0].usuario_servidor;
+        				data._Base_datos = cnx[0].base_datos;
+        				data._Pass_servidor = cnx[0].pass_servidor;	
+        				data._tabla = "mara";	
            
                 $.ajax({
                       data:  data,
@@ -55,48 +72,14 @@ sap.ui.define([
                           alert(thrownError);
                       }
                   });
-           
-                data._tabla = "marc";	
-                
-                $.ajax({
-                      data:  data,
-                      url:   '/erp/model/long_campo.php', 
-                      type:  'post',
-                      async: false,
-                      beforeSend: function () {
-                      },
-                      success:  function (response) {    
-                          thes.propiedadesInput(thes,response,"mmc","marc");
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                          alert(xhr.status);
-                          alert(thrownError);
-                      }
-                  });
-                
-                data._tabla = "mlan";	
-                
-                $.ajax({
-                      data:  data,
-                      url:   '/erp/model/long_campo.php', 
-                      type:  'post',
-                      async: false,
-                      beforeSend: function () {
-                      },
-                      success:  function (response) {    
-                          thes.propiedadesInput(thes,response,"mmc","mlan");
-                      },
-                      error: function (xhr, ajaxOptions, thrownError) {
-                          alert(xhr.status);
-                          alert(thrownError);
-                      }
-                  });
-
        },
        
        onBack: function(oEvent){
            this.getRouter().navTo("mm01");
            this.clearModel("mmc");
+       },
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
        },
 
        onSave: function(oEvent){
@@ -110,11 +93,12 @@ sap.ui.define([
 				data._Ip = cnx[0].ip;
 				data._Usuario_servidor = cnx[0].usuario_servidor;
 				data._Base_datos = cnx[0].base_datos;
-				data._Pass_servidor = cnx[0].pass_servidor;	
+				data._Pass_servidor = cnx[0].pass_servidor;
+        data._mtart = sessionStorage.mtart;
 
 				$.ajax({
 					data:  data,
-					url:   '/erp/model/InsertarMaterial.php', 
+					url:   '/erp/model/InsertarMara.php', 
 					type:  'post',
 					async: false,
 					beforeSend: function () {
@@ -134,10 +118,74 @@ sap.ui.define([
 					}
 
 				});
-      }else{
-        sap.m.MessageToast.show("El material ya está creado");
+
+        this.getRouter().navTo("mm01");
       }
-		}
+
+      
+		},
+    cargarUnidad:function(thes){   
+      var thes = this;
+
+      var cnx = JSON.parse(ConexionGlobal);
+      var data = {};
+      data._Ip = cnx[0].ip;
+      data._Usuario_servidor = cnx[0].usuario_servidor;
+      data._Base_datos = cnx[0].base_datos;
+      data._Pass_servidor = cnx[0].pass_servidor; 
+      data._msehi = ""; 
+      data._spras = "";
+
+      $.ajax({
+        data:  data,
+        url:   '/erp/model/SPRO/ListarUnidad.php', 
+        type:  'post',
+        async: false,
+        beforeSend: function () {
+        },
+        success:  function (response) {
+          response = JSON.parse(response); 
+          var oModel = new sap.ui.model.json.JSONModel(response);  
+          thes.getView().setModel(oModel,"cbUnidad");    
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(xhr.status);
+          alert(thrownError);
+        }
+      });
+
+    },
+    cargarGrupo:function(thes){   
+      var thes = this;
+
+      var cnx = JSON.parse(ConexionGlobal);
+      var data = {};
+      data._Ip = cnx[0].ip;
+      data._Usuario_servidor = cnx[0].usuario_servidor;
+      data._Base_datos = cnx[0].base_datos;
+      data._Pass_servidor = cnx[0].pass_servidor; 
+      data._matkl = ""; 
+      data._spras = "";
+
+      $.ajax({
+        data:  data,
+        url:   '/erp/model/SPRO/ListarGrupo.php', 
+        type:  'post',
+        async: false,
+        beforeSend: function () {
+        },
+        success:  function (response) {
+          response = JSON.parse(response); 
+          var oModel = new sap.ui.model.json.JSONModel(response);  
+          thes.getView().setModel(oModel,"cbGrupo");    
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(xhr.status);
+          alert(thrownError);
+        }
+      });
+
+    }
        
    });
 });

@@ -11,13 +11,13 @@
     <Page title="Gestión de roles">
         <subHeader>
 			<Toolbar>
-                <Button icon="sap-icon://document" press="onNew"/>
+                <Button icon="sap-icon://document" press="onNew" tooltip="Nuevo"/>
 <!--
 				<Button icon="sap-icon://edit" press="onEdit"/>
 				<Button icon="sap-icon://display" press="onDisplay"/>
 				<Button icon="sap-icon://delete" press="onDelete"/>
 -->
-				<Button icon="sap-icon://copy" press="onCopy"/>
+				<Button icon="sap-icon://copy" press="onCopy" tooltip="Copiar"/>
 			</Toolbar>
 		</subHeader>
         <content>    

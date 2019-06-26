@@ -80,6 +80,10 @@ sap.ui.define([
             sap.m.MessageToast.show("Login incorrecto");
            }else{
 
+            sessionStorage.usuario = data.usuario;
+            sessionStorage.contrasena = data.contrasenia;
+            sessionStorage.empresa = data.empresa;
+
             var parametros = {
                "_Empresa" : data.empresa            
             };
@@ -122,7 +126,7 @@ sap.ui.define([
 
           sap.m.MessageToast.show("Se limpió");
            
-       },      
+       }      
 
    });
 });

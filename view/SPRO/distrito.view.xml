@@ -1,0 +1,84 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.distrito"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="distrito"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Distrito" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>  
+
+        <t:Table id="tbDistritos"
+        inset="false"
+        mode="MultiSelect"
+        rows="{/}"
+        visibleRowCount="7">
+        <t:toolbar>
+         <Toolbar>
+          <content>
+            <Title text="Distritos" level="H2" />
+            <ToolbarSpacer/>
+            <Button press="onAdd" icon="sap-icon://add"/>
+            <Button press="onDelete" icon="sap-icon://delete"/>
+          </content>
+         </Toolbar>
+        </t:toolbar>
+        <t:columns>
+         <t:Column width="11.5rem" sortProperty="codPais" filterProperty="codPais">
+          <Label text="Código País" />
+          <t:template>
+            <ComboBox showSecondaryValues="true" editable="false" items="{path: 'cbPais>/', templateShareable:false}" 
+            width="300px" selectedKey="{codPais}" >
+            <core:ListItem key="{cbPais>codPais}" text="{cbPais>codPais}"  additionalText="{cbPais>descripPais}"/>
+            </ComboBox>
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="codDpto" filterProperty="codDpto">
+          <Label text="Código Departamento" />
+          <t:template>
+            <ComboBox showSecondaryValues="true" editable="false" items="{path: 'cbDpto>/', templateShareable:false}" 
+            width="300px" selectedKey="{codDpto}" >
+            <core:ListItem key="{cbDpto>codDpto}" text="{cbDpto>codDpto}"  additionalText="{cbDpto>descripDpto}"/>
+            </ComboBox>
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="codProvincia" filterProperty="codProvincia">
+          <Label text="Código Provincia" />
+          <t:template>
+            <ComboBox showSecondaryValues="true" editable="false" items="{path: 'cbProvincia>/', templateShareable:false}" 
+            width="300px" selectedKey="{codProvincia}" >
+            <core:ListItem key="{cbProvincia>codProvincia}" text="{cbProvincia>codProvincia}"  additionalText="{cbProvincia>descripProvincia}"/>
+            </ComboBox>
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="codDistrito" filterProperty="codDistrito">
+          <Label text="Código Distrito" />
+          <t:template>
+            <Input value="{codDistrito}" maxLength="{tdistritoLength>/codDistrito}" width="{tdistritoWidth>/codDistrito}" editable="false" />
+          </t:template>
+         </t:Column>
+         <t:Column width="11.5rem" sortProperty="descripProvincia" filterProperty="descripDistrito" >
+          <Label text="Descripción Distrito" />
+          <t:template>
+            <Input value="{descripDistrito}" maxLength="{tdistritoLength>/descripDistrito}" width="{tdistritoWidth>/descripDistrito}" />
+          </t:template>
+         </t:Column>
+        </t:columns>
+       </t:Table>                     
+    </content>
+    </Page>
+</mvc:View>

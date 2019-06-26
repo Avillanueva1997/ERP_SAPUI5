@@ -11,7 +11,7 @@
     <Page title="Gestión de roles">
         <subHeader>
 			<Toolbar>
-				<Button icon="sap-icon://edit" press="onEdit"/>
+				<Button icon="sap-icon://edit" press="onEdit" tooltip="Editar"/>
 				<Button icon="sap-icon://delete" press="onDelete"/>
 			</Toolbar>
 		</subHeader>

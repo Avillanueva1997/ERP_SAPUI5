@@ -1,0 +1,87 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.SPRO.moneda"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:tnt="sap.tnt"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+        id="moneda"
+        showHeader="true"
+        enableScrolling="true" >
+        <customHeader>            
+         <Toolbar>                
+            <ToolbarSpacer/>
+            <Title text="Moneda" level="H2"/>			
+            <ToolbarSpacer/>
+        </Toolbar>
+    </customHeader>    
+    <content>
+    <t:Table id="tbMonedas"
+    inset="false"
+    mode="MultiSelect"
+    rows="{/}"
+    visibleRowCount="7">
+    <t:toolbar>
+     <Toolbar>
+      <content>
+        <Title text="Monedas" level="H2"/>
+        <ToolbarSpacer/>
+        <Button press="onAdd" icon="sap-icon://add"/>
+        <Button press="onDelete" icon="sap-icon://delete"/>
+      </content>
+     </Toolbar>
+    </t:toolbar>
+    <t:columns>
+     <t:Column width="11rem" sortProperty="waers" filterProperty="waers">
+      <Label text="Moneda" />
+      <t:template>
+        <Input value="{waers}" maxLength="{tcurcLength>/waers}" width="{tcurcWidth>/waers}" editable="false"/>
+      </t:template>
+     </t:Column>
+     <t:Column width="11rem" sortProperty="ktext" filterProperty="ktext">
+      <Label text="Texto" />
+      <t:template>
+        <Input value="{ktext}" maxLength="{tcurcLength>/ktext}" width="{tcurcWidth>/ktext}"/>
+      </t:template>
+     </t:Column>
+    </t:columns>
+   </t:Table>                        
+        <!-- <Table id="tbMonedas"
+            inset="false"
+            mode="MultiSelect"
+            items="{
+            path: '/'
+            }">
+            <headerToolbar>
+                <Toolbar>
+                    <Title text="Monedas" level="H2"/>
+                    <ToolbarSpacer/>
+                    <Button press="onAdd" icon="sap-icon://add"/>
+                    <Button press="onDelete" icon="sap-icon://delete"/>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <Text text="Moneda" />
+                </Column>
+                <Column>
+                    <Text text="Texto" />
+                </Column>                       
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Input value="{waers}" maxLength="{tcurcLength>/waers}" width="{tcurcWidth>/waers}" editable="false"/>
+                        <Input value="{ktext}" maxLength="{tcurcLength>/ktext}" width="{tcurcWidth>/ktext}"/>
+                    </cells>
+                </ColumnListItem>
+                        </items>                    
+                    </Table>  -->
+                </content>
+            </Page>
+        </mvc:View>

@@ -11,7 +11,9 @@ sap.ui.define([
        
        onBack: function(oEvent){
            this.getRouter().navTo("pfcg03");
+       },
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
        }
-       
    });
 });

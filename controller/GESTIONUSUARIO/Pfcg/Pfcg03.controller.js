@@ -13,7 +13,9 @@ sap.ui.define([
            this.byId("ipRol").setValue("");
            this.getRouter().navTo("home");
        },
-       
+       onHome: function(oEvent) {
+         this.getRouter().navTo("home");
+       },
        onDisplay: function(oEvent){
            if(this.byId("ipRol").getValue() === ""){
             MessageToast.show("Ingresar Rol");

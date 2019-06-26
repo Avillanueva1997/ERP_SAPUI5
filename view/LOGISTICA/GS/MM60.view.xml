@@ -1,0 +1,200 @@
+<mvc:View
+	controllerName="sap.ui.su01.controller.LOGISTICA.GS.MM60"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:core="sap.ui.core"
+  xmlns:tnt="sap.tnt"
+  xmlns:u="sap.ui.unified"
+  xmlns:t="sap.ui.table"
+  xmlns:fb="sap.ui.comp.filterbar"
+	xmlns="sap.m">    
+    <core:Fragment fragmentName='sap.ui.su01.view.Cabecera' type='XML' />
+    <Page
+		showHeader="true"
+		enableScrolling="true"
+        id="mm60" >
+        <customHeader>            
+			<Toolbar>                
+				<ToolbarSpacer/>
+				<Title text="Compras" level="H2"/>			
+                <ToolbarSpacer/>
+			</Toolbar>
+		</customHeader>    
+        <content>
+
+          <l:VerticalLayout width="100%">
+          <fb:FilterBar id="filterBar" filterContainerWidth="18rem" showFilterConfiguration="false" showRestoreButton="false" showClearOnFB="false"
+            showGoOnFB="false" searchEnabled="false" filterBarExpanded="true">
+            <fb:filterItems>
+              <fb:FilterItem name="material" label="Material">
+                <fb:control>
+                  <ComboBox id="cbxMaterial" required="true" showSecondaryValues="true" filterSecondaryValues="true" items="{ path: 'cbBukrs>/' }">
+                    <core:ListItem key="{cbBukrs>VALUE}" text="{cbBukrs>TEXT}" additionalText="{cbBukrs>VALUE}"/>
+                  </ComboBox>
+                </fb:control>
+              </fb:FilterItem>
+              <fb:FilterItem name="name1" label="">
+                <fb:control>
+                  <Input value=""/>                   
+                </fb:control>
+              </fb:FilterItem>
+              <fb:FilterItem name="centro" label="Centro">
+                <fb:control>
+                  <ComboBox id="cbxCentro" required="true" showSecondaryValues="true" filterSecondaryValues="true" items="{ path: 'cbBukrs>/' }">
+                    <core:ListItem key="{cbBukrs>VALUE}" text="{cbBukrs>TEXT}" additionalText="{cbBukrs>VALUE}"/>
+                  </ComboBox>
+                </fb:control>
+              </fb:FilterItem>
+              <fb:FilterItem name="name2" label="a">
+                <fb:control>
+                  <Input value=""/>                  
+                </fb:control>
+              </fb:FilterItem>
+            </fb:filterItems>
+          </fb:FilterBar>
+          </l:VerticalLayout>
+          <f:SimpleForm
+          editable="true"
+          columnsXL="2"                                      
+          singleContainerFullSize="false"
+          layout="ResponsiveGridLayout">
+              <f:content>
+                  <core:Title/>
+
+                  <Label text="Tipo de material" id="lblTipoMat" />
+                  <Input id="iptTipoMat" />
+                  
+                  <Label id="lblGrpArt" text="Grupo de artículos"/>
+                  <Input id="iptGrpArt"/>
+
+                  <Label id="lblCreadoPor" text="Creado por"/>
+                  <Input id="iptCreadoPor"/>
+                  <Label/>
+
+                  <FlexBox
+                  direction="Column"
+                  alignItems="Start"
+                  justifyContent="Center">
+                  <items>                       
+                  <CheckBox id="chkSoloMatVal" text="Sólo materiales valorados"/>   
+                  </items>
+                  </FlexBox>
+
+                  <core:Title />
+                  <Label text="a"/>
+                  <Input id="iptATipoMat" />
+
+                  <Label text="a"/>
+                  <Input id="iptAGrpArt" />
+
+                  <Label text="a"/>
+                  <Input id="iptACreadoPor" />
+                                               
+              </f:content>
+          </f:SimpleForm>
+
+          <t:Table id="tbMm60"
+          inset="false"
+          mode="MultiSelect"
+          rows="{/}"
+          visibleRowCount="3">
+          <t:toolbar>
+           <Toolbar>
+            <content>
+              <ToolbarSpacer/>
+              <Button press="onAdd" icon="sap-icon://add"/>
+              <Button press="onDelete" icon="sap-icon://delete"/>
+            </content>
+           </Toolbar>
+          </t:toolbar>
+          <t:columns>
+           <t:Column width="4rem">
+            <Label text="Centro" />
+            <t:template>
+              <Input/>                                
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="Material" />
+            <t:template>
+              <Input/>        
+            </t:template>
+           </t:Column>
+           <t:Column width="5rem">
+            <Label text="Texto breve de material"/>
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="5rem">
+          <Label text="Última modif." />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="UMB" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="Precio"/>
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="1.5rem">
+            <Label text="/" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="TpMt" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="5rem">
+            <Label text="Gpo.artíc." />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="GCp" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="CatVa" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="4rem">
+            <Label text="Mon." />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="5rem">
+            <Label text="Prc" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+           <t:Column width="5rem">
+            <Label text="Creado" />
+            <t:template>
+             <Input/>
+            </t:template>
+           </t:Column>
+          </t:columns>
+          </t:Table>                                                       
+        </content>
+	</Page>
+</mvc:View>
